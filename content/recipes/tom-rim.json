@@ -1,0 +1,46 @@
+{
+  "slug": "tom-rim",
+  "title": "Tôm rim",
+  "description": "Tôm rim kiểu nhà làm, giảm bớt đường và nước mắm so với cách rim truyền thống nhưng vẫn đậm đà, bóng đẹp. Món mặn đưa cơm quen thuộc của bữa cơm Việt.",
+  "intro": "Tôm rim thường được nêm khá ngọt và mặn để giữ được lâu. Ở phiên bản này, lượng đường và nước mắm được giảm bớt, vị ngọt chủ yếu đến từ chính con tôm. Tôm rim lửa nhỏ đến khi nước sánh lại, vỏ bóng và thấm đều gia vị.",
+  "categories": ["mon-viet", "mon-gia-dinh"],
+  "dishType": "kho-rim",
+  "ingredientTags": ["tom"],
+  "suitableFor": ["giau-dam", "it-dau-mo"],
+  "difficulty": "de",
+  "prepMinutes": 25,
+  "cookMinutes": 15,
+  "servings": 4,
+  "course": "Món mặn",
+  "ingredients": [
+    { "name": "Tôm thẻ hoặc tôm đất", "amount": 500, "unit": "g", "note": "cắt râu, chân, rút chỉ lưng", "group": "Nguyên liệu chính", "food": { "id": "tom", "grams": 280 } },
+    { "name": "Tỏi", "amount": 4, "unit": "tép", "note": "băm nhỏ", "group": "Nguyên liệu chính", "food": { "id": "toi", "grams": 12 } },
+    { "name": "Hành tím", "amount": 2, "unit": "củ", "note": "băm nhỏ", "group": "Nguyên liệu chính" },
+    { "name": "Dầu ăn", "amount": 1, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "dau-an", "grams": 13 } },
+    { "name": "Nước mắm", "amount": 1.5, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 22 } },
+    { "name": "Đường", "amount": 1, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "duong", "grams": 12 } },
+    { "name": "Tiêu xay", "amount": null, "unit": "", "note": "vừa đủ", "group": "Gia vị" },
+    { "name": "Hành lá", "amount": 2, "unit": "cây", "note": "thái nhỏ", "food": { "id": "hanh-la", "grams": 15 } },
+    { "name": "Ớt tươi", "amount": 1, "unit": "quả", "note": "thái lát", "optional": true }
+  ],
+  "steps": [
+    { "title": "Sơ chế tôm", "text": "Cắt bỏ râu, chân và phần gai nhọn trên đầu tôm. Dùng tăm rút chỉ đen ở lưng. Rửa sạch, để thật ráo nước.", "durationMinutes": 10 },
+    { "title": "Ướp tôm", "text": "Ướp tôm với một nửa lượng tỏi, hành tím, nước mắm, đường và một chút tiêu. Trộn đều, để khoảng 15 phút cho thấm.", "durationMinutes": 15 },
+    { "title": "Phi thơm", "text": "Đun nóng dầu ở lửa vừa, phi phần tỏi, hành tím còn lại đến khi vàng nhạt và thơm. Không để tỏi cháy vì sẽ đắng.", "durationMinutes": 2 },
+    { "title": "Xào săn tôm", "text": "Cho tôm vào chảo, vặn lửa lớn, đảo đều khoảng 2 phút đến khi vỏ tôm chuyển màu đỏ cam và thịt săn lại.", "durationMinutes": 2 },
+    { "title": "Rim", "text": "Đổ phần nước ướp còn lại cùng 3 muỗng canh nước lọc vào chảo. Hạ lửa nhỏ, rim 8–10 phút, thỉnh thoảng đảo. Khi nước sánh lại, bám quanh vỏ tôm và có màu cánh gián nhạt là được.", "durationMinutes": 10 },
+    { "title": "Hoàn thành", "text": "Nếm lại cho vừa ăn. Rắc hành lá, tiêu và ớt, đảo nhẹ rồi tắt bếp. Dùng nóng với cơm trắng và một đĩa rau luộc." }
+  ],
+  "tips": [
+    "Thay một phần nước lọc bằng nước dừa tươi để tôm ngọt tự nhiên, khi đó bớt đường thêm một chút.",
+    "Người lớn tuổi hoặc trẻ nhỏ nên bóc vỏ tôm trước khi rim cho dễ ăn.",
+    "Không rim quá lâu vì tôm sẽ bị dai và khô.",
+    "Ăn kèm nhiều rau luộc hoặc canh rau để bữa cơm cân bằng và đỡ mặn."
+  ],
+  "storage": "Để nguội, cho vào hộp kín, bảo quản ngăn mát 2 ngày. Hâm lại trên chảo lửa nhỏ, thêm 1 muỗng nước cho tôm không bị khô, hoặc hâm lò vi sóng có đậy nắp.",
+  "keywords": ["tôm rim", "tôm rim mặn ngọt", "cách làm tôm rim"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-10-07",
+  "updatedAt": "2026-10-15"
+}

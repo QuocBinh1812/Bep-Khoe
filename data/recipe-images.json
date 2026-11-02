@@ -1,0 +1,207 @@
+{
+  "canh-chua-ca": {
+    "src": "/images/recipes/canh-chua-ca.webp",
+    "alt": "Tô canh chua cá lóc với thơm, đậu bắp, cà chua và rau thơm",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "Phương Huy",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canh_chua_c%C3%A1_l%C3%B3c_%E1%BB%9F_Th%E1%BB%A7y_Tr%C3%BAc_Qu%C3%A1n,_%C4%91%C6%B0%E1%BB%9Dng_Nguy%E1%BB%85n_Nh%E1%BB%AF_L%C3%A3m_(3).jpg"
+    }
+  },
+  "thit-kho-trung": {
+    "src": "/images/recipes/thit-kho-trung.webp",
+    "alt": "Bát thịt ba chỉ kho trứng với nước kho màu cánh gián",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "HungryHuy",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vietnamese_thit_kho,_braised_pork_belly_and_boiled_eggs.jpg"
+    }
+  },
+  "ca-hap-gung": {
+    "src": "/images/recipes/ca-hap-gung.webp",
+    "alt": "Cá hấp nguyên con rắc gừng thái sợi, hành lá và ngò trong nước sốt",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "Tim Sackton from Somerville, MA",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ginger_Scallion_Red_Perch_(50-366)_(25058329532).jpg"
+    }
+  },
+  "ga-luoc-la-chanh": {
+    "src": "/images/recipes/ga-luoc-la-chanh.webp",
+    "alt": "Đĩa gà luộc chặt miếng, da vàng, bày cùng cải thìa",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "Sjschen",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BeiQieJi-WhiteCutChicken.jpg"
+    },
+    "similar": true
+  },
+  "rau-muong-xao-toi": {
+    "src": "/images/recipes/rau-muong-xao-toi.webp",
+    "alt": "Đĩa rau muống xào tỏi xanh mướt với những lát tỏi phi",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "Andy Wright",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rau_mu%E1%BB%91ng_x%C3%A0o_t%E1%BB%8Fi.jpg"
+    }
+  },
+  "chao-ga": {
+    "src": "/images/recipes/chao-ga.webp",
+    "alt": "Bát cháo gà xé phay rắc tiêu và rau thơm",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "Phương Huy",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ch%C3%A1o_g%C3%A0_x%C3%A9_phay_%E1%BB%9F_P3_%C4%90%C3%B4ng_H%C3%A0_n%C4%83m_2018.jpg"
+    }
+  },
+  "dau-phu-sot-ca-chua": {
+    "src": "/images/recipes/dau-phu-sot-ca-chua.webp",
+    "alt": "Bát đậu phụ rán sốt cà chua rắc hành lá",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "Phương Huy",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:B%E1%BB%AFa_c%C6%A1m_gia_%C4%91%C3%ACnh_ng6th4n2021_(t%C3%B4_%C4%91%E1%BA%ADu_h%C5%A9_s%E1%BB%91t_c%C3%A0)_(1).jpg"
+    }
+  },
+  "trung-hap-thit-bam": {
+    "src": "/images/recipes/trung-hap-thit-bam.webp",
+    "alt": "Miếng chả trứng hấp thịt băm có lớp lòng đỏ vàng, ăn kèm cơm",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "Phương Huy",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:C%C6%A1m_t%E1%BA%A5m_s%C6%B0%E1%BB%9Dn_ch%E1%BA%A3_(ch%E1%BA%A3_tr%E1%BB%A9ng)_t%E1%BA%A1i_qu%C3%A1n_c%C6%A1m_b%C3%ACnh_d%C3%A2n_%C4%91%C6%B0%E1%BB%9Dng_NS_ng25th9n2022_(mi%E1%BA%BFng_ch%E1%BA%A3_tr%E1%BB%A9ng)_(1).jpg"
+    }
+  },
+  "ca-kho-to": {
+    "src": "/images/recipes/ca-kho-to.webp",
+    "alt": "Cá kho tộ màu cánh gián rắc hành lá trong nồi đất",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "Phương Huy",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ph%C3%BA_Qu%E1%BB%91c_2022_(c%C3%A1_kho_t%E1%BB%99)_(1).jpg"
+    }
+  },
+  "salad-uc-ga": {
+    "src": "/images/recipes/salad-uc-ga.webp",
+    "alt": "Đĩa salad ức gà thái lát với trứng luộc, ngô ngọt và xà lách",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "Daderot",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chicken_breast,_corn,_and_a_hard-boiled_egg_on_lettuce,_with_garlic_olive_oil,_red_wine_vinegar,_and_black_pepper_-_Massachusetts.jpg"
+    }
+  },
+  "bun-ga": {
+    "src": "/images/recipes/bun-ga.webp",
+    "alt": "Tô bún phở gà với thịt gà xé, hành lá và nước dùng trong",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "李媖子",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Homemade_%22Ph%E1%BB%9F_g%C3%A0%22_by_A.jpeg"
+    },
+    "similar": true
+  },
+  "pho-bo": {
+    "src": "/images/recipes/pho-bo.webp",
+    "alt": "Tô phở bò với thịt bò thái mỏng, hành tây và nhiều rau thơm",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "Kritzolina",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ph%E1%BB%9F_b%C3%B2_in_a_German_restaurant_02.jpg"
+    }
+  },
+  "dau-phu-kho-nam": {
+    "src": "/images/recipes/dau-phu-kho-nam.webp",
+    "alt": "Đĩa đậu phụ om nấm với cà rốt và dưa leo trong nước sốt nâu",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "RUATMVWOOP East Bpote STARZUIO",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:HK_SKD_TKO_%E5%B0%87%E8%BB%8D%E6%BE%B3_Tseung_Kwan_O_PopCorn_mall_Pop_Deli_shop_%E7%A8%BB%E9%A6%99%E8%B6%85%E7%B4%9A%E6%BC%81%E6%B8%AF_Tao_Heung_Chinese_Restaurant_food_%E7%B4%85%E7%87%92%E8%B1%86%E8%85%90_braised_tofu_July_2024_R12S_01.jpg"
+    },
+    "similar": true
+  },
+  "rau-cu-xao-thap-cam": {
+    "src": "/images/recipes/rau-cu-xao-thap-cam.webp",
+    "alt": "Đĩa rau củ xào thập cẩm gồm bắp cải, cà rốt và cải làn",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "Vee Satayamas from Bangkok, Thailand",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E0%B8%9C%E0%B8%B1%E0%B8%94%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%A3%E0%B8%A7%E0%B8%A1%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3_Stir-fried_mixed_vegetables_(9306903082).jpg"
+    }
+  },
+  "trung-xao-ca-chua": {
+    "src": "/images/recipes/trung-xao-ca-chua.webp",
+    "alt": "Đĩa trứng xào cà chua vàng óng, có hành lá",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "Huangdan2060",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hunan_cuisine,_stir-fried_tomato_with_eggs.jpg"
+    }
+  },
+  "tom-rim": {
+    "src": "/images/recipes/tom-rim.webp",
+    "alt": "Đĩa tôm rim đỏ au, bóng nước sốt",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "Phương Huy",
+      "license": "Public domain",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%B3n_t%C3%B4m_kho_rim_nh%C3%A0_l%C3%A0m,_th%C3%A1ng_4_n%C4%83m_2018_(3).jpg"
+    }
+  },
+  "bo-xao-bong-cai": {
+    "src": "/images/recipes/bo-xao-bong-cai.webp",
+    "alt": "Thịt bò xào bông cải xanh và cà rốt",
+    "width": 1200,
+    "height": 900,
+    "credit": {
+      "author": "BrokenSphere",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beef_with_broccoli.JPG"
+    }
+  }
+}

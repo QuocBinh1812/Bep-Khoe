@@ -1,0 +1,14 @@
+{
+  "hero": {
+    "src": "/images/hero.webp",
+    "alt": "Mâm cơm gia đình Việt nhìn từ trên xuống với bát canh rau, đĩa thịt, đậu phụ sốt cà chua và món xào",
+    "width": 1600,
+    "height": 900,
+    "credit": {
+      "author": "Hoangkid",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vietnamese_family_daily_meal.jpg"
+    }
+  }
+}

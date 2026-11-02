@@ -1,0 +1,53 @@
+{
+  "slug": "pho-bo",
+  "title": "Phở bò tái chín nấu tại nhà",
+  "description": "Phở bò tái chín nấu tại nhà với nước dùng ninh xương 3–4 tiếng, gia vị rang thơm. Hướng dẫn rõ từng bước, có cách rút ngắn bằng nồi áp suất.",
+  "intro": "Một nồi phở ngon cần thời gian, và nói thật là khó rút gọn dưới 3 tiếng nếu ninh nồi thường. Bù lại, cả nhà có tô phở nóng, nước dùng trong, nêm vừa miệng và biết rõ mình ăn gì. Công thức này đã đơn giản hóa cho bếp gia đình: phần lớn thời gian chỉ là để nồi tự liu riu trên bếp.",
+  "categories": ["mon-viet", "mon-an-sang", "mon-gia-dinh"],
+  "dishType": "bun-pho",
+  "ingredientTags": ["thit-bo", "gao-ngu-coc"],
+  "suitableFor": ["giau-dam"],
+  "difficulty": "trung-binh",
+  "prepMinutes": 40,
+  "cookMinutes": 240,
+  "servings": 4,
+  "course": "Món chính",
+  "ingredients": [
+    { "name": "Xương ống bò", "amount": 1.5, "unit": "kg", "note": "nhờ người bán chặt khúc", "group": "Nước dùng" },
+    { "name": "Thịt nạm bò", "amount": 300, "unit": "g", "note": "để nguyên miếng, làm phần thịt chín", "group": "Nước dùng", "food": { "id": "thit-bo-nac", "grams": 300 } },
+    { "name": "Hành tây", "amount": 1, "unit": "củ", "note": "nướng nguyên củ", "group": "Nước dùng" },
+    { "name": "Gừng", "amount": 1, "unit": "củ", "note": "khoảng 5 cm, nướng rồi đập dập", "group": "Nước dùng" },
+    { "name": "Gói gia vị phở", "amount": 1, "unit": "gói", "note": "quế, hồi, thảo quả, đinh hương, hạt mùi", "group": "Nước dùng" },
+    { "name": "Bánh phở tươi", "amount": 800, "unit": "g", "group": "Nguyên liệu chính", "food": { "id": "banh-pho", "grams": 800 } },
+    { "name": "Thịt bò thăn", "amount": 250, "unit": "g", "note": "để làm thịt tái", "group": "Nguyên liệu chính", "food": { "id": "thit-bo-nac", "grams": 250 } },
+    { "name": "Nước mắm", "amount": 3, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 45 } },
+    { "name": "Đường phèn", "amount": 1, "unit": "muỗng canh", "note": "đập nhỏ", "group": "Gia vị", "food": { "id": "duong", "grams": 12 } },
+    { "name": "Muối", "amount": null, "unit": "", "note": "vừa đủ", "group": "Gia vị" },
+    { "name": "Hành lá", "amount": 4, "unit": "cây", "note": "thái nhỏ", "group": "Rau ăn kèm", "food": { "id": "hanh-la", "grams": 30 } },
+    { "name": "Hành tây", "amount": 0.5, "unit": "củ", "note": "thái thật mỏng, ngâm nước đá", "group": "Rau ăn kèm", "food": { "id": "hanh-tay", "grams": 60 } },
+    { "name": "Giá đỗ", "amount": 200, "unit": "g", "group": "Rau ăn kèm", "food": { "id": "gia-do", "grams": 200 } },
+    { "name": "Húng quế, ngò gai, chanh, ớt", "amount": null, "unit": "", "note": "vừa đủ", "group": "Rau ăn kèm" }
+  ],
+  "steps": [
+    { "title": "Chần xương", "text": "Ngâm xương vào nước muối loãng 15 phút. Cho vào nồi nước lạnh, đun sôi mạnh 5 phút cho bọt bẩn nổi lên. Đổ bỏ nước, rửa lại từng khúc xương và cọ sạch nồi.", "durationMinutes": 20 },
+    { "title": "Nướng hành, gừng", "text": "Nướng hành tây và gừng trên bếp gas hoặc chảo khô đến khi vỏ cháy sém, bên trong mềm thơm. Cạo bỏ phần cháy đen, rửa sạch.", "durationMinutes": 10 },
+    { "title": "Ninh xương", "text": "Cho xương, hành, gừng vào nồi cùng khoảng 4 lít nước. Đun sôi rồi hạ lửa thật nhỏ, mặt nước chỉ lăn tăn. Vớt bọt trong 30 phút đầu. Ninh tổng cộng 3–4 tiếng, thỉnh thoảng châm thêm nước sôi nếu cạn quá.", "durationMinutes": 210 },
+    { "title": "Luộc nạm", "text": "Sau khi ninh xương khoảng 1 tiếng rưỡi, thả miếng nạm vào nồi. Ninh tiếp 1–1,5 tiếng đến khi xiên đũa thấy thịt mềm. Vớt nạm ngâm nước nguội 5 phút cho thịt không bị thâm, rồi thái mỏng." },
+    { "title": "Thả gia vị", "text": "Rang quế, hồi, thảo quả, đinh hương, hạt mùi trên chảo khô lửa nhỏ 2–3 phút đến khi dậy mùi. Cho vào túi lọc, thả vào nồi khoảng 45 phút cuối. Vớt ra sớm hơn nếu thấy mùi hồi quá nồng.", "durationMinutes": 45 },
+    { "title": "Nêm nước dùng", "text": "Vớt bỏ xương, hành, gừng, túi gia vị. Hớt bớt mỡ trên mặt. Nêm nước mắm, đường phèn và một chút muối. Nếm thấy ngọt thanh, mặn nhẹ là vừa vì khi ăn còn vắt chanh.", "durationMinutes": 5 },
+    { "title": "Làm thịt tái, trình bày", "text": "Để thăn bò vào ngăn đá 20 phút cho cứng lại rồi thái thật mỏng ngang thớ. Trụng bánh phở qua nước sôi, chia vào tô, xếp nạm chín và thịt tái lên trên, rắc hành lá. Chan nước dùng đang sôi sùng sục để thịt tái chín tới. Ăn kèm giá, hành tây, rau thơm." }
+  ],
+  "tips": [
+    "Dùng nồi áp suất để rút ngắn: ninh xương khoảng 60–75 phút từ khi van lên, sau đó mở nắp, thả gia vị và đun liu riu thêm 30 phút.",
+    "Muốn nhẹ bụng hơn, để nồi nước dùng nguội rồi cho vào tủ lạnh. Mỡ đông thành lớp trắng trên mặt, chỉ việc vớt bỏ.",
+    "Người lớn tuổi hoặc trẻ nhỏ nên ăn thịt chín thay thịt tái, và chan nước dùng thật sôi.",
+    "Ăn kèm nhiều giá và rau thơm, giảm bớt bánh phở nếu muốn bữa ăn có nhiều rau hơn.",
+    "Nấu một lần nhiều nước dùng, chia hộp cấp đông, sáng hôm sau chỉ cần đun lại là có phở."
+  ],
+  "storage": "Nước dùng để nguội, đựng hộp kín: ngăn mát 3 ngày, ngăn đá 1–2 tháng. Thịt chín để riêng, ngăn mát 2 ngày. Thịt tái chỉ thái ngay trước khi ăn. Khi dùng lại, đun sôi kỹ nước dùng trước khi chan.",
+  "keywords": ["phở bò", "cách nấu phở bò tại nhà", "nước dùng phở", "phở bò tái chín"],
+  "featured": true,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-18",
+  "updatedAt": "2026-10-20"
+}

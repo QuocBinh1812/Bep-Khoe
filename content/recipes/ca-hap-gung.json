@@ -1,0 +1,48 @@
+{
+  "slug": "ca-hap-gung",
+  "title": "Cá diêu hồng hấp gừng hành",
+  "description": "Cá diêu hồng hấp gừng hành giữ trọn vị ngọt tự nhiên của cá, thơm gừng, ít dầu mỡ. Món hấp nhẹ bụng, hợp với người lớn tuổi và cả nhà.",
+  "intro": "Hấp là cách nấu giữ được vị ngọt và độ mềm của cá mà gần như không cần dầu mỡ. Cá diêu hồng thịt trắng, ít tanh, khi hấp với gừng và hành lá có mùi thơm dịu. Món này dễ làm, chỉ cần nồi hấp hoặc xửng đặt trên nồi nước.",
+  "categories": ["mon-viet", "mon-gia-dinh"],
+  "dishType": "hap-luoc",
+  "ingredientTags": ["ca"],
+  "suitableFor": ["it-dau-mo", "giau-dam", "nguoi-lon-tuoi"],
+  "difficulty": "de",
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "servings": 3,
+  "course": "Món mặn",
+  "ingredients": [
+    { "name": "Cá diêu hồng", "amount": 800, "unit": "g", "note": "1 con, làm sạch, khứa 3–4 đường mỗi bên", "group": "Nguyên liệu chính", "food": { "id": "ca-dieu-hong", "grams": 400 } },
+    { "name": "Gừng", "amount": 1, "unit": "củ", "note": "khoảng 40 g, một nửa thái sợi, một nửa đập dập", "group": "Nguyên liệu chính", "food": { "id": "gung", "grams": 40 } },
+    { "name": "Hành lá", "amount": 5, "unit": "cây", "note": "phần trắng đập dập, phần lá cắt khúc", "group": "Nguyên liệu chính", "food": { "id": "hanh-la", "grams": 50 } },
+    { "name": "Hành tây", "amount": 0.5, "unit": "củ", "note": "thái lát dày để lót đĩa", "group": "Nguyên liệu chính", "food": { "id": "hanh-tay", "grams": 80 } },
+    { "name": "Nước mắm", "amount": 1, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 15 } },
+    { "name": "Nước tương", "amount": 1, "unit": "muỗng canh", "group": "Gia vị" },
+    { "name": "Đường", "amount": 1, "unit": "muỗng cà phê", "group": "Gia vị", "food": { "id": "duong", "grams": 4 } },
+    { "name": "Dầu ăn", "amount": 1, "unit": "muỗng canh", "note": "để tưới hành", "group": "Gia vị", "food": { "id": "dau-an", "grams": 13 } },
+    { "name": "Tiêu, muối", "amount": null, "unit": "", "note": "vừa đủ", "group": "Gia vị" },
+    { "name": "Xà lách", "amount": 100, "unit": "g", "group": "Rau ăn kèm", "optional": true, "food": { "id": "xa-lach", "grams": 100 } },
+    { "name": "Dưa leo", "amount": 1, "unit": "quả", "note": "thái lát", "group": "Rau ăn kèm", "optional": true, "food": { "id": "dua-leo", "grams": 150 } }
+  ],
+  "steps": [
+    { "title": "Làm sạch cá", "text": "Đánh vảy, bỏ mang và ruột, cạo sạch màng đen trong bụng. Chà cá với muối và vài lát gừng rồi rửa lại để khử tanh. Thấm khô, khứa 3–4 đường chéo mỗi bên thân.", "durationMinutes": 10 },
+    { "title": "Ướp cá", "text": "Trộn nước mắm, nước tương, đường và chút tiêu. Phết đều lên mình cá và vào các vết khứa. Nhét gừng đập dập và phần trắng hành lá vào bụng cá, để 10 phút cho thấm.", "durationMinutes": 10 },
+    { "title": "Hấp cá", "text": "Lót hành tây dưới đĩa, đặt cá lên, rải một nửa gừng sợi trên mặt. Đun nồi hấp sôi mạnh rồi mới đặt đĩa cá vào. Hấp lửa lớn khoảng 15 phút.", "durationMinutes": 15 },
+    { "title": "Kiểm tra độ chín", "text": "Dùng đũa xiên vào chỗ dày nhất gần xương sống: thịt cá trắng đục, tách thớ dễ và không còn nước hồng là chín. Nếu chưa, hấp thêm 3–5 phút.", "durationMinutes": 3 },
+    { "title": "Tưới dầu hành", "text": "Rải phần gừng sợi còn lại và hành lá cắt khúc lên cá. Đun nóng dầu ăn đến khi hơi bốc khói nhẹ rồi rưới đều lên hành để dậy mùi thơm.", "durationMinutes": 2 },
+    { "title": "Dọn ăn", "text": "Dùng ngay khi còn nóng, kèm xà lách, dưa leo và chén nước hấp cá trong đĩa để chan cơm.", "durationMinutes": 1 }
+  ],
+  "tips": [
+    "Chỉ đặt cá vào khi nồi hấp đã sôi mạnh, cá sẽ chín nhanh, thịt chắc và ít tanh hơn.",
+    "Không hấp quá lâu vì thịt cá dễ bị khô và bở.",
+    "Muốn bớt dầu, có thể bỏ bước tưới dầu nóng, chỉ rải hành lá lên cá khi còn trong nồi hấp thêm 1 phút.",
+    "Khi dọn cho người lớn tuổi hoặc trẻ nhỏ, gỡ sẵn thịt ở phần lưng cá vì phần này ít xương dăm."
+  ],
+  "storage": "Cá hấp nên ăn hết trong bữa. Nếu còn, gỡ thịt cho vào hộp kín, cất ngăn mát và dùng trong 1 ngày. Hâm bằng cách hấp lại 3–5 phút, không nên hâm lò vi sóng quá lâu vì cá sẽ khô.",
+  "keywords": ["cá hấp gừng", "cá diêu hồng hấp", "cá hấp hành"],
+  "featured": true,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-10-25"
+}

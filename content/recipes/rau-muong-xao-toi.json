@@ -1,0 +1,44 @@
+{
+  "slug": "rau-muong-xao-toi",
+  "title": "Rau muống xào tỏi",
+  "description": "Rau muống xào tỏi xanh giòn, thơm, không bị thâm. Mẹo chần nhanh trước khi xào giúp rau chín đều, dùng ít dầu mà vẫn ngon đậm đà.",
+  "intro": "Rau muống xào tỏi là đĩa rau quen thuộc nhất trong bữa cơm Việt. Món làm nhanh, rẻ và hợp với hầu hết các món mặn. Chỉ cần vài mẹo nhỏ là rau xanh giòn, không bị dai hay chảy nhiều nước.",
+  "categories": ["mon-viet", "mon-gia-dinh", "mon-nhanh"],
+  "dishType": "xao",
+  "ingredientTags": ["rau-la"],
+  "suitableFor": ["nhieu-rau"],
+  "difficulty": "de",
+  "prepMinutes": 10,
+  "cookMinutes": 7,
+  "servings": 3,
+  "course": "Món rau",
+  "ingredients": [
+    { "name": "Rau muống", "amount": 500, "unit": "g", "note": "khoảng 1 bó, nhặt lấy phần ngọn và lá non", "group": "Nguyên liệu chính", "food": { "id": "rau-muong", "grams": 350 } },
+    { "name": "Tỏi", "amount": 5, "unit": "tép", "note": "đập dập, băm sơ", "group": "Nguyên liệu chính", "food": { "id": "toi", "grams": 15 } },
+    { "name": "Dầu ăn", "amount": 1, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "dau-an", "grams": 13 } },
+    { "name": "Nước mắm", "amount": 1, "unit": "muỗng canh", "note": "hoặc thay bằng 1/2 muỗng cà phê muối", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 15 } },
+    { "name": "Đường", "amount": 0.5, "unit": "muỗng cà phê", "group": "Gia vị", "food": { "id": "duong", "grams": 2 } },
+    { "name": "Muối", "amount": 0.5, "unit": "muỗng cà phê", "note": "cho vào nước chần", "group": "Gia vị" },
+    { "name": "Tiêu xay", "amount": null, "unit": "", "note": "vừa đủ", "group": "Gia vị", "optional": true },
+    { "name": "Ớt", "amount": 1, "unit": "quả", "note": "cắt lát", "group": "Gia vị", "optional": true }
+  ],
+  "steps": [
+    { "title": "Nhặt và rửa rau", "text": "Nhặt rau muống thành đoạn dài khoảng một gang tay, bỏ phần gốc già. Ngâm nước muối loãng 5 phút rồi rửa lại 2–3 lần, để thật ráo.", "durationMinutes": 10 },
+    { "title": "Chần rau", "text": "Đun sôi khoảng 1 lít nước với 1/2 muỗng cà phê muối. Thả rau vào chần khoảng 30 giây đến khi rau vừa chuyển xanh đậm, vớt ra ngay và xả qua nước nguội cho rau giữ màu. Để ráo.", "durationMinutes": 3 },
+    { "title": "Phi tỏi", "text": "Cho dầu vào chảo, lửa vừa. Cho một nửa phần tỏi vào phi đến khi vàng nhạt và thơm, không để tỏi cháy sẫm vì sẽ đắng.", "durationMinutes": 1 },
+    { "title": "Xào rau", "text": "Tăng lửa lớn, cho rau vào đảo nhanh tay. Nêm nước mắm, đường, xào thêm khoảng 1 phút đến khi rau nóng đều, vẫn còn giòn.", "durationMinutes": 2 },
+    { "title": "Hoàn thành", "text": "Cho phần tỏi còn lại vào đảo vài giây rồi tắt bếp. Rắc tiêu, ớt nếu thích và dọn ra đĩa ngay khi còn nóng.", "durationMinutes": 1 }
+  ],
+  "tips": [
+    "Chần rau trước giúp rút ngắn thời gian xào, nên dùng ít dầu mà rau vẫn chín đều và xanh.",
+    "Xào lửa lớn và nhanh tay để rau không ra nhiều nước.",
+    "Nếu muốn nhạt hơn, chỉ nêm nửa muỗng canh nước mắm, khi ăn chấm thêm nếu cần.",
+    "Nước chần rau có thể vắt thêm chút chanh để uống như canh rau thanh mát."
+  ],
+  "storage": "Rau xào nên ăn ngay, để lâu rau sẽ thâm và mất độ giòn. Nếu còn, cho vào hộp kín cất ngăn mát và dùng trong ngày, hâm nhanh trên chảo nóng khoảng 1 phút.",
+  "keywords": ["rau muống xào tỏi", "cách xào rau muống xanh giòn", "món rau xào nhanh"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-28",
+  "updatedAt": "2026-10-10"
+}

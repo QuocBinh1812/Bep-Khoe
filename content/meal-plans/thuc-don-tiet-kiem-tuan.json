@@ -1,0 +1,246 @@
+{
+  "slug": "thuc-don-tiet-kiem-tuan",
+  "title": "Thực đơn tiết kiệm cả tuần: ngon, đủ chất mà nhẹ ví",
+  "description": "Thực đơn tiết kiệm 7 ngày tận dụng trứng, đậu phụ, thịt heo, cá và rau theo mùa – đi chợ ít lần, giảm lãng phí mà bữa ăn vẫn cân đối, đủ chất.",
+  "intro": "Ăn uống lành mạnh không nhất thiết phải tốn kém. Thực đơn tiết kiệm này dựa trên các nguyên liệu phổ biến, giá phải chăng như trứng, đậu phụ, thịt heo, cá và rau theo mùa, phù hợp cho 3 người. Nguyên liệu được dùng lại ở nhiều món để hạn chế thừa thãi.",
+  "category": "thuc-don-tiet-kiem",
+  "servings": 3,
+  "days": [
+    {
+      "sang": [
+        {
+          "name": "Xôi đậu xanh"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "trung-xao-ca-chua"
+        },
+        {
+          "recipe": "canh-rau-ngot-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "dau-phu-sot-ca-chua"
+        },
+        {
+          "recipe": "rau-muong-xao-toi"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "chao-yen-mach-thit-bam"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "thit-kho-trung"
+        },
+        {
+          "name": "Rau luộc"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "canh-nam-dau-phu"
+        },
+        {
+          "recipe": "rau-cu-xao-thap-cam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "name": "Khoai lang luộc"
+        },
+        {
+          "name": "Chuối"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "ca-kho-to"
+        },
+        {
+          "recipe": "canh-bi-do-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "trung-hap-thit-bam"
+        },
+        {
+          "recipe": "rau-muong-xao-toi"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "name": "Bánh mì nguyên cám"
+        },
+        {
+          "name": "Trứng luộc"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "dau-phu-kho-nam"
+        },
+        {
+          "recipe": "canh-rau-ngot-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "ga-luoc-la-chanh"
+        },
+        {
+          "name": "Rau luộc"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "chao-ga"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "thit-kho-trung"
+        },
+        {
+          "recipe": "rau-cu-xao-thap-cam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "canh-chua-ca"
+        },
+        {
+          "recipe": "dau-phu-sot-ca-chua"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "chao-yen-mach-thit-bam"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "ca-kho-to"
+        },
+        {
+          "name": "Rau luộc"
+        },
+        {
+          "recipe": "canh-nam-dau-phu"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "trung-xao-ca-chua"
+        },
+        {
+          "recipe": "canh-bi-do-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "name": "Khoai lang luộc"
+        },
+        {
+          "name": "Sữa chua không đường"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "tom-rim"
+        },
+        {
+          "recipe": "rau-muong-xao-toi"
+        },
+        {
+          "recipe": "canh-rau-ngot-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "dau-phu-kho-nam"
+        },
+        {
+          "recipe": "rau-cu-xao-thap-cam"
+        },
+        {
+          "name": "Cơm trắng"
+        },
+        {
+          "name": "Trái cây theo mùa"
+        }
+      ]
+    }
+  ],
+  "principles": [
+    "Dựa nhiều vào nguồn đạm giá phải chăng như trứng, đậu phụ, thịt heo và cá, nhưng vẫn luân phiên để đủ chất.",
+    "Rau chọn loại theo mùa, đang rẻ ở chợ; mỗi bữa chính luôn có rau hoặc canh rau.",
+    "Tận dụng nguyên liệu cho nhiều món: thịt băm dùng cho canh, trứng hấp và cháo; gà luộc tối thứ năm dùng nấu cháo sáng thứ sáu.",
+    "Bữa sáng đơn giản tự nấu như khoai lang, xôi, cháo giúp tiết kiệm hơn ăn sáng bên ngoài."
+  ],
+  "notes": [
+    "Mua thịt heo, thịt băm một lần đầu tuần, chia phần nhỏ cho từng bữa rồi cất ngăn đá để dùng dần.",
+    "Có thể thay cá trong món kho bằng loại cá đang rẻ ở chợ địa phương; thay tôm bằng trứng hoặc đậu phụ nếu muốn tiết kiệm hơn.",
+    "Món thịt kho trứng nấu một lần dùng cho 2 bữa trong tuần, nhớ đun sôi lại trước khi ăn."
+  ],
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-24",
+  "updatedAt": "2026-10-27",
+  "featured": false
+}

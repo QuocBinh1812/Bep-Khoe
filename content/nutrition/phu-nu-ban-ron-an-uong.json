@@ -1,0 +1,128 @@
+{
+  "slug": "phu-nu-ban-ron-an-uong",
+  "title": "Ăn uống lành mạnh cho phụ nữ bận rộn: chuẩn bị ít, ăn đủ chất",
+  "description": "Bận đi làm, đưa đón con, vẫn muốn ăn đủ chất? Gợi ý lên thực đơn tuần, sơ chế cuối tuần, bữa sáng nhanh, cơm trưa mang theo và bữa phụ lành mạnh cho phụ nữ bận rộn.",
+  "category": "dinh-duong-phu-nu",
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-15",
+  "updatedAt": "2026-10-22",
+  "keyTakeaways": [
+    "Lên thực đơn tuần đơn giản giúp đi chợ nhanh và bớt đau đầu “hôm nay ăn gì”.",
+    "Sơ chế sẵn rau, chia thịt cá thành từng phần vào cuối tuần để nấu nhanh ngày thường.",
+    "Đừng bỏ bữa sáng; trứng, cháo yến mạch, bánh mì kèm rau là lựa chọn nhanh.",
+    "Mang cơm trưa giúp kiểm soát lượng dầu, muối và đường tốt hơn ăn ngoài.",
+    "Chuẩn bị bữa phụ lành mạnh và uống đủ nước để tránh ăn vặt thiếu kiểm soát."
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Sáng đưa con đi học, ngày làm việc kín lịch, tối về lại lo cơm nước – nhiều chị em quen với việc ăn vội cho xong, uống ly cà phê sữa thay bữa sáng hoặc gọi đồ ăn nhanh vì không còn sức nấu. Ăn uống lành mạnh không nhất thiết phải cầu kỳ hay tốn thời gian. Bí quyết nằm ở **chuẩn bị trước một chút** và **chọn món đơn giản**."
+    },
+    { "type": "h2", "text": "Lên thực đơn tuần: 15 phút cho cả tuần nhẹ đầu" },
+    {
+      "type": "p",
+      "text": "Dành khoảng 15 phút vào cuối tuần để viết ra các bữa tối trong tuần. Không cần cầu kỳ, chỉ cần mỗi bữa có đủ **một món đạm, một món rau, một món canh** là đã có khung bữa cơm cân bằng."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Xoay vòng nguồn đạm: cá, gà, thịt heo nạc, trứng, đậu phụ, tôm.",
+        "Chọn rau theo mùa để rẻ và tươi hơn.",
+        "Lên danh sách đi chợ theo thực đơn, mua một đến hai lần mỗi tuần.",
+        "Ghi chú các món nấu một lần ăn được hai bữa, như cá kho, thịt kho, đậu phụ kho nấm."
+      ]
+    },
+    { "type": "h2", "text": "Sơ chế cuối tuần: đầu tư một giờ, tiết kiệm cả tuần" },
+    {
+      "type": "table",
+      "caption": "Gợi ý việc có thể làm trước vào cuối tuần",
+      "headers": ["Việc cần làm", "Cách làm", "Lưu ý"],
+      "rows": [
+        ["Rau lá", "Nhặt sạch, rửa, để thật ráo, cho vào hộp có lót giấy thấm", "Dùng trong vài ngày đầu tuần; rau dễ héo nên mua bổ sung giữa tuần"],
+        ["Củ quả (bí, cà rốt, su su)", "Gọt vỏ, cắt sẵn, để hộp kín trong ngăn mát", "Dùng sớm để giữ độ tươi"],
+        ["Thịt, cá", "Rửa sạch, chia thành từng phần đủ một bữa, cấp đông", "Rã đông trong ngăn mát từ tối hôm trước"],
+        ["Hành, tỏi, gừng", "Bóc vỏ, băm sẵn một lượng nhỏ", "Đậy kín để tránh ám mùi tủ lạnh"],
+        ["Nước dùng", "Hầm xương, vớt mỡ, chia hộp nhỏ cấp đông", "Nêm nhạt, khi nấu canh mới nêm thêm"],
+        ["Gạo lứt, đậu", "Ngâm sẵn hoặc nấu chín rồi chia phần cấp đông", "Giúp nấu cơm trộn gạo lứt nhanh hơn"]
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Giữ an toàn thực phẩm",
+      "text": "Thức ăn đã nấu chín nên để nguội bớt rồi cất tủ lạnh sớm, không để ngoài nhiệt độ phòng quá lâu. Khi ăn lại cần hâm nóng kỹ. Thịt cá sống và thức ăn chín nên để riêng hộp, riêng ngăn."
+    },
+    { "type": "h2", "text": "Bữa sáng nhanh mà đủ chất" },
+    {
+      "type": "p",
+      "text": "Bỏ bữa sáng dễ khiến bạn đói cồn cào giữa buổi rồi ăn vặt nhiều hơn. Một bữa sáng tốt nên có **tinh bột, chất đạm và một chút rau hoặc trái cây**."
+    },
+    {
+      "type": "ol",
+      "items": [
+        "**Bánh mì trứng:** trứng ốp la hoặc trứng luộc, thêm dưa leo, cà chua, rau thơm.",
+        "**Cháo yến mạch:** nấu nhanh với thịt bằm hoặc trứng; có thể nấu tối hôm trước, sáng chỉ cần hâm.",
+        "**Khoai lang hoặc bắp luộc** kèm một hộp sữa chua không đường và một quả chuối.",
+        "**Xôi đậu phần nhỏ** kèm trứng luộc, thay cho xôi mặn nhiều mỡ hành và lạp xưởng.",
+        "**Sữa đậu nành ít đường** kèm bánh mì nguyên cám khi thật sự vội."
+      ]
+    },
+    { "type": "h2", "text": "Cơm trưa mang theo và ăn ngoài thông minh" },
+    { "type": "h3", "text": "Mang cơm từ nhà" },
+    {
+      "type": "p",
+      "text": "Nấu dư một phần bữa tối để làm cơm trưa hôm sau là cách tiết kiệm nhất. Chia hộp theo tỉ lệ **nửa hộp rau, một phần tư cơm, một phần tư món đạm**. Rau luộc, rau xào nên cho vào hộp riêng nếu có thể để không bị ám nước kho."
+    },
+    { "type": "h3", "text": "Khi phải ăn ngoài" },
+    {
+      "type": "ul",
+      "items": [
+        "Chọn quán cơm có nhiều món rau, xin thêm rau và bớt nước sốt, nước kho.",
+        "Ưu tiên món luộc, hấp, canh thay vì chiên giòn.",
+        "Với bún, phở: ăn nhiều rau sống, không cần uống hết nước dùng vì thường khá mặn.",
+        "Chọn trà đá, nước lọc thay cho nước ngọt, trà sữa."
+      ]
+    },
+    { "type": "h2", "text": "Bữa phụ, nước uống và những thói quen nhỏ" },
+    {
+      "type": "ul",
+      "items": [
+        "**Bữa phụ lành mạnh:** trái cây, một nắm nhỏ hạt không muối, sữa chua không đường. Cất sẵn trong túi xách hoặc ngăn bàn làm việc.",
+        "**Uống đủ nước:** để chai nước trên bàn làm việc, uống rải rác trong ngày; đôi khi cảm giác “thèm ăn” thật ra là khát.",
+        "**Đồ uống có đường:** WHO khuyến nghị đường tự do nên dưới 10% tổng năng lượng, tốt hơn nữa là dưới 5%. Một ly trà sữa hay cà phê sữa nhiều đường có thể chiếm phần lớn mức này, nên hãy gọi ít đường hoặc để dành cho dịp đặc biệt.",
+        "**Ngồi xuống ăn:** dù chỉ 15 phút, ăn chậm và tập trung giúp bạn nhận ra khi nào đã no."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Ba món “cứu cánh” cho ngày mệt",
+      "text": "Trứng xào cà chua, canh nấm đậu phụ và rau luộc – cả ba món đều có thể làm xong trong khoảng 20 phút từ nguyên liệu thường có sẵn trong tủ lạnh."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Nếu bạn thường xuyên mệt mỏi, mất ngủ, sụt hoặc tăng cân nhanh, hãy đi khám để tìm nguyên nhân. Khi mang thai hoặc có bệnh lý, nên hỏi bác sĩ hoặc chuyên gia dinh dưỡng để có chế độ ăn phù hợp."
+    }
+  ],
+  "references": [
+    {
+      "title": "Healthy Eating Plate",
+      "publisher": "Harvard T.H. Chan School of Public Health – The Nutrition Source",
+      "url": "https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/"
+    },
+    {
+      "title": "Guideline: Sugars intake for adults and children",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/publications/i/item/9789241549028",
+      "year": 2015
+    },
+    {
+      "title": "Healthy diet – Fact sheet",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    }
+  ],
+  "relatedRecipes": ["trung-xao-ca-chua", "canh-nam-dau-phu", "chao-yen-mach-thit-bam"],
+  "featured": false
+}

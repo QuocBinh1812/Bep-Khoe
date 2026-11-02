@@ -1,0 +1,47 @@
+{
+  "slug": "dau-phu-kho-nam",
+  "title": "Đậu phụ kho nấm",
+  "description": "Đậu phụ kho nấm chay đậm đà với nước tương, đậu áp chảo ít dầu thay vì chiên ngập. Món mặn mềm, dễ ăn, hợp với cơm trắng cho cả nhà ngày rằm.",
+  "intro": "Đậu phụ kho nấm là món chay đưa cơm, mềm và thơm, ăn được cả với người không ăn chay. Đậu được áp chảo vàng hai mặt bằng ít dầu nên vẫn giữ được độ béo mà không ngấy. Nấm hương và nấm rơm cho vị ngọt tự nhiên, thay cho nước mắm là nước tương.",
+  "categories": ["mon-chay", "mon-viet", "mon-gia-dinh", "nguyen-lieu-co-san"],
+  "dishType": "kho-rim",
+  "ingredientTags": ["dau-phu", "nam"],
+  "suitableFor": ["it-dau-mo", "de-tieu", "nguoi-lon-tuoi"],
+  "difficulty": "de",
+  "prepMinutes": 15,
+  "cookMinutes": 30,
+  "servings": 4,
+  "course": "Món mặn",
+  "ingredients": [
+    { "name": "Đậu phụ", "amount": 600, "unit": "g", "note": "khoảng 4 bìa, cắt miếng vuông", "group": "Nguyên liệu chính", "food": { "id": "dau-phu", "grams": 600 } },
+    { "name": "Nấm hương tươi", "amount": 150, "unit": "g", "note": "cắt bỏ chân, để nguyên tai", "group": "Nguyên liệu chính", "food": { "id": "nam-huong-tuoi", "grams": 150 } },
+    { "name": "Nấm rơm", "amount": 150, "unit": "g", "note": "gọt chân, bổ đôi", "group": "Nguyên liệu chính", "food": { "id": "nam-rom", "grams": 150 } },
+    { "name": "Gừng", "amount": 1, "unit": "nhánh", "note": "khoảng 2 cm, thái sợi", "group": "Nguyên liệu chính", "food": { "id": "gung", "grams": 10 } },
+    { "name": "Dầu ăn", "amount": 1.5, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "dau-an", "grams": 20 } },
+    { "name": "Nước tương", "amount": 3, "unit": "muỗng canh", "group": "Gia vị" },
+    { "name": "Đường", "amount": 1, "unit": "muỗng cà phê", "group": "Gia vị", "food": { "id": "duong", "grams": 4 } },
+    { "name": "Tiêu xay", "amount": null, "unit": "", "note": "vừa đủ", "group": "Gia vị" },
+    { "name": "Nước lọc", "amount": 150, "unit": "ml", "group": "Gia vị" },
+    { "name": "Hành lá", "amount": 2, "unit": "cây", "note": "thái khúc", "food": { "id": "hanh-la", "grams": 15 } },
+    { "name": "Ớt tươi", "amount": 1, "unit": "quả", "note": "thái lát", "optional": true }
+  ],
+  "steps": [
+    { "title": "Sơ chế", "text": "Cắt đậu thành miếng vuông khoảng 3 cm, đặt lên khăn giấy thấm khô mặt. Nấm rửa nhanh dưới vòi nước, để thật ráo.", "durationMinutes": 10 },
+    { "title": "Áp chảo đậu", "text": "Đun nóng 1 muỗng canh dầu trong chảo chống dính ở lửa vừa. Xếp đậu vào, để yên 3–4 phút mỗi mặt đến khi vàng đều, cạnh hơi giòn. Gắp ra đĩa.", "durationMinutes": 10 },
+    { "title": "Xào nấm", "text": "Cho phần dầu còn lại vào chảo, phi gừng đến khi thơm. Thêm nấm, đảo ở lửa lớn 2–3 phút đến khi nấm hơi se lại và ra mùi thơm.", "durationMinutes": 3 },
+    { "title": "Kho", "text": "Pha nước tương, đường và nước lọc, khuấy tan. Cho đậu vào chảo cùng nấm, rưới đều hỗn hợp nước kho. Đun sôi rồi hạ lửa nhỏ, kho 12–15 phút, thỉnh thoảng trở nhẹ tay. Khi nước sánh lại, còn khoảng một phần ba và bám đều quanh miếng đậu là được.", "durationMinutes": 15 },
+    { "title": "Hoàn thành", "text": "Nếm lại, thêm chút nước tương nếu nhạt. Rắc hành lá, tiêu và ớt, tắt bếp. Dùng nóng với cơm trắng." }
+  ],
+  "tips": [
+    "Áp chảo trong chảo chống dính giúp đậu vàng đẹp mà chỉ tốn ít dầu, nhẹ bụng hơn chiên ngập dầu.",
+    "Người ăn chay kiêng hành thì bỏ hành lá, thay bằng vài lá ngò rí hoặc thêm gừng.",
+    "Nước tương mỗi loại mặn khác nhau, nên cho từ từ và nếm trước khi thêm.",
+    "Có thể thêm nấm đùi gà hoặc vài lát cà rốt để món nhiều rau và đẹp mắt hơn."
+  ],
+  "storage": "Để nguội, đựng hộp kín, bảo quản ngăn mát 2–3 ngày. Hâm lại bằng chảo ở lửa nhỏ, thêm 1–2 muỗng nước cho đậu không bị khô, hoặc hâm lò vi sóng có đậy nắp.",
+  "keywords": ["đậu phụ kho nấm", "món chay đậu phụ", "đậu hũ kho nấm"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-23",
+  "updatedAt": "2026-10-06"
+}

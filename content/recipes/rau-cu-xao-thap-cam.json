@@ -1,0 +1,48 @@
+{
+  "slug": "rau-cu-xao-thap-cam",
+  "title": "Rau củ xào thập cẩm",
+  "description": "Rau củ xào thập cẩm chay với bông cải xanh, cà rốt, nấm và đậu Hà Lan. Rau giòn, giữ màu xanh đẹp, ít dầu, xong trong khoảng 30 phút.",
+  "intro": "Một đĩa rau củ xào nhiều màu giúp bữa cơm có thêm rau mà ai cũng thích gắp. Rau được chần nhanh trước khi xào nên chín đều, giòn và không cần nhiều dầu. Món này dùng nước tương nên phù hợp cho cả người ăn chay.",
+  "categories": ["mon-chay", "mon-viet", "mon-nhanh", "mon-gia-dinh", "nguyen-lieu-co-san"],
+  "dishType": "xao",
+  "ingredientTags": ["cu-qua", "nam"],
+  "suitableFor": ["nhieu-rau", "it-dau-mo"],
+  "difficulty": "de",
+  "prepMinutes": 15,
+  "cookMinutes": 12,
+  "servings": 4,
+  "course": "Món rau",
+  "ingredients": [
+    { "name": "Bông cải xanh", "amount": 1, "unit": "cây", "note": "khoảng 300 g, cắt nhánh nhỏ", "group": "Rau củ", "food": { "id": "bong-cai-xanh", "grams": 250 } },
+    { "name": "Cà rốt", "amount": 1, "unit": "củ", "note": "khoảng 150 g, thái lát mỏng", "group": "Rau củ", "food": { "id": "ca-rot", "grams": 130 } },
+    { "name": "Nấm hương tươi", "amount": 100, "unit": "g", "note": "cắt bỏ chân, thái đôi", "group": "Rau củ", "food": { "id": "nam-huong-tuoi", "grams": 100 } },
+    { "name": "Đậu Hà Lan", "amount": 100, "unit": "g", "note": "loại ăn cả vỏ, tước xơ", "group": "Rau củ" },
+    { "name": "Hành tây", "amount": 0.5, "unit": "củ", "note": "thái múi cau", "group": "Rau củ", "food": { "id": "hanh-tay", "grams": 60 } },
+    { "name": "Tỏi", "amount": 3, "unit": "tép", "note": "băm nhỏ", "group": "Gia vị", "food": { "id": "toi", "grams": 10 } },
+    { "name": "Dầu ăn", "amount": 1.5, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "dau-an", "grams": 20 } },
+    { "name": "Nước tương", "amount": 1.5, "unit": "muỗng canh", "group": "Gia vị" },
+    { "name": "Dầu hào chay", "amount": 1, "unit": "muỗng canh", "group": "Gia vị", "optional": true },
+    { "name": "Đường", "amount": 0.5, "unit": "muỗng cà phê", "group": "Gia vị", "food": { "id": "duong", "grams": 2 } },
+    { "name": "Bột năng", "amount": 1, "unit": "muỗng cà phê", "note": "pha với 3 muỗng canh nước", "group": "Gia vị" },
+    { "name": "Tiêu xay", "amount": null, "unit": "", "note": "vừa đủ", "group": "Gia vị" }
+  ],
+  "steps": [
+    { "title": "Sơ chế rau củ", "text": "Ngâm bông cải trong nước muối loãng 10 phút rồi rửa sạch. Cà rốt gọt vỏ, thái lát mỏng. Đậu Hà Lan tước xơ hai bên. Nấm rửa nhanh, để ráo.", "durationMinutes": 10 },
+    { "title": "Chần rau", "text": "Đun sôi một nồi nước, thêm chút muối. Thả bông cải, cà rốt và đậu Hà Lan vào chần khoảng 1 phút, đến khi rau chuyển xanh tươi. Vớt ra thả ngay vào bát nước nguội, để ráo.", "durationMinutes": 4 },
+    { "title": "Xào nấm, hành tây", "text": "Đun nóng dầu ở lửa vừa, phi tỏi đến khi vàng nhạt. Tăng lửa lớn, cho nấm và hành tây vào đảo khoảng 2 phút đến khi nấm hơi se lại.", "durationMinutes": 3 },
+    { "title": "Xào rau củ", "text": "Cho rau đã chần vào chảo, đảo nhanh tay 2 phút. Thêm nước tương, dầu hào chay, đường và tiêu, đảo đều cho thấm.", "durationMinutes": 2 },
+    { "title": "Làm sánh, tắt bếp", "text": "Khuấy lại bát bột năng, rưới quanh chảo, đảo thêm 30 giây đến khi nước sốt trong và bóng. Tắt bếp ngay khi bông cải vẫn còn xanh và giòn." }
+  ],
+  "tips": [
+    "Chần rau trước giúp rau chín đều mà thời gian xào ngắn, nhờ đó dùng ít dầu hơn.",
+    "Có thể thay đậu Hà Lan bằng đậu que, bắp non hoặc ớt chuông tùy thứ đang có trong tủ lạnh.",
+    "Người ăn chay kiêng tỏi, hành thì bỏ hai thứ này, phi một ít gừng thái sợi để tạo mùi thơm.",
+    "Thêm vài miếng đậu phụ áp chảo để món có thêm đạm, ăn với cơm là đủ bữa."
+  ],
+  "storage": "Rau xào ngon nhất khi ăn ngay. Nếu còn, để nguội, đậy kín, cất ngăn mát và dùng trong 1 ngày. Hâm nhanh trên chảo nóng 1–2 phút, không hâm lâu vì rau sẽ mềm nhũn và ngả vàng.",
+  "keywords": ["rau củ xào thập cẩm", "rau xào chay", "bông cải xào nấm"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-26",
+  "updatedAt": "2026-10-08"
+}

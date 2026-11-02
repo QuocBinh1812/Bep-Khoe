@@ -1,0 +1,259 @@
+{
+  "slug": "thuc-don-gia-dinh-4-nguoi",
+  "title": "Thực đơn gia đình 4 người: một tuần cơm nhà hợp khẩu vị cả nhà",
+  "description": "Thực đơn một tuần cho gia đình 4 người với các món mềm, vừa vị, dễ ăn cho cả trẻ nhỏ và người lớn tuổi; mỗi bữa đủ đạm, rau xanh và canh.",
+  "intro": "Nấu một mâm cơm mà cả trẻ nhỏ lẫn ông bà đều ăn ngon là điều không dễ. Thực đơn này dành cho gia đình 4 người, chọn các món mềm, vừa vị, nhiều canh và rau, có thể nấu chung một lần cho cả nhà.",
+  "category": "thuc-don-gia-dinh",
+  "servings": 4,
+  "days": [
+    {
+      "sang": [
+        {
+          "recipe": "bun-ga"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "thit-kho-trung"
+        },
+        {
+          "recipe": "canh-rau-ngot-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "ca-hap-gung"
+        },
+        {
+          "recipe": "rau-cu-xao-thap-cam"
+        },
+        {
+          "recipe": "canh-nam-dau-phu"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "name": "Bánh mì nguyên cám"
+        },
+        {
+          "name": "Sữa tươi không đường"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "ga-luoc-la-chanh"
+        },
+        {
+          "recipe": "canh-bi-do-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "dau-phu-sot-ca-chua"
+        },
+        {
+          "recipe": "rau-muong-xao-toi"
+        },
+        {
+          "name": "Cơm trắng"
+        },
+        {
+          "name": "Trái cây theo mùa"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "chao-yen-mach-thit-bam"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "ca-kho-to"
+        },
+        {
+          "recipe": "canh-rau-ngot-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "tom-rim"
+        },
+        {
+          "name": "Rau luộc"
+        },
+        {
+          "recipe": "canh-nam-dau-phu"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "name": "Xôi đậu xanh"
+        },
+        {
+          "name": "Chuối"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "bo-xao-bong-cai"
+        },
+        {
+          "recipe": "canh-chua-ca"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "trung-hap-thit-bam"
+        },
+        {
+          "recipe": "rau-muong-xao-toi"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "chao-ga"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "dau-phu-kho-nam"
+        },
+        {
+          "recipe": "canh-bi-do-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "ca-hap-gung"
+        },
+        {
+          "recipe": "rau-cu-xao-thap-cam"
+        },
+        {
+          "name": "Cơm trắng"
+        },
+        {
+          "name": "Trái cây theo mùa"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "pho-bo"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "trung-xao-ca-chua"
+        },
+        {
+          "recipe": "canh-chua-ca"
+        },
+        {
+          "name": "Rau luộc"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "bo-xao-bong-cai"
+        },
+        {
+          "recipe": "canh-nam-dau-phu"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "name": "Khoai lang luộc"
+        },
+        {
+          "name": "Sữa chua không đường"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "ca-kho-to"
+        },
+        {
+          "recipe": "canh-rau-ngot-thit-bam"
+        },
+        {
+          "recipe": "rau-muong-xao-toi"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "ga-luoc-la-chanh"
+        },
+        {
+          "recipe": "rau-cu-xao-thap-cam"
+        },
+        {
+          "name": "Cơm trắng"
+        },
+        {
+          "name": "Trái cây theo mùa"
+        }
+      ]
+    }
+  ],
+  "principles": [
+    "Món ăn mềm, dễ nhai như trứng hấp, cá hấp, đậu phụ, canh bí đỏ phù hợp với cả trẻ nhỏ và ông bà.",
+    "Mỗi bữa chính có món mặn giàu đạm, món rau và món canh – giữ đúng nếp mâm cơm Việt mà vẫn cân đối.",
+    "Nguồn đạm đa dạng trong tuần: cá, gà, thịt heo, thịt bò, tôm, trứng và đậu phụ.",
+    "Thêm trái cây tráng miệng vài bữa trong tuần và bữa sáng có sữa, sữa chua cho trẻ.",
+    "Nêm nhạt khi nấu chung, để người lớn tự chấm thêm nếu cần – tốt cho cả trẻ em và người lớn tuổi."
+  ],
+  "notes": [
+    "Với ông bà răng yếu, thái thịt mỏng hơn, nấu rau mềm hơn và gỡ kỹ xương cá trước khi dọn.",
+    "Với trẻ nhỏ, có thể bớt tiêu, ớt và cắt miếng nhỏ vừa ăn.",
+    "Cuối tuần có thể sơ chế sẵn rau, thịt cá theo thực đơn để các bữa tối ngày thường nấu nhanh hơn."
+  ],
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-10",
+  "updatedAt": "2026-10-24",
+  "featured": true
+}

@@ -1,0 +1,49 @@
+{
+  "slug": "salad-uc-ga",
+  "title": "Salad ức gà rau củ",
+  "description": "Salad ức gà luộc mềm cùng xà lách, dưa leo, cà chua, cà rốt, trộn sốt sữa chua chanh nhẹ nhàng. Món chính thanh mát, nhiều rau, làm trong 30 phút.",
+  "intro": "Salad ức gà là lựa chọn nhẹ bụng cho bữa trưa hoặc bữa tối. Ức gà luộc đúng cách vẫn mềm và ngọt, kết hợp với nhiều rau củ tươi giòn. Nước sốt sữa chua chanh ít dầu, chua dịu, dễ ăn với khẩu vị người Việt.",
+  "categories": ["mon-nhanh"],
+  "dishType": "salad",
+  "ingredientTags": ["ga", "rau-la", "cu-qua"],
+  "suitableFor": ["it-dau-mo", "nhieu-rau", "giau-dam"],
+  "difficulty": "de",
+  "prepMinutes": 15,
+  "cookMinutes": 15,
+  "servings": 2,
+  "course": "Món chính",
+  "ingredients": [
+    { "name": "Ức gà", "amount": 250, "unit": "g", "note": "bỏ da", "group": "Nguyên liệu chính", "food": { "id": "uc-ga", "grams": 250 } },
+    { "name": "Gừng", "amount": 3, "unit": "lát", "note": "để luộc gà", "group": "Nguyên liệu chính", "food": { "id": "gung", "grams": 5 } },
+    { "name": "Xà lách", "amount": 150, "unit": "g", "note": "rửa sạch, cắt khúc", "group": "Rau củ", "food": { "id": "xa-lach", "grams": 150 } },
+    { "name": "Dưa leo", "amount": 1, "unit": "quả", "note": "thái lát mỏng", "group": "Rau củ", "food": { "id": "dua-leo", "grams": 150 } },
+    { "name": "Cà chua bi", "amount": 150, "unit": "g", "note": "cắt đôi", "group": "Rau củ", "food": { "id": "ca-chua", "grams": 150 } },
+    { "name": "Cà rốt", "amount": 0.5, "unit": "củ", "note": "bào sợi", "group": "Rau củ", "food": { "id": "ca-rot", "grams": 60 } },
+    { "name": "Hành tây", "amount": 0.25, "unit": "củ", "note": "thái mỏng, ngâm nước đá 5 phút", "group": "Rau củ", "food": { "id": "hanh-tay", "grams": 40 } },
+    { "name": "Sữa chua không đường", "amount": 3, "unit": "muỗng canh", "group": "Nước sốt", "food": { "id": "sua-chua", "grams": 45 } },
+    { "name": "Dầu ô liu hoặc dầu ăn", "amount": 1, "unit": "muỗng canh", "group": "Nước sốt", "food": { "id": "dau-an", "grams": 13 } },
+    { "name": "Nước cốt chanh", "amount": 1, "unit": "muỗng canh", "group": "Nước sốt" },
+    { "name": "Tỏi", "amount": 1, "unit": "tép", "note": "băm thật nhuyễn", "group": "Nước sốt", "food": { "id": "toi", "grams": 3 } },
+    { "name": "Đường", "amount": 1, "unit": "muỗng cà phê", "group": "Nước sốt", "food": { "id": "duong", "grams": 4 } },
+    { "name": "Muối, tiêu", "amount": null, "unit": "", "note": "vừa đủ", "group": "Nước sốt" }
+  ],
+  "steps": [
+    { "title": "Luộc ức gà", "text": "Cho ức gà vào nồi nước lạnh vừa ngập, thêm gừng và chút muối. Đun lửa vừa đến khi sôi, hạ lửa nhỏ để nước lăn tăn khoảng 8 phút. Tắt bếp, đậy nắp, ngâm thêm 7 phút cho thịt chín đều mà vẫn mềm.", "durationMinutes": 15 },
+    { "title": "Chuẩn bị rau củ", "text": "Trong lúc luộc gà, rửa và cắt xà lách, dưa leo, cà chua bi, bào cà rốt. Ngâm hành tây thái mỏng vào nước đá để bớt hăng, sau đó vớt ra để ráo.", "durationMinutes": 10 },
+    { "title": "Xé gà", "text": "Vớt ức gà ra, cắt thử chỗ dày nhất thấy thịt trắng đều, không còn hồng là chín. Để nguội bớt rồi xé sợi hoặc thái lát mỏng.", "durationMinutes": 3 },
+    { "title": "Pha nước sốt", "text": "Trộn sữa chua, dầu, nước cốt chanh, tỏi băm, đường, chút muối và tiêu. Khuấy đều đến khi sốt mịn, nếm thấy chua dịu, hơi mặn nhẹ là vừa.", "durationMinutes": 2 },
+    { "title": "Trộn và dọn ăn", "text": "Xếp rau củ vào tô lớn, cho gà lên trên. Chỉ rưới sốt và trộn nhẹ tay ngay trước khi ăn để rau không bị úng.", "durationMinutes": 2 }
+  ],
+  "tips": [
+    "Ngâm ức gà trong nước luộc sau khi tắt bếp là cách đơn giản để thịt không bị khô và xơ.",
+    "Có thể giảm dầu xuống nửa muỗng canh, sốt sữa chua vẫn đủ độ béo và sánh.",
+    "Thêm một ít bắp luộc, khoai lang hấp hoặc bánh mì nguyên cám nếu muốn ăn no lâu hơn.",
+    "Rau phải thật ráo nước trước khi trộn để sốt bám đều và salad không bị nhạt."
+  ],
+  "storage": "Rau củ và gà nên để riêng. Gà luộc cho vào hộp kín, cất ngăn mát dùng trong 2 ngày; rau rửa sạch để ráo, bọc khăn giấy, dùng trong 1–2 ngày. Sốt sữa chua bảo quản lạnh trong 2 ngày. Salad đã trộn sốt nên ăn ngay.",
+  "keywords": ["salad ức gà", "salad gà rau củ", "salad ức gà sốt sữa chua"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-10-23",
+  "updatedAt": "2026-10-31"
+}

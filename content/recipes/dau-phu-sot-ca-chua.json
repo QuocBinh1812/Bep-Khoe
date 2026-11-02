@@ -1,0 +1,46 @@
+{
+  "slug": "dau-phu-sot-ca-chua",
+  "title": "Đậu phụ sốt cà chua",
+  "description": "Đậu phụ sốt cà chua chay, nêm bằng nước tương thay nước mắm. Đậu mềm, sốt chua ngọt sánh đẹp, làm nhanh trong khoảng 30 phút từ nguyên liệu dễ mua.",
+  "intro": "Đậu phụ sốt cà chua là món mặn quen thuộc, rẻ mà đưa cơm. Công thức này hoàn toàn chay, dùng nước tương và muối để nêm nên phù hợp cả ngày ăn chay. Đậu phụ mềm, dễ ăn, lại là nguồn đạm thực vật tốt cho bữa cơm gia đình.",
+  "categories": ["mon-chay", "mon-viet", "mon-gia-dinh", "mon-nhanh", "nguyen-lieu-co-san"],
+  "dishType": "sot",
+  "ingredientTags": ["dau-phu", "ca-chua"],
+  "suitableFor": ["de-tieu", "nguoi-lon-tuoi", "tre-em"],
+  "difficulty": "de",
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 3,
+  "course": "Món chính",
+  "ingredients": [
+    { "name": "Đậu phụ", "amount": 4, "unit": "miếng", "note": "khoảng 400 g, cắt miếng vuông vừa ăn", "group": "Nguyên liệu chính", "food": { "id": "dau-phu", "grams": 400 } },
+    { "name": "Cà chua", "amount": 3, "unit": "quả", "note": "chín đỏ, khoảng 300 g, thái hạt lựu", "group": "Nguyên liệu chính", "food": { "id": "ca-chua", "grams": 300 } },
+    { "name": "Hành lá", "amount": 3, "unit": "cây", "note": "phần trắng băm, phần lá cắt khúc", "group": "Nguyên liệu chính", "food": { "id": "hanh-la", "grams": 30 } },
+    { "name": "Dầu ăn", "amount": 2, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "dau-an", "grams": 26 } },
+    { "name": "Nước tương", "amount": 1, "unit": "muỗng canh", "group": "Gia vị" },
+    { "name": "Đường", "amount": 1, "unit": "muỗng cà phê", "group": "Gia vị", "food": { "id": "duong", "grams": 4 } },
+    { "name": "Muối", "amount": 0.5, "unit": "muỗng cà phê", "group": "Gia vị" },
+    { "name": "Tiêu xay", "amount": null, "unit": "", "note": "vừa đủ", "group": "Gia vị", "optional": true },
+    { "name": "Ngò rí", "amount": null, "unit": "", "note": "để trang trí", "group": "Gia vị", "optional": true }
+  ],
+  "steps": [
+    { "title": "Sơ chế", "text": "Rửa đậu phụ, cắt miếng vuông khoảng 3 cm, đặt lên khăn giấy cho ráo nước. Cà chua thái hạt lựu, hành lá tách phần trắng và phần lá.", "durationMinutes": 10 },
+    { "title": "Áp chảo đậu", "text": "Cho 1,5 muỗng canh dầu vào chảo chống dính, lửa vừa. Xếp đậu vào, chiên mỗi mặt khoảng 2–3 phút đến khi vàng nhạt, vỏ hơi se. Gắp ra đĩa.", "durationMinutes": 8 },
+    { "title": "Làm sốt cà chua", "text": "Cho phần dầu còn lại vào chảo, phi hành trắng thơm rồi cho cà chua vào. Thêm chút muối, đảo và dằm nhẹ khoảng 4–5 phút đến khi cà chua mềm nhừ, ra màu đỏ.", "durationMinutes": 5 },
+    { "title": "Nêm sốt", "text": "Thêm khoảng 100 ml nước, nước tương, đường và phần muối còn lại. Đun sôi nhẹ, nếm thấy chua ngọt mặn hài hòa là được.", "durationMinutes": 2 },
+    { "title": "Rim đậu", "text": "Cho đậu vào chảo, hạ lửa nhỏ, rim khoảng 4–5 phút. Thỉnh thoảng rưới sốt lên mặt đậu, không đảo mạnh để đậu không vỡ. Khi sốt sánh lại là được.", "durationMinutes": 5 },
+    { "title": "Hoàn thành", "text": "Rắc hành lá, tiêu và ngò, tắt bếp. Dùng nóng với cơm trắng và một đĩa rau luộc.", "durationMinutes": 1 }
+  ],
+  "tips": [
+    "Muốn ít dầu hơn, không cần chiên đậu: cho đậu sống vào sốt rim lửa nhỏ 7–8 phút, đậu sẽ mềm và thấm hơn.",
+    "Chọn cà chua chín đỏ, mọng để sốt có màu đẹp mà không cần thêm tương cà.",
+    "Nếu ăn chay kiêng hành, có thể bỏ hành lá và thay bằng ngò rí hoặc vài lát nấm.",
+    "Nêm nước tương từ từ vì mỗi loại có độ mặn khác nhau."
+  ],
+  "storage": "Để nguội, cho vào hộp kín, bảo quản ngăn mát và dùng trong 2 ngày. Khi hâm, cho vào chảo với 1–2 muỗng canh nước, đun lửa nhỏ đến khi sốt sôi lại.",
+  "keywords": ["đậu phụ sốt cà chua", "đậu sốt cà chua chay", "món chay dễ làm"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-10-08",
+  "updatedAt": "2026-10-21"
+}

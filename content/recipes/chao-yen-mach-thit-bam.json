@@ -1,0 +1,46 @@
+{
+  "slug": "chao-yen-mach-thit-bam",
+  "title": "Cháo yến mạch thịt bằm",
+  "description": "Cháo yến mạch thịt bằm nấu khoảng 25 phút, sánh mềm, thơm hành phi, thêm cà rốt băm. Bữa sáng ấm bụng, dễ ăn cho người lớn tuổi và trẻ nhỏ.",
+  "intro": "Yến mạch cán dẹt nấu với thịt bằm cho bát cháo sánh mịn chỉ trong vài phút, không cần ninh gạo lâu. Món mềm, ấm, dễ nuốt nên hợp với buổi sáng vội hoặc người cần ăn mềm. Thêm chút cà rốt và hành lá để bát cháo có màu sắc và thêm rau.",
+  "categories": ["mon-an-sang", "mon-viet", "mon-nhanh", "mon-gia-dinh"],
+  "dishType": "chao",
+  "ingredientTags": ["gao-ngu-coc", "thit-heo"],
+  "suitableFor": ["nguoi-lon-tuoi", "tre-em", "de-tieu", "it-dau-mo"],
+  "difficulty": "de",
+  "prepMinutes": 10,
+  "cookMinutes": 15,
+  "servings": 2,
+  "course": "Bữa sáng",
+  "ingredients": [
+    { "name": "Yến mạch cán dẹt", "amount": 80, "unit": "g", "note": "khoảng 1 chén nhỏ", "group": "Nguyên liệu chính", "food": { "id": "yen-mach", "grams": 80 } },
+    { "name": "Thịt heo nạc băm", "amount": 100, "unit": "g", "group": "Nguyên liệu chính", "food": { "id": "thit-heo-nac", "grams": 100 } },
+    { "name": "Cà rốt", "amount": 0.5, "unit": "củ", "note": "băm nhỏ hoặc bào sợi", "group": "Nguyên liệu chính", "food": { "id": "ca-rot", "grams": 60 } },
+    { "name": "Nước lọc", "amount": 700, "unit": "ml", "group": "Nguyên liệu chính" },
+    { "name": "Hành tím", "amount": 1, "unit": "củ", "note": "băm nhỏ", "group": "Gia vị" },
+    { "name": "Dầu ăn", "amount": 1, "unit": "muỗng cà phê", "group": "Gia vị", "food": { "id": "dau-an", "grams": 4 } },
+    { "name": "Nước mắm", "amount": 2, "unit": "muỗng cà phê", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 10 } },
+    { "name": "Tiêu xay", "amount": null, "unit": "", "note": "một chút", "group": "Gia vị" },
+    { "name": "Hành lá", "amount": 2, "unit": "cây", "note": "thái nhỏ", "food": { "id": "hanh-la", "grams": 15 } },
+    { "name": "Gừng", "amount": 2, "unit": "lát", "note": "thái sợi, giúp ấm bụng", "optional": true }
+  ],
+  "steps": [
+    { "title": "Ướp thịt", "text": "Trộn thịt băm với một nửa nước mắm, chút tiêu và nửa phần hành tím. Để khoảng 5 phút. Cà rốt gọt vỏ, băm nhỏ.", "durationMinutes": 5 },
+    { "title": "Xào thịt", "text": "Đun nóng dầu trong nồi ở lửa vừa, phi phần hành tím còn lại đến khi vàng nhạt. Cho thịt vào, dùng đũa đảo tơi khoảng 2 phút đến khi thịt chuyển màu trắng.", "durationMinutes": 3 },
+    { "title": "Nấu nước", "text": "Đổ nước vào nồi, đun sôi rồi vớt bọt cho nước trong. Thêm cà rốt, đun khoảng 3 phút cho cà rốt mềm.", "durationMinutes": 4 },
+    { "title": "Nấu yến mạch", "text": "Cho yến mạch vào, hạ lửa nhỏ, khuấy đều tay để không bị dính đáy. Nấu 6–8 phút đến khi hạt yến mạch nở mềm và cháo sánh lại. Nếu thích loãng hơn, thêm một ít nước sôi.", "durationMinutes": 8 },
+    { "title": "Nêm và dùng", "text": "Nêm phần nước mắm còn lại, nếm vừa ăn. Tắt bếp, rắc hành lá, gừng sợi và tiêu. Dùng khi còn ấm." }
+  ],
+  "tips": [
+    "Nếu dùng yến mạch ăn liền (loại hạt vụn, nấu nhanh), chỉ cần nấu 2–3 phút.",
+    "Với người lớn tuổi hoặc trẻ nhỏ, có thể xay sơ yến mạch trước khi nấu để cháo mịn hơn.",
+    "Thêm một nắm rau cải hoặc rau ngót thái nhỏ vào cuối để bữa sáng có thêm rau.",
+    "Thay thịt heo bằng ức gà băm hoặc cá phi lê để đổi món."
+  ],
+  "storage": "Cháo ngon nhất khi ăn ngay. Phần còn lại để nguội, đậy kín, cất ngăn mát và dùng trong 1 ngày. Cháo sẽ đặc lại khi nguội, lúc hâm thêm một ít nước, đun lửa nhỏ và khuấy đều đến khi sôi lại.",
+  "keywords": ["cháo yến mạch thịt bằm", "cháo yến mạch", "bữa sáng yến mạch"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-10-19"
+}

@@ -1,0 +1,240 @@
+{
+  "slug": "thuc-don-mua-thu-dong",
+  "title": "Thực đơn mùa thu đông: canh nóng, cháo ấm và rau củ theo mùa",
+  "description": "Thực đơn 7 ngày cho mùa thu đông với canh nóng, cháo ấm, bữa sáng phở bún và rau củ theo mùa như bí đỏ, bông cải, cà rốt – ấm bụng và đủ chất.",
+  "intro": "Khi trời chuyển lạnh, bát canh nóng hay bát cháo ấm luôn được cả nhà mong đợi. Thực đơn mùa thu đông này dành cho 3 người, tận dụng rau củ đang vào mùa như bí đỏ, bông cải, cà rốt, su hào, nấm và các món có nước dùng ấm áp.",
+  "category": "thuc-don-theo-mua",
+  "servings": 3,
+  "days": [
+    {
+      "sang": [
+        {
+          "recipe": "chao-ga"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "ca-kho-to"
+        },
+        {
+          "recipe": "canh-bi-do-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "dau-phu-sot-ca-chua"
+        },
+        {
+          "recipe": "rau-cu-xao-thap-cam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "pho-bo"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "ga-luoc-la-chanh"
+        },
+        {
+          "recipe": "canh-nam-dau-phu"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "thit-kho-trung"
+        },
+        {
+          "name": "Rau luộc"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "chao-yen-mach-thit-bam"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "bo-xao-bong-cai"
+        },
+        {
+          "recipe": "canh-rau-ngot-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "ca-hap-gung"
+        },
+        {
+          "recipe": "canh-bi-do-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "name": "Khoai lang luộc"
+        },
+        {
+          "name": "Sữa tươi không đường"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "dau-phu-kho-nam"
+        },
+        {
+          "recipe": "canh-rau-ngot-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "trung-hap-thit-bam"
+        },
+        {
+          "recipe": "canh-nam-dau-phu"
+        },
+        {
+          "name": "Rau luộc"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "bun-ga"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "thit-kho-trung"
+        },
+        {
+          "recipe": "rau-cu-xao-thap-cam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "canh-chua-ca"
+        },
+        {
+          "recipe": "trung-xao-ca-chua"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "chao-ga"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "bo-xao-bong-cai"
+        },
+        {
+          "recipe": "canh-bi-do-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "tom-rim"
+        },
+        {
+          "recipe": "canh-nam-dau-phu"
+        },
+        {
+          "name": "Rau luộc"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "pho-bo"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "ca-hap-gung"
+        },
+        {
+          "recipe": "canh-rau-ngot-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "dau-phu-sot-ca-chua"
+        },
+        {
+          "recipe": "rau-cu-xao-thap-cam"
+        },
+        {
+          "name": "Cơm trắng"
+        },
+        {
+          "name": "Trái cây theo mùa"
+        }
+      ]
+    }
+  ],
+  "principles": [
+    "Mỗi ngày có ít nhất một món canh hoặc món nước nóng, giúp ấm bụng và bổ sung thêm nước khi trời hanh khô.",
+    "Rau củ theo mùa thu đông như bí đỏ, bông cải, cà rốt, su hào, cải và nấm được dùng xuyên suốt tuần.",
+    "Bữa sáng ưu tiên món ấm như cháo gà, cháo yến mạch, phở, bún gà.",
+    "Luân phiên đạm từ cá, gà, thịt heo, thịt bò, tôm, trứng và đậu phụ; món kho chỉ vài lần trong tuần."
+  ],
+  "notes": [
+    "Rau luộc nên chọn cải ngọt, cải thìa, bắp cải hoặc su hào – các loại rau phổ biến mùa thu đông.",
+    "Trái cây tráng miệng có thể chọn cam, quýt, bưởi, hồng đang vào mùa.",
+    "Nấu sẵn một nồi nước dùng gà hoặc xương vào cuối tuần để nấu cháo, canh nhanh trong các ngày thường."
+  ],
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-10-15",
+  "updatedAt": "2026-10-31",
+  "featured": false
+}

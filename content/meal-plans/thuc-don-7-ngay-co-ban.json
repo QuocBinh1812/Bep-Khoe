@@ -1,0 +1,244 @@
+{
+  "slug": "thuc-don-7-ngay-co-ban",
+  "title": "Thực đơn 7 ngày cơ bản cho người mới bắt đầu nấu ăn lành mạnh",
+  "description": "Thực đơn 7 ngày gồm các món cơm nhà quen thuộc, dễ nấu: luân phiên cá, gà, thịt, trứng, đậu phụ và luôn có rau xanh, phù hợp cho 2 người.",
+  "intro": "Nếu bạn muốn bắt đầu ăn uống lành mạnh nhưng chưa biết nấu gì mỗi ngày, đây là thực đơn 7 ngày cơ bản dành cho 2 người. Các món đều quen thuộc với bữa cơm Việt, nấu nhanh và có thể dễ dàng thay đổi theo khẩu vị gia đình.",
+  "category": "thuc-don-7-ngay",
+  "servings": 2,
+  "days": [
+    {
+      "sang": [
+        {
+          "recipe": "chao-ga"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "ca-kho-to"
+        },
+        {
+          "recipe": "canh-rau-ngot-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "dau-phu-sot-ca-chua"
+        },
+        {
+          "recipe": "rau-muong-xao-toi"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "name": "Bánh mì nguyên cám"
+        },
+        {
+          "name": "Sữa tươi không đường"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "ga-luoc-la-chanh"
+        },
+        {
+          "recipe": "canh-bi-do-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "ca-hap-gung"
+        },
+        {
+          "recipe": "rau-cu-xao-thap-cam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "pho-bo"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "thit-kho-trung"
+        },
+        {
+          "name": "Rau luộc"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "tom-rim"
+        },
+        {
+          "recipe": "canh-nam-dau-phu"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "name": "Khoai lang luộc"
+        },
+        {
+          "name": "Sữa chua không đường"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "bo-xao-bong-cai"
+        },
+        {
+          "recipe": "canh-rau-ngot-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "trung-xao-ca-chua"
+        },
+        {
+          "recipe": "rau-muong-xao-toi"
+        },
+        {
+          "name": "Cơm trắng"
+        },
+        {
+          "name": "Trái cây theo mùa"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "chao-yen-mach-thit-bam"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "canh-chua-ca"
+        },
+        {
+          "recipe": "dau-phu-kho-nam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "trung-hap-thit-bam"
+        },
+        {
+          "recipe": "rau-cu-xao-thap-cam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "bun-ga"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "ca-kho-to"
+        },
+        {
+          "recipe": "canh-bi-do-thit-bam"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "salad-uc-ga"
+        },
+        {
+          "recipe": "canh-nam-dau-phu"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "name": "Xôi đậu xanh"
+        },
+        {
+          "name": "Trái cây theo mùa"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "thit-kho-trung"
+        },
+        {
+          "recipe": "canh-chua-ca"
+        },
+        {
+          "name": "Rau luộc"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "ca-hap-gung"
+        },
+        {
+          "recipe": "rau-muong-xao-toi"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    }
+  ],
+  "principles": [
+    "Mỗi bữa trưa và tối đều có một món giàu đạm, một món rau hoặc canh rau và cơm – theo tinh thần “một nửa đĩa là rau”.",
+    "Nguồn đạm được luân phiên trong tuần: cá, gà, thịt heo, thịt bò, tôm, trứng và đậu phụ.",
+    "Ưu tiên cách nấu hấp, luộc, nấu canh; món kho chỉ xuất hiện vài lần trong tuần và nên nêm nhạt.",
+    "Bữa sáng xen kẽ món nóng (cháo, phở, bún) với bữa sáng đơn giản như khoai lang, bánh mì nguyên cám, sữa chua.",
+    "Không món nào lặp lại quá 3 lần trong tuần để bữa ăn đa dạng, không nhàm chán."
+  ],
+  "notes": [
+    "Có thể thay cơm trắng bằng cơm gạo lứt hoặc trộn một phần gạo lứt vào gạo trắng tùy khẩu vị.",
+    "Thịt kho trứng và cá kho tộ có thể nấu một nồi vừa đủ cho 2 bữa trong tuần, bảo quản ngăn mát tủ lạnh và đun sôi lại trước khi ăn.",
+    "Rau luộc chọn loại theo mùa như rau cải, bắp cải, su su, đậu cô ve."
+  ],
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-03",
+  "updatedAt": "2026-10-18",
+  "featured": true
+}

@@ -1,0 +1,249 @@
+{
+  "slug": "thuc-don-can-bang-it-muoi",
+  "title": "Thực đơn cân bằng ít muối: 7 ngày ăn nhạt mà vẫn ngon miệng",
+  "description": "Thực đơn 7 ngày ít muối, ưu tiên món hấp, luộc, canh thanh và rau xanh, xen kẽ cơm gạo lứt – giúp cả nhà tập thói quen ăn nhạt hơn mỗi ngày.",
+  "intro": "Theo khuyến nghị của WHO, người trưởng thành nên dùng dưới 5 g muối mỗi ngày, trong khi nhiều món ăn quen thuộc lại khá mặn. Thực đơn 7 ngày cho 2 người này ưu tiên món hấp, luộc, canh thanh và hạn chế món kho, giúp bạn giảm muối dần mà bữa ăn vẫn ngon.",
+  "category": "thuc-don-can-bang",
+  "servings": 2,
+  "days": [
+    {
+      "sang": [
+        {
+          "recipe": "chao-yen-mach-thit-bam"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "ca-hap-gung"
+        },
+        {
+          "recipe": "canh-rau-ngot-thit-bam"
+        },
+        {
+          "name": "Cơm gạo lứt"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "dau-phu-sot-ca-chua"
+        },
+        {
+          "name": "Rau luộc"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "name": "Bánh mì nguyên cám"
+        },
+        {
+          "name": "Sữa tươi không đường"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "ga-luoc-la-chanh"
+        },
+        {
+          "recipe": "rau-cu-xao-thap-cam"
+        },
+        {
+          "name": "Cơm gạo lứt"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "trung-hap-thit-bam"
+        },
+        {
+          "recipe": "canh-nam-dau-phu"
+        },
+        {
+          "name": "Rau luộc"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "name": "Khoai lang luộc"
+        },
+        {
+          "name": "Sữa chua không đường"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "salad-uc-ga"
+        },
+        {
+          "recipe": "canh-bi-do-thit-bam"
+        },
+        {
+          "name": "Cơm gạo lứt"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "ca-hap-gung"
+        },
+        {
+          "recipe": "rau-muong-xao-toi"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "chao-ga"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "bo-xao-bong-cai"
+        },
+        {
+          "recipe": "canh-rau-ngot-thit-bam"
+        },
+        {
+          "name": "Cơm gạo lứt"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "trung-xao-ca-chua"
+        },
+        {
+          "recipe": "canh-nam-dau-phu"
+        },
+        {
+          "name": "Rau luộc"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "name": "Bánh mì nguyên cám"
+        },
+        {
+          "name": "Sữa chua không đường"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "canh-chua-ca"
+        },
+        {
+          "recipe": "dau-phu-sot-ca-chua"
+        },
+        {
+          "name": "Cơm gạo lứt"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "ga-luoc-la-chanh"
+        },
+        {
+          "recipe": "rau-cu-xao-thap-cam"
+        },
+        {
+          "name": "Cơm trắng"
+        },
+        {
+          "name": "Trái cây theo mùa"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "chao-yen-mach-thit-bam"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "ca-hap-gung"
+        },
+        {
+          "recipe": "canh-bi-do-thit-bam"
+        },
+        {
+          "name": "Cơm gạo lứt"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "dau-phu-kho-nam"
+        },
+        {
+          "recipe": "rau-muong-xao-toi"
+        },
+        {
+          "name": "Cơm trắng"
+        }
+      ]
+    },
+    {
+      "sang": [
+        {
+          "recipe": "bun-ga"
+        }
+      ],
+      "trua": [
+        {
+          "recipe": "salad-uc-ga"
+        },
+        {
+          "recipe": "trung-hap-thit-bam"
+        },
+        {
+          "name": "Cơm gạo lứt"
+        }
+      ],
+      "toi": [
+        {
+          "recipe": "bo-xao-bong-cai"
+        },
+        {
+          "recipe": "canh-nam-dau-phu"
+        },
+        {
+          "name": "Cơm trắng"
+        },
+        {
+          "name": "Trái cây theo mùa"
+        }
+      ]
+    }
+  ],
+  "principles": [
+    "Ưu tiên món hấp, luộc, canh thanh; món kho chỉ xuất hiện một lần trong tuần và nên nêm nhạt.",
+    "Dùng gừng, tỏi, sả, chanh, rau thơm, cà chua để tạo vị thay cho bớt muối và nước mắm.",
+    "Mỗi bữa có nhiều rau; bữa trưa dùng cơm gạo lứt để tăng chất xơ.",
+    "Nguồn đạm đa dạng và ít dầu mỡ: cá hấp, gà luộc, ức gà, trứng, đậu phụ, thịt bò nạc."
+  ],
+  "notes": [
+    "Pha nước chấm loãng, dùng chén nhỏ; với món nước như bún, cháo, canh nên ăn cái nhiều hơn và bớt nước dùng.",
+    "Hạn chế ăn kèm dưa muối, cà muối, chà bông, đồ hộp trong tuần áp dụng thực đơn.",
+    "Người có bệnh tăng huyết áp, bệnh tim hoặc bệnh thận nên hỏi bác sĩ về lượng muối phù hợp với mình."
+  ],
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-10-05",
+  "updatedAt": "2026-10-29",
+  "featured": false
+}

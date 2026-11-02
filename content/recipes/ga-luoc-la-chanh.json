@@ -1,0 +1,47 @@
+{
+  "slug": "ga-luoc-la-chanh",
+  "title": "Gà luộc lá chanh",
+  "description": "Gà luộc da vàng, thịt ngọt, thơm gừng và lá chanh, chấm muối tiêu chanh. Cách luộc giữ thịt mềm, không bị khô, không cần dùng dầu ăn.",
+  "intro": "Gà luộc là món quen trong những dịp cúng giỗ, đoàn tụ và cả bữa cơm thường ngày. Luộc đúng cách giúp da gà vàng đẹp, thịt ngọt mà không bị khô. Món này không dùng dầu ăn, nước luộc gà còn có thể nấu canh hoặc cháo.",
+  "categories": ["mon-viet", "mon-gia-dinh"],
+  "dishType": "hap-luoc",
+  "ingredientTags": ["ga"],
+  "suitableFor": ["giau-dam", "it-dau-mo"],
+  "difficulty": "de",
+  "prepMinutes": 15,
+  "cookMinutes": 35,
+  "servings": 4,
+  "course": "Món mặn",
+  "ingredients": [
+    { "name": "Gà ta", "amount": 1, "unit": "kg", "note": "nửa con lớn hoặc 1 con nhỏ, làm sạch", "group": "Nguyên liệu chính", "food": { "id": "thit-ga-ca-da", "grams": 550 } },
+    { "name": "Gừng", "amount": 1, "unit": "nhánh", "note": "khoảng 20 g, đập dập", "group": "Nguyên liệu chính", "food": { "id": "gung", "grams": 20 } },
+    { "name": "Hành tím", "amount": 3, "unit": "củ", "note": "đập dập", "group": "Nguyên liệu chính" },
+    { "name": "Hành lá", "amount": 2, "unit": "cây", "note": "lấy phần gốc trắng", "group": "Nguyên liệu chính", "food": { "id": "hanh-la", "grams": 20 } },
+    { "name": "Lá chanh", "amount": 10, "unit": "lá", "note": "rửa sạch, thái chỉ thật nhỏ", "group": "Nguyên liệu chính" },
+    { "name": "Muối", "amount": 1, "unit": "muỗng cà phê", "note": "cho vào nước luộc", "group": "Gia vị" },
+    { "name": "Muối hạt, tiêu", "amount": null, "unit": "", "note": "vừa đủ để làm muối chấm", "group": "Nước chấm" },
+    { "name": "Chanh", "amount": 1, "unit": "quả", "note": "vắt lấy nước", "group": "Nước chấm" },
+    { "name": "Ớt", "amount": 1, "unit": "quả", "group": "Nước chấm", "optional": true },
+    { "name": "Rau răm", "amount": null, "unit": "", "note": "ăn kèm", "group": "Rau ăn kèm", "optional": true }
+  ],
+  "steps": [
+    { "title": "Làm sạch gà", "text": "Chà gà với muối hạt và lát gừng, rửa lại bằng nước sạch. Nhổ hết lông măng còn sót, cắt bỏ phao câu để giảm mùi và bớt mỡ.", "durationMinutes": 10 },
+    { "title": "Bắt đầu luộc", "text": "Cho gà vào nồi, đổ nước lạnh ngập gà. Thêm gừng, hành tím, gốc hành và 1 muỗng cà phê muối. Đun lửa vừa đến khi sôi, hớt bọt cho nước trong.", "durationMinutes": 10 },
+    { "title": "Luộc lửa nhỏ", "text": "Hạ lửa nhỏ để nước chỉ lăn tăn, luộc khoảng 15 phút. Tắt bếp, đậy kín nắp, ngâm gà trong nước nóng thêm 10 phút để thịt chín đều mà không bị khô.", "durationMinutes": 25 },
+    { "title": "Kiểm tra độ chín", "text": "Xiên đũa vào chỗ dày nhất ở đùi, nước chảy ra trong, không còn màu hồng là gà đã chín. Nếu còn hồng, đun lại lửa nhỏ thêm 5 phút.", "durationMinutes": 2 },
+    { "title": "Làm da vàng, giòn", "text": "Vớt gà ra, thả ngay vào thau nước lạnh có vài viên đá khoảng 2 phút để da săn lại. Để ráo, có thể phết chút nước luộc gà lên da cho bóng.", "durationMinutes": 3 },
+    { "title": "Chặt gà và làm muối chấm", "text": "Chặt gà thành miếng vừa ăn, xếp ra đĩa, rắc lá chanh thái chỉ lên trên. Trộn muối hạt, tiêu, vắt chanh và thêm ớt để làm muối chấm.", "durationMinutes": 5 }
+  ],
+  "tips": [
+    "Luộc lửa nhỏ rồi ngâm trong nồi là bí quyết để thịt gà mềm, ngọt, không bị nứt da.",
+    "Muốn bớt béo, có thể bỏ bớt da và phần mỡ dưới da trước khi ăn.",
+    "Muối chấm chỉ cần lượng nhỏ, chấm nhẹ sẽ cảm nhận rõ vị ngọt của gà mà không ăn quá mặn.",
+    "Nước luộc gà để nguội, vớt lớp mỡ trên mặt rồi dùng nấu cháo hoặc canh rau rất ngọt."
+  ],
+  "storage": "Gà luộc để nguội, bọc kín hoặc cho vào hộp, bảo quản ngăn mát 2 ngày. Khi ăn, hấp lại 5 phút hoặc dùng nguội trộn gỏi. Nước luộc gà cất ngăn mát dùng trong 2 ngày, ngăn đá được khoảng 1 tháng.",
+  "keywords": ["gà luộc lá chanh", "cách luộc gà ngon", "gà luộc da vàng"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-25",
+  "updatedAt": "2026-10-18"
+}

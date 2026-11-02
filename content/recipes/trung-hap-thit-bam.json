@@ -1,0 +1,45 @@
+{
+  "slug": "trung-hap-thit-bam",
+  "title": "Trứng hấp thịt bằm",
+  "description": "Trứng hấp thịt bằm mềm mịn, thơm nấm mèo, không cần dầu ăn. Món mặn làm nhanh từ trứng và thịt có sẵn, rất dễ ăn với trẻ nhỏ và người lớn tuổi.",
+  "intro": "Trứng hấp thịt bằm là món ăn quen thuộc của nhiều gia đình vì dễ làm và hợp khẩu vị mọi lứa tuổi. Món hấp không dùng dầu, trứng mềm mịn, thịt ngọt. Chỉ cần trứng, chút thịt nạc và nấm mèo là có ngay món mặn đưa cơm.",
+  "categories": ["mon-viet", "mon-gia-dinh", "mon-nhanh", "nguyen-lieu-co-san"],
+  "dishType": "hap-luoc",
+  "ingredientTags": ["trung", "thit-heo"],
+  "suitableFor": ["tre-em", "nguoi-lon-tuoi", "de-tieu", "giau-dam", "it-dau-mo"],
+  "difficulty": "de",
+  "prepMinutes": 10,
+  "cookMinutes": 20,
+  "servings": 3,
+  "course": "Món mặn",
+  "ingredients": [
+    { "name": "Trứng gà", "amount": 4, "unit": "quả", "group": "Nguyên liệu chính", "food": { "id": "trung-ga", "grams": 200 } },
+    { "name": "Thịt heo nạc xay", "amount": 150, "unit": "g", "group": "Nguyên liệu chính", "food": { "id": "thit-heo-nac", "grams": 150 } },
+    { "name": "Nấm mèo (mộc nhĩ) khô", "amount": 3, "unit": "lá", "note": "ngâm nở, thái sợi nhỏ", "group": "Nguyên liệu chính" },
+    { "name": "Cà rốt", "amount": 0.5, "unit": "củ", "note": "băm nhỏ", "group": "Nguyên liệu chính", "optional": true, "food": { "id": "ca-rot", "grams": 50 } },
+    { "name": "Hành tím", "amount": 2, "unit": "củ", "note": "băm nhỏ", "group": "Gia vị" },
+    { "name": "Hành lá", "amount": 2, "unit": "cây", "note": "cắt nhỏ", "group": "Gia vị", "food": { "id": "hanh-la", "grams": 20 } },
+    { "name": "Nước mắm", "amount": 1, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 15 } },
+    { "name": "Nước lọc", "amount": 100, "unit": "ml", "note": "giúp trứng mềm, mịn", "group": "Gia vị" },
+    { "name": "Tiêu xay", "amount": null, "unit": "", "note": "vừa đủ, bỏ qua nếu nấu cho trẻ nhỏ", "group": "Gia vị", "optional": true }
+  ],
+  "steps": [
+    { "title": "Ướp thịt", "text": "Trộn thịt xay với hành tím, nấm mèo, cà rốt, một nửa phần nước mắm và chút tiêu. Để 5 phút cho thấm. Trong lúc đó bắc nồi hấp lên bếp đun sôi.", "durationMinutes": 5 },
+    { "title": "Đánh trứng", "text": "Đập trứng vào tô, thêm phần nước mắm còn lại và 100 ml nước. Dùng đũa đánh tan nhẹ nhàng, không cần đánh bông. Lọc qua rây nếu muốn trứng thật mịn.", "durationMinutes": 3 },
+    { "title": "Trộn và cho vào đĩa", "text": "Dàn đều thịt vào đĩa sâu lòng hoặc tô chịu nhiệt, rồi rót trứng lên trên. Dùng muỗng hớt bỏ bọt nổi trên mặt để trứng hấp xong không bị rỗ.", "durationMinutes": 2 },
+    { "title": "Hấp trứng", "text": "Đặt đĩa vào nồi hấp đang sôi, hạ lửa vừa nhỏ, đậy nắp hé hoặc lót khăn dưới nắp để hơi nước không nhỏ xuống mặt trứng. Hấp khoảng 15–18 phút.", "durationMinutes": 18 },
+    { "title": "Kiểm tra và hoàn thành", "text": "Cắm tăm vào giữa đĩa, rút lên thấy sạch, không dính trứng sống là chín. Rắc hành lá lên mặt, hấp thêm 1 phút rồi tắt bếp. Dùng nóng với cơm.", "durationMinutes": 2 }
+  ],
+  "tips": [
+    "Hấp lửa vừa nhỏ giúp trứng mịn như thạch; lửa quá lớn trứng dễ bị rỗ và dai.",
+    "Chọn thịt nạc xay thay thịt xay lẫn nhiều mỡ để món nhẹ bụng hơn.",
+    "Có thể thêm một ít miến ngâm mềm cắt ngắn hoặc nấm hương băm cho món thêm phong phú.",
+    "Nêm nhạt, khi ăn chấm thêm nước mắm pha loãng nếu cần, nhất là khi nấu cho trẻ nhỏ."
+  ],
+  "storage": "Trứng hấp ngon nhất khi ăn nóng. Nếu còn, để nguội, bọc kín và cất ngăn mát, dùng trong 1 ngày. Hâm lại bằng cách hấp 5 phút hoặc dùng lò vi sóng có đậy nắp.",
+  "keywords": ["trứng hấp thịt bằm", "trứng hấp thịt", "món trứng cho bé"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-10-26"
+}

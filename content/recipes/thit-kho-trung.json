@@ -1,0 +1,48 @@
+{
+  "slug": "thit-kho-trung",
+  "title": "Thịt kho trứng",
+  "description": "Thịt kho trứng phiên bản bớt béo: kết hợp thịt nạc vai và một ít ba chỉ, kho mềm với nước dừa hoặc nước lọc, màu nâu cánh gián đẹp mắt.",
+  "intro": "Thịt kho trứng là món mặn gắn với mâm cơm ngày thường lẫn ngày Tết. Ở công thức này, phần lớn là thịt nạc vai, chỉ thêm ít ba chỉ để thịt vẫn mềm và thơm. Nước dừa giúp món kho ngọt tự nhiên, nhưng không có vẫn nấu ngon với nước lọc.",
+  "categories": ["mon-viet", "mon-gia-dinh"],
+  "dishType": "kho-rim",
+  "ingredientTags": ["thit-heo", "trung"],
+  "suitableFor": ["giau-dam"],
+  "difficulty": "de",
+  "prepMinutes": 20,
+  "cookMinutes": 60,
+  "servings": 4,
+  "course": "Món mặn",
+  "ingredients": [
+    { "name": "Thịt nạc vai heo", "amount": 350, "unit": "g", "note": "cắt miếng vuông khoảng 3 cm", "group": "Nguyên liệu chính", "food": { "id": "thit-heo-nac", "grams": 350 } },
+    { "name": "Thịt ba chỉ", "amount": 150, "unit": "g", "note": "chọn miếng nhiều nạc, cắt miếng như trên", "group": "Nguyên liệu chính", "food": { "id": "thit-ba-chi", "grams": 150 } },
+    { "name": "Trứng gà", "amount": 6, "unit": "quả", "note": "có thể thay bằng trứng vịt", "group": "Nguyên liệu chính", "food": { "id": "trung-ga", "grams": 300 } },
+    { "name": "Nước dừa tươi", "amount": 400, "unit": "ml", "note": "có thể thay bằng nước lọc", "group": "Nguyên liệu chính", "optional": true },
+    { "name": "Hành tím", "amount": 3, "unit": "củ", "note": "băm nhỏ", "group": "Gia vị" },
+    { "name": "Tỏi", "amount": 3, "unit": "tép", "note": "băm nhỏ", "group": "Gia vị", "food": { "id": "toi", "grams": 10 } },
+    { "name": "Nước mắm", "amount": 3, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 45 } },
+    { "name": "Đường", "amount": 1, "unit": "muỗng canh", "note": "một nửa để thắng nước màu", "group": "Gia vị", "food": { "id": "duong", "grams": 12 } },
+    { "name": "Dầu ăn", "amount": 1, "unit": "muỗng cà phê", "group": "Gia vị", "food": { "id": "dau-an", "grams": 4 } },
+    { "name": "Tiêu xay", "amount": 0.5, "unit": "muỗng cà phê", "group": "Gia vị" },
+    { "name": "Ớt", "amount": 1, "unit": "quả", "group": "Gia vị", "optional": true }
+  ],
+  "steps": [
+    { "title": "Sơ chế thịt", "text": "Chần thịt trong nước sôi khoảng 2 phút rồi vớt ra rửa lại để hết mùi hôi. Để ráo, ướp với hành tím, tỏi, 2 muỗng canh nước mắm, một nửa phần đường và tiêu trong 20 phút.", "durationMinutes": 25 },
+    { "title": "Luộc trứng", "text": "Luộc trứng khoảng 10 phút từ lúc nước sôi, vớt ra ngâm nước lạnh rồi bóc vỏ. Dùng tăm châm vài lỗ quanh trứng cho dễ thấm.", "durationMinutes": 12 },
+    { "title": "Thắng nước màu", "text": "Cho dầu và phần đường còn lại vào nồi, để lửa nhỏ. Khi đường chuyển màu nâu cánh gián và sủi bọt nhỏ thì cho thịt vào đảo nhanh cho đều màu. Không để đường cháy đen vì sẽ bị đắng.", "durationMinutes": 5 },
+    { "title": "Kho thịt", "text": "Đổ nước dừa hoặc nước lọc ngập mặt thịt, đun sôi rồi hớt sạch bọt. Hạ lửa nhỏ, đậy hé nắp, kho khoảng 30 phút.", "durationMinutes": 30 },
+    { "title": "Cho trứng vào", "text": "Thả trứng vào nồi, nêm thêm 1 muỗng canh nước mắm. Kho tiếp 15–20 phút đến khi thịt mềm, xiên đũa dễ dàng, trứng thấm màu nâu đều và nước kho sánh nhẹ.", "durationMinutes": 20 },
+    { "title": "Hoàn thành", "text": "Nếm lại cho vừa ăn, rắc thêm tiêu và ớt nếu thích. Dùng nóng với cơm trắng và rau luộc hoặc dưa cải.", "durationMinutes": 2 }
+  ],
+  "tips": [
+    "Muốn bớt béo hơn, kho xong để nguội rồi cất tủ lạnh, lớp mỡ đông trên mặt sẽ dễ vớt bỏ trước khi hâm.",
+    "Có thể bỏ hẳn ba chỉ, dùng toàn nạc vai hoặc nạc đùi; kho lửa nhỏ lâu hơn một chút cho thịt mềm.",
+    "Nước dừa đã có vị ngọt, nên khi dùng nước dừa có thể giảm bớt đường.",
+    "Ăn kèm nhiều rau luộc như cải, đậu que, su su để bữa ăn cân bằng hơn."
+  ],
+  "storage": "Để nguội, cho vào hộp kín và bảo quản ngăn mát tủ lạnh 3–4 ngày. Mỗi lần chỉ hâm phần sẽ ăn, đun sôi lại với lửa nhỏ hoặc hâm bằng lò vi sóng đến khi nóng đều.",
+  "keywords": ["thịt kho trứng", "thịt kho trứng ít mỡ", "thịt kho nước dừa"],
+  "featured": true,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-18",
+  "updatedAt": "2026-10-22"
+}

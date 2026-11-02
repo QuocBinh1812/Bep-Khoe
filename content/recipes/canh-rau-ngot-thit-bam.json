@@ -1,0 +1,44 @@
+{
+  "slug": "canh-rau-ngot-thit-bam",
+  "title": "Canh rau ngót thịt bằm",
+  "description": "Canh rau ngót thịt bằm xanh mướt, ngọt nước, nấu chưa đến 30 phút. Món canh quen thuộc trong mâm cơm Việt, nhiều rau, ít dầu mỡ và dễ ăn.",
+  "intro": "Canh rau ngót thịt bằm là món canh nhà nào cũng biết nấu, nhưng để rau xanh, nước ngọt mà không bị nồng thì cần vài mẹo nhỏ. Rau ngót vò nhẹ trước khi nấu giúp canh ngọt và lá mềm hơn. Món này hợp với cơm trưa hay cơm tối, cả người già lẫn trẻ nhỏ đều ăn được.",
+  "categories": ["mon-viet", "mon-gia-dinh", "mon-nhanh"],
+  "dishType": "canh",
+  "ingredientTags": ["rau-la", "thit-heo"],
+  "suitableFor": ["nhieu-rau", "it-dau-mo", "nguoi-lon-tuoi"],
+  "difficulty": "de",
+  "prepMinutes": 15,
+  "cookMinutes": 12,
+  "servings": 4,
+  "course": "Món canh",
+  "ingredients": [
+    { "name": "Rau ngót", "amount": 1, "unit": "bó", "note": "khoảng 300 g, tuốt lấy lá", "food": { "id": "rau-ngot", "grams": 200 } },
+    { "name": "Thịt heo nạc băm", "amount": 150, "unit": "g", "note": "nạc vai hoặc nạc đùi", "food": { "id": "thit-heo-nac", "grams": 150 } },
+    { "name": "Hành tím", "amount": 2, "unit": "củ", "note": "băm nhỏ" },
+    { "name": "Dầu ăn", "amount": 1, "unit": "muỗng cà phê", "group": "Gia vị", "food": { "id": "dau-an", "grams": 4 } },
+    { "name": "Nước mắm", "amount": 1.5, "unit": "muỗng canh", "note": "chia làm hai phần", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 22 } },
+    { "name": "Muối", "amount": null, "unit": "", "note": "vừa đủ", "group": "Gia vị" },
+    { "name": "Tiêu xay", "amount": null, "unit": "", "note": "một chút", "group": "Gia vị" },
+    { "name": "Nước lọc", "amount": 1.2, "unit": "l" }
+  ],
+  "steps": [
+    { "title": "Sơ chế rau ngót", "text": "Tuốt lấy lá rau ngót, bỏ cuống già và lá vàng. Rửa sạch, để ráo. Cho lá vào rổ, vò nhẹ tay khoảng 1 phút đến khi lá hơi dập, mềm ra. Có thể thái sơ cho dễ ăn.", "durationMinutes": 10 },
+    { "title": "Ướp thịt", "text": "Trộn thịt băm với một nửa nước mắm, một chút tiêu và nửa phần hành tím băm. Để thấm khoảng 5 phút.", "durationMinutes": 5 },
+    { "title": "Xào thịt", "text": "Đun nóng dầu ở lửa vừa, phi phần hành tím còn lại đến khi vàng nhạt, thơm. Cho thịt vào, dùng đũa đảo tơi đến khi thịt chuyển màu trắng, săn lại.", "durationMinutes": 3 },
+    { "title": "Nấu canh", "text": "Đổ nước vào nồi, đun sôi. Hạ lửa vừa và vớt bọt cho nước trong. Đun thêm 3–4 phút để thịt ra ngọt.", "durationMinutes": 5 },
+    { "title": "Cho rau, nêm nếm", "text": "Cho rau ngót vào, khuấy đều, nấu thêm 3–4 phút đến khi lá chuyển xanh đậm và mềm. Nêm phần nước mắm còn lại, thêm chút muối nếu cần. Tắt bếp, rắc tiêu.", "durationMinutes": 4 }
+  ],
+  "tips": [
+    "Vò rau ngót trước khi nấu giúp lá mềm, canh ngọt và rau chín đều hơn.",
+    "Không đậy nắp khi nấu rau để rau giữ màu xanh, không bị vàng úa.",
+    "Có thể thay thịt heo bằng tôm bóc vỏ băm nhỏ để đổi vị.",
+    "Nêm nhạt hơn một chút cho người lớn tuổi, ai cần thì chấm thêm nước mắm sau."
+  ],
+  "storage": "Canh rau ngót ngon nhất khi ăn ngay. Nếu còn thừa, để nguội, đậy kín và cất ngăn mát, dùng trong 1 ngày. Đun sôi lại một lần trước khi ăn, không hâm đi hâm lại nhiều lần vì rau sẽ nhũn và mất màu.",
+  "keywords": ["canh rau ngót thịt bằm", "cách nấu canh rau ngót", "canh rau ngót"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-20",
+  "updatedAt": "2026-09-28"
+}

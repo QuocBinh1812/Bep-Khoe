@@ -1,0 +1,43 @@
+{
+  "slug": "trung-xao-ca-chua",
+  "title": "Trứng xào cà chua",
+  "description": "Trứng xào cà chua mềm mịn, sốt chua ngọt nhẹ, chỉ cần trứng, cà chua và hành có sẵn trong bếp. Xong trong khoảng 20 phút cho bữa cơm vội.",
+  "intro": "Trứng xào cà chua là món cứu nguy cho những hôm bận rộn, vì nguyên liệu gần như lúc nào cũng có trong tủ lạnh. Bí quyết là xào trứng riêng cho vừa se mặt rồi mới trộn với cà chua, trứng sẽ mềm và không bị khô. Món mềm, dễ ăn, hợp với cả trẻ nhỏ và người lớn tuổi.",
+  "categories": ["mon-viet", "mon-nhanh", "mon-gia-dinh", "nguyen-lieu-co-san"],
+  "dishType": "xao",
+  "ingredientTags": ["trung", "ca-chua"],
+  "suitableFor": ["tre-em", "nguoi-lon-tuoi", "de-tieu"],
+  "difficulty": "de",
+  "prepMinutes": 10,
+  "cookMinutes": 10,
+  "servings": 3,
+  "course": "Món mặn",
+  "ingredients": [
+    { "name": "Trứng gà", "amount": 4, "unit": "quả", "food": { "id": "trung-ga", "grams": 200 } },
+    { "name": "Cà chua", "amount": 3, "unit": "quả", "note": "khoảng 300 g, chín đỏ, cắt múi cau", "food": { "id": "ca-chua", "grams": 280 } },
+    { "name": "Hành tím", "amount": 1, "unit": "củ", "note": "băm nhỏ" },
+    { "name": "Hành lá", "amount": 3, "unit": "cây", "note": "thái khúc ngắn", "food": { "id": "hanh-la", "grams": 20 } },
+    { "name": "Dầu ăn", "amount": 1.5, "unit": "muỗng canh", "note": "chia làm hai phần", "group": "Gia vị", "food": { "id": "dau-an", "grams": 20 } },
+    { "name": "Nước mắm", "amount": 1, "unit": "muỗng canh", "note": "chia làm hai phần", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 15 } },
+    { "name": "Đường", "amount": 0.5, "unit": "muỗng cà phê", "note": "bỏ qua nếu cà chua đã ngọt", "group": "Gia vị", "food": { "id": "duong", "grams": 2 } },
+    { "name": "Tiêu xay", "amount": null, "unit": "", "note": "một chút", "group": "Gia vị" }
+  ],
+  "steps": [
+    { "title": "Chuẩn bị", "text": "Đập trứng ra bát, thêm một nửa nước mắm và 1 muỗng canh nước lọc, đánh tan đều. Cà chua rửa sạch, cắt múi cau. Hành tím băm, hành lá thái khúc.", "durationMinutes": 5 },
+    { "title": "Xào trứng", "text": "Đun nóng một nửa lượng dầu ở lửa vừa. Đổ trứng vào, để yên khoảng 20 giây cho mặt dưới se lại rồi dùng đũa đẩy nhẹ thành từng mảng lớn. Khi trứng còn hơi ướt mặt thì gắp ra bát ngay để trứng không bị khô.", "durationMinutes": 2 },
+    { "title": "Xào cà chua", "text": "Cho phần dầu còn lại vào chảo, phi hành tím đến khi thơm. Thêm cà chua, đảo ở lửa vừa 3–4 phút, ấn nhẹ cho cà chua mềm và ra nước sệt màu đỏ. Nêm phần nước mắm còn lại và đường.", "durationMinutes": 4 },
+    { "title": "Trộn trứng", "text": "Cho trứng trở lại chảo, thêm hành lá. Đảo nhẹ tay khoảng 30 giây cho trứng thấm sốt cà chua. Tắt bếp, rắc tiêu, dùng nóng với cơm.", "durationMinutes": 1 }
+  ],
+  "tips": [
+    "Thêm 1 muỗng canh nước vào trứng khi đánh giúp trứng xào mềm và xốp hơn.",
+    "Dùng chảo chống dính để giảm lượng dầu mà trứng vẫn không bị dính chảo.",
+    "Chọn cà chua chín đỏ, mọng nước để sốt có vị chua ngọt tự nhiên, giảm được đường.",
+    "Có thể thêm vài lát hành tây hoặc một nắm rau cải để món nhiều rau hơn."
+  ],
+  "storage": "Món ngon nhất khi ăn ngay. Phần còn thừa để nguội, đậy kín, cất ngăn mát và dùng trong 1 ngày. Hâm lại ở lửa nhỏ hoặc lò vi sóng khoảng 1 phút, không hâm quá lâu vì trứng sẽ dai.",
+  "keywords": ["trứng xào cà chua", "món trứng nhanh", "cách làm trứng xào cà chua"],
+  "featured": true,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-10-03",
+  "updatedAt": "2026-10-22"
+}

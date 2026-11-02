@@ -1,0 +1,126 @@
+{
+  "slug": "chat-dam-protein",
+  "title": "Chất đạm (protein): cần bao nhiêu và chọn nguồn nào cho tốt",
+  "description": "Chất đạm giúp xây dựng và duy trì cơ bắp, da, tóc và hệ miễn dịch. Tìm hiểu nhu cầu đạm, nguồn đạm động vật và thực vật, cách chia đạm hợp lý trong bữa cơm Việt.",
+  "category": "nhom-chat-dinh-duong",
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-08-18",
+  "updatedAt": "2026-09-30",
+  "keyTakeaways": [
+    "Chất đạm cần cho cơ bắp, da, tóc, men tiêu hóa và hệ miễn dịch.",
+    "Mức khuyến nghị tối thiểu thường dùng cho người lớn khỏe mạnh là khoảng 0,8 g đạm cho mỗi kg cân nặng mỗi ngày.",
+    "Nên xoay vòng giữa cá, thịt gia cầm, trứng, đậu phụ và các loại đậu.",
+    "Hạn chế thịt chế biến sẵn; ăn thịt đỏ vừa phải và chọn phần nạc.",
+    "Chia đạm đều cho các bữa thay vì dồn hết vào bữa tối."
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Chất đạm, hay protein, có mặt trong hầu hết mọi tế bào của cơ thể. Từ cơ bắp, da, tóc, móng cho tới men tiêu hóa và kháng thể giúp chống lại bệnh tật đều cần đạm để hình thành và đổi mới. Trong bữa cơm Việt, đạm thường đến từ món mặn: cá kho, thịt luộc, trứng chiên, đậu phụ sốt cà chua. Ăn đủ đạm không khó, nhưng ăn **đúng nguồn** và **chia đều** mới là điều nhiều người còn bỏ qua."
+    },
+    { "type": "h2", "text": "Chất đạm làm gì cho cơ thể?" },
+    {
+      "type": "ul",
+      "items": [
+        "**Xây dựng và sửa chữa mô:** cơ bắp, da, xương, nội tạng liên tục được làm mới và cần đạm làm nguyên liệu.",
+        "**Tạo men và nội tiết tố:** nhiều chất điều hòa hoạt động của cơ thể có bản chất là protein.",
+        "**Hỗ trợ miễn dịch:** kháng thể giúp cơ thể chống lại vi khuẩn, virus cũng được tạo từ đạm.",
+        "**Cung cấp năng lượng:** mỗi gam đạm cho khoảng 4 kcal, tuy đây không phải vai trò chính.",
+        "**Giúp no lâu:** bữa ăn có đủ đạm thường giúp no lâu hơn bữa chỉ có cơm và rau."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Protein được tạo nên từ các **axit amin**. Có một số axit amin cơ thể không tự tạo được, gọi là axit amin thiết yếu, bắt buộc phải lấy từ thức ăn. Đạm từ thịt, cá, trứng, sữa thường có đủ các axit amin thiết yếu. Đậu nành và đậu phụ cũng là nguồn đạm thực vật tốt. Các loại đậu, hạt, ngũ cốc khác khi ăn phối hợp đa dạng trong ngày cũng bổ sung cho nhau."
+    },
+    { "type": "h2", "text": "Mỗi ngày cần bao nhiêu chất đạm?" },
+    {
+      "type": "p",
+      "text": "Theo thông tin tổng hợp từ Trường Y tế Công cộng Harvard, mức khuyến nghị tối thiểu thường được dùng cho người trưởng thành khỏe mạnh là **khoảng 0,8 g đạm cho mỗi kg cân nặng mỗi ngày**. Ví dụ, một người nặng 50 kg cần tối thiểu khoảng 40 g đạm mỗi ngày; người nặng 60 kg cần khoảng 48 g."
+    },
+    {
+      "type": "p",
+      "text": "Lưu ý đây là **lượng đạm**, không phải khối lượng miếng thịt hay con cá. Một miếng thịt 100 g chỉ chứa một phần là đạm, phần còn lại là nước, chất béo và các chất khác. Nhu cầu thực tế có thể khác nhau theo tuổi, mức vận động và tình trạng sức khỏe."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Không cần cân đo từng gam",
+      "text": "Với phần lớn người khỏe mạnh, một phần món đạm cỡ lòng bàn tay ở mỗi bữa chính, cộng thêm sữa, sữa chua hoặc đậu trong ngày, thường đã giúp đáp ứng nhu cầu. Muốn tra cứu lượng đạm trong từng thực phẩm, bạn có thể dùng bảng thành phần thực phẩm của Viện Dinh dưỡng hoặc cơ sở dữ liệu FoodData Central của Bộ Nông nghiệp Hoa Kỳ."
+    },
+    { "type": "h2", "text": "Nguồn đạm động vật và thực vật" },
+    {
+      "type": "table",
+      "caption": "So sánh nhanh các nguồn đạm quen thuộc",
+      "headers": ["Nguồn đạm", "Điểm mạnh", "Lưu ý khi chọn và nấu"],
+      "rows": [
+        ["Cá, tôm, hải sản", "Đạm dễ tiêu; cá béo có chất béo omega-3", "Ưu tiên hấp, nấu canh, kho nhạt; ăn cá vài lần mỗi tuần"],
+        ["Thịt gà, vịt", "Đạm tốt, dễ chế biến", "Bỏ da để giảm chất béo; luộc, hấp, nướng thay vì chiên"],
+        ["Thịt heo, thịt bò", "Giàu đạm, sắt và kẽm", "Chọn phần nạc; ăn vừa phải, không ngày nào cũng ăn thịt đỏ"],
+        ["Trứng", "Rẻ, dễ nấu, đạm chất lượng cao", "Luộc, hấp, chiên ít dầu"],
+        ["Sữa, sữa chua", "Có đạm và canxi", "Chọn loại ít đường hoặc không đường"],
+        ["Đậu phụ, sữa đậu nành", "Đạm thực vật tốt, ít chất béo bão hòa", "Chọn sữa đậu nành ít đường; đậu phụ hợp với sốt cà, kho nấm, nấu canh"],
+        ["Đậu xanh, đậu đen, đậu đỏ, lạc, vừng", "Có thêm chất xơ, khoáng chất", "Nên phối hợp đa dạng; đậu hạt nên nấu chín kỹ"],
+        ["Thịt chế biến sẵn (lạp xưởng, xúc xích, chả, thịt nguội)", "Tiện lợi", "Thường nhiều muối, chất béo; nên hạn chế"]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Nhìn chung, các khuyến nghị dinh dưỡng uy tín đều gợi ý nên **ưu tiên cá, thịt gia cầm, đậu và các loại hạt**, ăn thịt đỏ vừa phải và hạn chế thịt chế biến sẵn. Điều quan trọng không chỉ là lượng đạm mà còn là những gì đi kèm với nguồn đạm đó: chất béo, muối hay chất xơ."
+    },
+    { "type": "h2", "text": "Chia đạm hợp lý trong ngày" },
+    {
+      "type": "p",
+      "text": "Nhiều gia đình ăn sáng qua loa với một ổ bánh mì không, bữa trưa vội vàng, rồi dồn phần lớn thịt cá vào bữa tối. Cách ăn này không sai, nhưng cơ thể sẽ dùng đạm hiệu quả hơn khi **mỗi bữa đều có một phần đạm**."
+    },
+    {
+      "type": "ol",
+      "items": [
+        "**Bữa sáng:** thêm trứng vào bánh mì, ăn cháo có thịt bằm hoặc cá, uống thêm hộp sữa chua không đường.",
+        "**Bữa trưa:** một phần cá, thịt hoặc đậu phụ cỡ lòng bàn tay cùng nhiều rau.",
+        "**Bữa tối:** đổi nguồn đạm so với bữa trưa, ví dụ trưa ăn thịt thì tối ăn cá hoặc đậu phụ.",
+        "**Bữa phụ (nếu cần):** một nắm nhỏ lạc rang, hạt điều không muối, hoặc ly sữa đậu nành ít đường."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Mẹo tiết kiệm",
+      "text": "Trứng, đậu phụ và các loại đậu là nguồn đạm vừa túi tiền. Tuần có thể xen kẽ vài bữa “đạm thực vật” như đậu phụ kho nấm, canh nấm đậu phụ, vừa nhẹ bụng vừa đỡ chi phí đi chợ."
+    },
+    { "type": "h2", "text": "Ai cần chú ý hơn tới chất đạm?" },
+    {
+      "type": "ul",
+      "items": [
+        "**Người lớn tuổi:** dễ mất cơ khi ăn kém; nên có đạm mềm, dễ nhai ở mỗi bữa như cá hấp, trứng hấp, đậu phụ.",
+        "**Người ăn chay:** cần phối hợp đậu phụ, các loại đậu, hạt, ngũ cốc đa dạng.",
+        "**Người đang hồi phục sau ốm** hoặc người vận động nhiều: nhu cầu có thể cao hơn, nên hỏi chuyên gia.",
+        "**Người có bệnh thận:** không tự ý tăng đạm; lượng đạm phù hợp cần theo chỉ dẫn của bác sĩ."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "text": "Không nên tự ý dùng bột protein hay thực phẩm bổ sung liều cao khi chưa có tư vấn. Nếu bạn có bệnh lý mạn tính, đang mang thai hoặc cho con bú, hãy hỏi bác sĩ hoặc chuyên gia dinh dưỡng về nhu cầu đạm của mình."
+    }
+  ],
+  "references": [
+    {
+      "title": "Protein – The Nutrition Source",
+      "publisher": "Harvard T.H. Chan School of Public Health",
+      "url": "https://nutritionsource.hsph.harvard.edu/what-should-you-eat/protein/"
+    },
+    {
+      "title": "Healthy Eating Plate",
+      "publisher": "Harvard T.H. Chan School of Public Health – The Nutrition Source",
+      "url": "https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/"
+    },
+    {
+      "title": "FoodData Central",
+      "publisher": "U.S. Department of Agriculture",
+      "url": "https://fdc.nal.usda.gov"
+    }
+  ],
+  "relatedRecipes": ["trung-hap-thit-bam", "dau-phu-kho-nam", "ca-hap-gung"],
+  "featured": false
+}

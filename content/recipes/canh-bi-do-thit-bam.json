@@ -1,0 +1,45 @@
+{
+  "slug": "canh-bi-do-thit-bam",
+  "title": "Canh bí đỏ thịt bằm",
+  "description": "Canh bí đỏ thịt bằm ngọt bùi, mềm nhừ, màu vàng đẹp mắt. Món canh dễ nấu, dễ ăn, hợp với trẻ nhỏ và người lớn tuổi trong gia đình.",
+  "intro": "Bí đỏ nấu với thịt nạc bằm cho nước canh ngọt tự nhiên, gần như không cần thêm đường. Miếng bí mềm, bùi, dễ ăn với cả trẻ em lẫn ông bà. Đây là món canh nấu nhanh, nguyên liệu dễ mua quanh năm.",
+  "categories": ["mon-viet", "mon-gia-dinh"],
+  "dishType": "canh",
+  "ingredientTags": ["cu-qua", "thit-heo"],
+  "suitableFor": ["nguoi-lon-tuoi", "tre-em", "de-tieu", "it-dau-mo"],
+  "difficulty": "de",
+  "prepMinutes": 15,
+  "cookMinutes": 20,
+  "servings": 4,
+  "course": "Món canh",
+  "ingredients": [
+    { "name": "Bí đỏ", "amount": 500, "unit": "g", "note": "gọt vỏ, bỏ ruột, cắt miếng vừa ăn", "group": "Nguyên liệu chính", "food": { "id": "bi-do", "grams": 400 } },
+    { "name": "Thịt heo nạc bằm", "amount": 150, "unit": "g", "note": "nạc vai hoặc nạc đùi", "group": "Nguyên liệu chính", "food": { "id": "thit-heo-nac", "grams": 150 } },
+    { "name": "Hành tím", "amount": 2, "unit": "củ", "note": "băm nhỏ", "group": "Gia vị" },
+    { "name": "Dầu ăn", "amount": 1, "unit": "muỗng cà phê", "group": "Gia vị", "food": { "id": "dau-an", "grams": 4 } },
+    { "name": "Nước mắm", "amount": 1, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 15 } },
+    { "name": "Muối", "amount": null, "unit": "", "note": "vừa đủ", "group": "Gia vị" },
+    { "name": "Tiêu xay", "amount": null, "unit": "", "note": "vừa đủ, bỏ qua nếu nấu cho trẻ nhỏ", "group": "Gia vị", "optional": true },
+    { "name": "Hành lá", "amount": 2, "unit": "cây", "note": "cắt nhỏ", "group": "Rau thơm", "food": { "id": "hanh-la", "grams": 20 } },
+    { "name": "Ngò rí", "amount": 2, "unit": "cây", "note": "cắt nhỏ", "group": "Rau thơm", "optional": true }
+  ],
+  "steps": [
+    { "title": "Sơ chế", "text": "Gọt vỏ bí đỏ, nạo bỏ ruột và hạt, cắt miếng vuông khoảng 3 cm. Ướp thịt bằm với một nửa phần hành tím, 1 muỗng cà phê nước mắm và chút tiêu trong 10 phút.", "durationMinutes": 10 },
+    { "title": "Xào thịt", "text": "Cho dầu vào nồi, lửa vừa. Phi phần hành tím còn lại đến khi thơm, cho thịt vào đảo tơi khoảng 2 phút đến khi thịt vừa chuyển màu trắng.", "durationMinutes": 3 },
+    { "title": "Nấu nước canh", "text": "Đổ khoảng 1,2 lít nước vào nồi, đun sôi rồi hớt bọt cho nước trong.", "durationMinutes": 5 },
+    { "title": "Cho bí vào", "text": "Thả bí đỏ vào, giữ lửa vừa, nấu khoảng 10–12 phút đến khi xiên đũa thấy bí mềm nhưng chưa nát. Nếu nấu cho người lớn tuổi hoặc trẻ nhỏ, nấu thêm vài phút cho bí mềm hơn.", "durationMinutes": 12 },
+    { "title": "Nêm và hoàn thành", "text": "Nêm phần nước mắm còn lại, thêm chút muối nếu cần. Tắt bếp, cho hành lá và ngò vào, múc ra tô dùng nóng.", "durationMinutes": 1 }
+  ],
+  "tips": [
+    "Chọn bí đỏ cuống khô, vỏ sần, cầm nặng tay thì ruột thường dẻo và ngọt hơn.",
+    "Bí đỏ vốn đã ngọt, nên không cần thêm đường hay bột ngọt; nêm nhạt một chút vẫn đủ ngon.",
+    "Dùng thịt nạc bằm thay thịt xay sẵn có nhiều mỡ để nước canh trong và nhẹ bụng hơn.",
+    "Với trẻ nhỏ, có thể dầm nhuyễn vài miếng bí vào chén canh để bé dễ ăn hơn."
+  ],
+  "storage": "Để nguội rồi cho vào hộp kín, bảo quản ngăn mát tủ lạnh và dùng trong 1–2 ngày. Khi hâm, đun sôi lại với lửa vừa, khuấy nhẹ để bí không bị nát.",
+  "keywords": ["canh bí đỏ thịt bằm", "canh bí đỏ cho bé", "cách nấu canh bí đỏ"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-10-01",
+  "updatedAt": "2026-10-15"
+}

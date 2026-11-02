@@ -1,0 +1,139 @@
+{
+  "slug": "dinh-duong-nguoi-cao-tuoi",
+  "title": "Dinh dưỡng cho người lớn tuổi: đủ đạm, mềm dễ ăn, đủ nước, ít muối",
+  "description": "Người lớn tuổi cần ăn đủ đạm, món mềm dễ nhai, uống đủ nước và ăn nhạt. Gợi ý cách nấu và chia bữa phù hợp cho ông bà, cha mẹ trong bữa cơm gia đình Việt.",
+  "category": "dinh-duong-nguoi-lon-tuoi",
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-22",
+  "updatedAt": "2026-10-28",
+  "keyTakeaways": [
+    "Mỗi bữa nên có một phần đạm mềm, dễ nhai: cá hấp, trứng hấp, đậu phụ, thịt bằm.",
+    "Nấu mềm, cắt nhỏ, chia thành nhiều bữa nhỏ nếu ăn ít.",
+    "Cảm giác khát giảm theo tuổi; nên nhắc uống nước rải rác trong ngày.",
+    "Ăn nhạt: WHO khuyến nghị dưới 5 g muối mỗi ngày, tính cả nước mắm, hạt nêm.",
+    "Sụt cân không rõ lý do, khó nuốt, ăn kém kéo dài cần được bác sĩ thăm khám."
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Khi tuổi cao, cơ thể thay đổi theo nhiều cách: răng yếu đi, vị giác và khứu giác kém nhạy, cảm giác khát giảm, tiêu hóa chậm hơn, khối cơ cũng dễ hao hụt nếu ít vận động. Nhu cầu năng lượng thường giảm, nhưng nhu cầu về **chất đạm, vitamin và khoáng chất** vẫn rất quan trọng. Vì vậy, bữa ăn của ông bà, cha mẹ cần “ít mà chất”: vừa đủ dinh dưỡng, vừa mềm, dễ ăn và hợp khẩu vị."
+    },
+    { "type": "h2", "text": "Đủ chất đạm để giữ cơ, giữ sức" },
+    {
+      "type": "p",
+      "text": "Chất đạm giúp duy trì cơ bắp, hỗ trợ đi lại vững vàng và hồi phục khi ốm. Nhiều người lớn tuổi ăn chủ yếu cơm, cháo với chút rau và nước canh nên dễ thiếu đạm mà không biết. Cách đơn giản là **mỗi bữa đều có một phần món đạm**, thay vì dồn vào một bữa."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Cá:** cá hấp, cá kho nhạt, canh cá – thịt cá mềm, dễ tiêu; cẩn thận lọc xương.",
+        "**Trứng:** trứng hấp thịt bằm, trứng luộc, trứng đánh tan trong canh.",
+        "**Đậu phụ:** mềm, dễ nhai, hợp với sốt cà chua, kho nấm, nấu canh.",
+        "**Thịt:** băm nhỏ hoặc thái mỏng, hầm mềm; chọn phần nạc.",
+        "**Sữa, sữa chua:** vừa có đạm vừa có canxi; chọn loại ít đường."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Lưu ý với người bệnh thận",
+      "text": "Người có bệnh thận mạn có thể cần hạn chế đạm, kali hoặc phốt pho theo chỉ định. Không tự ý tăng đạm hay dùng sữa bổ sung khi chưa hỏi bác sĩ điều trị."
+    },
+    { "type": "h2", "text": "Mềm, dễ ăn mà vẫn ngon miệng" },
+    {
+      "type": "p",
+      "text": "Răng yếu hay dùng răng giả khiến việc nhai thịt dai, rau cứng trở nên khó khăn, lâu dần người lớn tuổi ngại ăn. Thay đổi cách nấu giúp bữa ăn dễ chịu hơn mà không cần nấu riêng hoàn toàn."
+    },
+    {
+      "type": "table",
+      "caption": "Gợi ý điều chỉnh món ăn cho người lớn tuổi",
+      "headers": ["Thay vì", "Thử", "Lợi ích"],
+      "rows": [
+        ["Thịt rang, thịt nướng dai", "Thịt bằm hấp trứng, thịt hầm mềm", "Dễ nhai, vẫn đủ đạm"],
+        ["Cá chiên giòn", "Cá hấp gừng, cá kho nhạt, canh chua cá", "Mềm, ít dầu mỡ"],
+        ["Rau xào cứng, rau sống", "Rau luộc mềm, canh rau ngót, canh bí đỏ", "Dễ nuốt, vẫn có chất xơ"],
+        ["Cơm khô", "Cơm nấu mềm hơn, cháo, súp", "Dễ ăn khi răng yếu"],
+        ["Trái cây cứng", "Chuối, đu đủ chín, thanh long, táo hấp", "Mềm, dễ ăn"],
+        ["Bánh ngọt, kẹo ăn vặt", "Sữa chua không đường, chuối, khoai lang", "Ít đường hơn, có thêm dưỡng chất"]
+      ]
+    },
+    { "type": "h3", "text": "Khi ăn ít, chia nhỏ bữa" },
+    {
+      "type": "p",
+      "text": "Nếu ông bà ăn được ít mỗi bữa, có thể chia thành **ba bữa chính và một đến hai bữa phụ nhỏ**, như một chén cháo yến mạch, một hộp sữa chua hoặc một quả chuối giữa buổi. Bày món ăn đẹp mắt, có màu sắc và ăn cùng gia đình cũng giúp ngon miệng hơn."
+    },
+    { "type": "h2", "text": "Uống đủ nước – điều dễ bị quên" },
+    {
+      "type": "p",
+      "text": "Cảm giác khát thường giảm theo tuổi, nên nhiều người lớn tuổi uống rất ít nước, nhất là khi ngại đi tiểu đêm. Thiếu nước có thể gây mệt, táo bón, chóng mặt."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Để sẵn ly nước hoặc bình nước ở nơi dễ thấy, nhắc uống từng ngụm rải rác trong ngày.",
+        "Uống nhiều hơn vào buổi sáng và đầu giờ chiều, bớt vào buổi tối để hạn chế dậy đêm.",
+        "Canh, cháo, sữa, trái cây mọng nước cũng góp phần bổ sung nước.",
+        "Theo dõi màu nước tiểu: vàng sẫm có thể là dấu hiệu uống chưa đủ."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "text": "Người bị suy tim, bệnh thận hoặc được bác sĩ yêu cầu hạn chế nước cần uống theo đúng lượng được chỉ định."
+    },
+    { "type": "h2", "text": "Ăn nhạt bớt muối" },
+    {
+      "type": "p",
+      "text": "Vị giác giảm khiến người lớn tuổi hay thấy món ăn “nhạt” và nêm thêm nước mắm, muối. Tổ chức Y tế Thế giới khuyến nghị người lớn ăn **dưới 5 g muối mỗi ngày** (chưa tới một muỗng cà phê), tính cả muối trong nước mắm, hạt nêm, nước tương, dưa cà muối."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Dùng gừng, hành, tỏi, tiêu, sả, rau thơm, chanh, me để món ăn đậm đà hơn mà không cần thêm muối.",
+        "Pha nước mắm chấm loãng với chanh, tỏi; dùng chén chấm nhỏ.",
+        "Hạn chế dưa cà muối, mắm, khô mặn, giò chả.",
+        "Không nhất thiết uống hết nước canh, nước kho."
+      ]
+    },
+    { "type": "h2", "text": "Canxi, vitamin D, vitamin B12 và chất xơ" },
+    {
+      "type": "ul",
+      "items": [
+        "**Canxi:** theo NIH ODS, phụ nữ trên 50 tuổi và nam giới trên 70 tuổi cần khoảng **1.200 mg canxi mỗi ngày**. Nguồn tốt gồm sữa, sữa chua, cá nhỏ ăn cả xương, tôm tép, đậu phụ, rau cải.",
+        "**Vitamin D:** đi bộ, phơi nắng nhẹ buổi sáng; ăn cá, trứng.",
+        "**Vitamin B12:** khả năng hấp thu B12 từ thức ăn có thể giảm theo tuổi. Nên ăn đủ cá, trứng, thịt, sữa và hỏi bác sĩ nếu ăn chay hoặc có dấu hiệu thiếu.",
+        "**Chất xơ:** rau nấu mềm, đu đủ, chuối, khoai lang, cháo yến mạch giúp hạn chế táo bón."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Khi nào cần đi khám",
+      "text": "Sụt cân không rõ lý do, ăn kém kéo dài, nuốt nghẹn, sặc khi ăn uống, táo bón hoặc tiêu chảy kéo dài là những dấu hiệu cần được bác sĩ thăm khám. Người có bệnh mạn tính như tăng huyết áp, tiểu đường, bệnh thận nên được bác sĩ hoặc chuyên gia dinh dưỡng tư vấn chế độ ăn riêng."
+    }
+  ],
+  "references": [
+    {
+      "title": "Healthy diet – Fact sheet",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    },
+    {
+      "title": "Salt reduction – Fact sheet",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/salt-reduction"
+    },
+    {
+      "title": "Dietary Supplement Fact Sheets (Calcium, Vitamin D, Vitamin B12)",
+      "publisher": "Office of Dietary Supplements – U.S. National Institutes of Health",
+      "url": "https://ods.od.nih.gov/factsheets/list-all/"
+    },
+    {
+      "title": "Dietary Guidelines for Americans",
+      "publisher": "U.S. Department of Agriculture & U.S. Department of Health and Human Services",
+      "url": "https://www.dietaryguidelines.gov"
+    }
+  ],
+  "relatedRecipes": ["trung-hap-thit-bam", "chao-ga", "canh-bi-do-thit-bam"],
+  "featured": true
+}

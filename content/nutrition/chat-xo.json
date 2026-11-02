@@ -1,0 +1,119 @@
+{
+  "slug": "chat-xo",
+  "title": "Chất xơ: “người hùng thầm lặng” của bữa ăn",
+  "description": "Chất xơ giúp tiêu hóa đều đặn, no lâu và hỗ trợ sức khỏe tim mạch. Tìm hiểu các loại chất xơ, nguồn thực phẩm quen thuộc và cách tăng chất xơ trong bữa cơm Việt.",
+  "category": "nhom-chat-dinh-duong",
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-02",
+  "keyTakeaways": [
+    "Chất xơ có trong rau, trái cây, các loại đậu, ngũ cốc nguyên hạt và các loại hạt.",
+    "Có hai nhóm chính: chất xơ hòa tan và không hòa tan, cả hai đều có lợi.",
+    "Ăn cả quả thay vì uống nước ép, trộn gạo lứt vào cơm là những cách dễ làm.",
+    "Tăng chất xơ từ từ và uống đủ nước để tránh đầy hơi, khó chịu."
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Chất xơ không cung cấp nhiều năng lượng, không có vị gì đặc biệt, nhưng lại đóng vai trò quan trọng cho tiêu hóa và sức khỏe lâu dài. Bữa cơm Việt truyền thống với rau luộc, canh rau, dưa leo, trái cây tráng miệng vốn đã là một nguồn chất xơ tốt. Thế nhưng nhịp sống bận rộn, thói quen ăn ngoài, ăn đồ chế biến sẵn khiến nhiều người ngày càng ăn ít rau và ít chất xơ hơn."
+    },
+    { "type": "h2", "text": "Chất xơ là gì?" },
+    {
+      "type": "p",
+      "text": "Chất xơ là phần của thực vật mà cơ thể không tiêu hóa được hoàn toàn. Thay vì được hấp thu như đường hay đạm, chất xơ đi qua ruột và giúp hệ tiêu hóa hoạt động trơn tru. Người ta thường chia chất xơ thành hai nhóm:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Chất xơ hòa tan:** tan trong nước tạo thành dạng gel, giúp làm chậm quá trình hấp thu đường và hỗ trợ kiểm soát cholesterol. Có nhiều trong yến mạch, các loại đậu, táo, cam, cà rốt.",
+        "**Chất xơ không hòa tan:** không tan trong nước, giúp phân mềm và dễ đi ngoài hơn. Có nhiều trong gạo lứt, cám gạo, rau lá, vỏ của nhiều loại củ quả."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Hầu hết thực phẩm thực vật chứa cả hai loại với tỉ lệ khác nhau, vì vậy cách tốt nhất là **ăn đa dạng** thay vì chỉ chăm chăm một món."
+    },
+    { "type": "h2", "text": "Lợi ích của chất xơ" },
+    {
+      "type": "ul",
+      "items": [
+        "**Hỗ trợ tiêu hóa:** giúp đi ngoài đều đặn, hạn chế táo bón.",
+        "**Giúp no lâu:** bữa ăn nhiều rau, đậu thường làm ta no lâu hơn, ít thèm ăn vặt.",
+        "**Hỗ trợ kiểm soát đường huyết:** chất xơ hòa tan làm đường từ bữa ăn đi vào máu chậm hơn.",
+        "**Có lợi cho tim mạch:** chế độ ăn giàu chất xơ từ ngũ cốc nguyên hạt, rau, trái cây được các tổ chức dinh dưỡng khuyến khích cho sức khỏe tim mạch.",
+        "**Nuôi vi khuẩn có lợi trong ruột:** một số loại chất xơ là “thức ăn” cho hệ vi sinh đường ruột."
+      ]
+    },
+    { "type": "h2", "text": "Cần bao nhiêu chất xơ mỗi ngày?" },
+    {
+      "type": "p",
+      "text": "Hướng dẫn chế độ ăn cho người Mỹ (Dietary Guidelines for Americans) dùng mốc khoảng **14 g chất xơ cho mỗi 1.000 kcal** trong khẩu phần. Tổ chức Y tế Thế giới khuyến nghị ăn **ít nhất 400 g rau và trái cây mỗi ngày**, cùng với ngũ cốc nguyên hạt và các loại đậu – đây cũng là cách đơn giản để có đủ chất xơ mà không cần tính toán."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Hiểu đơn giản",
+      "text": "Nếu mỗi bữa chính bạn ăn khoảng nửa phần rau, thêm một hai phần trái cây trong ngày, và thỉnh thoảng có gạo lứt, khoai, bắp hoặc đậu, bạn đã đi đúng hướng."
+    },
+    { "type": "h2", "text": "Nguồn chất xơ quen thuộc trong bếp Việt" },
+    {
+      "type": "table",
+      "caption": "Gợi ý thay đổi nhỏ để thêm chất xơ",
+      "headers": ["Thói quen hiện tại", "Thử đổi sang", "Vì sao"],
+      "rows": [
+        ["Cơm trắng mỗi bữa", "Trộn thêm một phần gạo lứt hoặc gạo mầm", "Giữ được lớp cám nhiều chất xơ hơn"],
+        ["Uống nước ép trái cây", "Ăn cả quả: cam, ổi, táo, đu đủ", "Nước ép mất phần lớn chất xơ, dễ uống nhiều đường"],
+        ["Bánh mì trắng buổi sáng", "Yến mạch nấu cháo hoặc bánh mì nguyên cám", "Ngũ cốc nguyên hạt giàu chất xơ hơn"],
+        ["Bữa cơm chỉ có một đĩa rau nhỏ", "Thêm canh rau và đĩa rau luộc", "Tăng lượng rau mà không cần nấu cầu kỳ"],
+        ["Ăn vặt bánh quy, snack", "Một nắm nhỏ lạc, hạt điều không muối hoặc trái cây", "Có chất xơ và chất béo tốt"],
+        ["Chè ngọt nhiều đường", "Chè đậu xanh, đậu đen nấu ít đường", "Đậu giàu chất xơ; bớt đường tốt hơn"]
+      ]
+    },
+    { "type": "h3", "text": "Đừng bỏ vỏ khi không cần thiết" },
+    {
+      "type": "p",
+      "text": "Nhiều loại củ quả như dưa leo, táo, khoai lang (rửa thật sạch), cà rốt non có thể ăn cả vỏ. Phần vỏ thường giàu chất xơ. Tuy vậy, hãy rửa kỹ và gọt vỏ nếu bạn không chắc chắn về nguồn gốc hoặc với người lớn tuổi khó nhai."
+    },
+    { "type": "h2", "text": "Tăng chất xơ đúng cách" },
+    {
+      "type": "ol",
+      "items": [
+        "**Tăng từ từ** trong vài tuần. Tăng đột ngột dễ gây đầy hơi, chướng bụng.",
+        "**Uống đủ nước** trong ngày. Chất xơ cần nước để phát huy tác dụng; thiếu nước có thể khiến táo bón nặng hơn.",
+        "**Ăn đa dạng:** rau lá, củ quả, trái cây, đậu, ngũ cốc nguyên hạt, mỗi thứ một ít.",
+        "**Nấu vừa chín:** rau luộc hoặc xào vừa tới giữ được độ giòn và dễ ăn hơn rau nấu nhừ.",
+        "**Đọc nhãn** khi mua bánh mì, ngũ cốc ăn sáng: tìm loại ghi rõ nguyên cám, nguyên hạt và ít đường."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Mẹo với trẻ nhỏ và người lớn tuổi",
+      "text": "Băm nhỏ rau nấu cháo, nấu canh bí đỏ, canh rau ngót mềm, hoặc nghiền khoai lang. Rau nấu mềm vẫn có chất xơ và dễ ăn hơn với người khó nhai."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "text": "Người có bệnh lý đường ruột, vừa phẫu thuật vùng bụng, hoặc đang được bác sĩ yêu cầu ăn chế độ ít chất xơ cần làm theo hướng dẫn điều trị. Nếu táo bón kéo dài, đi ngoài ra máu hoặc đau bụng nhiều, hãy đi khám thay vì chỉ tự điều chỉnh chế độ ăn."
+    }
+  ],
+  "references": [
+    {
+      "title": "Fiber – The Nutrition Source",
+      "publisher": "Harvard T.H. Chan School of Public Health",
+      "url": "https://nutritionsource.hsph.harvard.edu/carbohydrates/fiber/"
+    },
+    {
+      "title": "Dietary Guidelines for Americans",
+      "publisher": "U.S. Department of Agriculture & U.S. Department of Health and Human Services",
+      "url": "https://www.dietaryguidelines.gov"
+    },
+    {
+      "title": "Healthy diet – Fact sheet",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    }
+  ],
+  "relatedRecipes": ["rau-cu-xao-thap-cam", "chao-yen-mach-thit-bam", "canh-rau-ngot-thit-bam"],
+  "featured": false
+}

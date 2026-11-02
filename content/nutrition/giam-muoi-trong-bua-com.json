@@ -1,0 +1,119 @@
+{
+  "slug": "giam-muoi-trong-bua-com",
+  "title": "Giảm muối trong bữa cơm gia đình: ăn nhạt mà vẫn ngon",
+  "description": "Muối không chỉ có trong lọ muối mà còn trong nước mắm, hạt nêm, nước tương, dưa cà muối. Cách giảm muối từng bước cho bữa cơm gia đình mà món ăn vẫn đậm đà.",
+  "category": "an-uong-can-bang",
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-10-01",
+  "updatedAt": "2026-10-30",
+  "keyTakeaways": [
+    "WHO khuyến nghị người lớn ăn dưới 5 g muối mỗi ngày – chưa tới một muỗng cà phê.",
+    "Muối “ẩn” trong nước mắm, hạt nêm, bột canh, nước tương, đồ muối chua và thực phẩm chế biến sẵn.",
+    "Giảm dần từng chút để vị giác kịp thích nghi.",
+    "Dùng vị chua, vị cay, rau thơm, gừng, tỏi để món ăn đậm đà mà ít muối.",
+    "Vẫn dùng muối i-ốt, nhưng dùng ít."
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Bữa cơm Việt gắn liền với chén nước mắm, đĩa dưa muối, nồi thịt kho đậm đà. Những hương vị ấy là một phần văn hóa, nhưng cũng khiến nhiều gia đình ăn mặn hơn mức nên ăn mà không nhận ra. Ăn quá nhiều muối có liên quan tới tăng huyết áp – một yếu tố nguy cơ của bệnh tim mạch và đột quỵ. Tin vui là giảm muối không có nghĩa là phải ăn nhạt nhẽo. Chỉ cần thay đổi từng bước, cả nhà vẫn có thể ăn ngon."
+    },
+    { "type": "h2", "text": "Nên ăn bao nhiêu muối?" },
+    {
+      "type": "p",
+      "text": "Tổ chức Y tế Thế giới (WHO) khuyến nghị người trưởng thành nên ăn **dưới 5 g muối mỗi ngày**, tương đương chưa tới một muỗng cà phê. Con số này tính **tổng lượng muối** từ mọi nguồn: muối nêm khi nấu, nước mắm, hạt nêm, nước tương, nước chấm và cả muối có sẵn trong thực phẩm chế biến."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Muối và natri",
+      "text": "Trên nhãn thực phẩm, lượng muối thường được ghi dưới dạng **natri (sodium)**. Muối ăn có khoảng 40% là natri, nên mức dưới 5 g muối tương ứng dưới khoảng 2 g natri mỗi ngày. Để đổi nhanh từ natri sang muối, lấy số natri nhân với 2,5."
+    },
+    { "type": "h2", "text": "Muối “ẩn” trong bếp Việt" },
+    {
+      "type": "p",
+      "text": "Lượng muối mỗi ngày không chỉ đến từ lọ muối mà còn từ các loại **gia vị mặn, nước chấm** và thực phẩm chế biến sẵn dùng hằng ngày. Hãy để ý những nguồn sau:"
+    },
+    {
+      "type": "table",
+      "caption": "Các nguồn muối thường gặp và cách giảm",
+      "headers": ["Nguồn muối", "Ví dụ", "Cách giảm"],
+      "rows": [
+        ["Gia vị nêm khi nấu", "Nước mắm, hạt nêm, bột canh, muối, bột ngọt, nước tương", "Chọn một loại gia vị chính, không nêm chồng nhiều loại; đong bằng muỗng"],
+        ["Nước chấm", "Chén nước mắm, xì dầu, muối tiêu chanh", "Dùng chén nhỏ, pha loãng với chanh, tỏi, ớt; chấm nhẹ thay vì chan"],
+        ["Đồ kho, rim", "Thịt kho, cá kho, tôm rim, mắm kho", "Kho nhạt hơn, thêm nước dừa, củ cải; ăn cái nhiều hơn nước"],
+        ["Canh, nước dùng", "Nước phở, bún, canh", "Nêm nhạt, không nhất thiết húp hết nước"],
+        ["Đồ muối chua, đồ khô", "Dưa cải, cà pháo muối, mắm tôm, mắm ruốc, cá khô", "Ăn ít, không ăn hằng ngày"],
+        ["Thực phẩm chế biến sẵn", "Giò chả, lạp xưởng, xúc xích, mì gói, snack, đồ hộp", "Đọc nhãn natri; mì gói chỉ dùng một phần gói gia vị"]
+      ]
+    },
+    { "type": "h2", "text": "Giảm muối từng bước khi nấu" },
+    {
+      "type": "ol",
+      "items": [
+        "**Giảm dần, đừng giảm đột ngột.** Mỗi tuần bớt một ít nước mắm, hạt nêm. Vị giác sẽ dần quen với vị nhạt hơn sau vài tuần.",
+        "**Đong gia vị bằng muỗng** thay vì rót trực tiếp từ chai.",
+        "**Nêm vào cuối** khi món gần chín và nếm thử trước khi thêm.",
+        "**Không nêm chồng nhiều loại** như vừa muối, vừa hạt nêm, vừa nước mắm, vừa bột ngọt trong một món.",
+        "**Không đặt lọ muối, chai nước mắm** sẵn trên mâm để tránh thói quen nêm thêm khi ăn."
+      ]
+    },
+    { "type": "h2", "text": "Làm món ăn đậm đà mà không cần thêm muối" },
+    {
+      "type": "ul",
+      "items": [
+        "**Vị chua:** chanh, me, giấm, cà chua, dứa giúp món ăn bớt cảm giác nhạt. Canh chua là ví dụ điển hình.",
+        "**Vị cay và thơm:** tiêu, ớt, gừng, sả, tỏi, hành phi (ít dầu), riềng.",
+        "**Rau thơm:** ngò, thì là, húng quế, lá chanh, tía tô, rau răm.",
+        "**Vị ngọt tự nhiên:** nước luộc rau củ, bắp, củ cải, su hào, nấm giúp nước dùng ngọt mà ít cần hạt nêm.",
+        "**Cách nấu:** hấp, nướng giữ được vị ngọt tự nhiên của cá, thịt, ít phải nêm hơn."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Mẹo pha nước chấm ít mặn",
+      "text": "Pha nước mắm với nước lọc, chanh hoặc giấm, tỏi, ớt và một chút đường. Chia mỗi người một chén chấm nhỏ thay vì một chén lớn chung cho cả mâm. Chấm nhẹ đầu đũa thay vì nhúng ngập miếng thức ăn."
+    },
+    { "type": "h2", "text": "Khi đi chợ, đi siêu thị" },
+    {
+      "type": "ul",
+      "items": [
+        "Ưu tiên thực phẩm tươi: rau, cá, thịt tươi thay cho đồ đóng hộp, đồ ướp sẵn.",
+        "So sánh lượng natri trên nhãn giữa các sản phẩm cùng loại và chọn loại thấp hơn.",
+        "Cẩn thận với các sản phẩm “ướp sẵn”, “tẩm gia vị” vì thường đã có nhiều muối.",
+        "Vẫn chọn **muối i-ốt** cho gia đình. WHO ủng hộ việc dùng muối i-ốt song song với giảm lượng muối ăn."
+      ]
+    },
+    { "type": "h2", "text": "Cả nhà cùng ăn nhạt" },
+    {
+      "type": "p",
+      "text": "Thói quen ăn mặn thường hình thành từ nhỏ. Nấu nhạt cho cả nhà – nhất là khi trong nhà có trẻ nhỏ và người lớn tuổi – là món quà sức khỏe lâu dài. Ai cần thêm vị có thể chấm nhẹ ở chén riêng, thay vì nêm đậm cả nồi."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Lưu ý",
+      "text": "Người tăng huyết áp, bệnh tim, bệnh thận nên làm theo lượng muối được bác sĩ khuyên. Một số loại “muối ăn kiêng” thay một phần natri bằng kali, có thể **không phù hợp với người bệnh thận** hoặc đang dùng một số thuốc – hãy hỏi bác sĩ trước khi dùng."
+    }
+  ],
+  "references": [
+    {
+      "title": "Salt reduction – Fact sheet",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/salt-reduction"
+    },
+    {
+      "title": "Healthy diet – Fact sheet",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    },
+    {
+      "title": "How to Understand and Use the Nutrition Facts Label",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+    }
+  ],
+  "relatedRecipes": ["canh-chua-ca", "ca-hap-gung", "thit-kho-trung"],
+  "featured": true
+}

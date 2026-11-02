@@ -1,0 +1,137 @@
+{
+  "slug": "dia-an-can-bang",
+  "title": "Đĩa ăn cân bằng: chia phần thế nào cho bữa cơm Việt",
+  "description": "Nửa đĩa rau, một phần tư tinh bột, một phần tư chất đạm – cách áp dụng mô hình đĩa ăn cân bằng vào mâm cơm gia đình Việt có cơm, canh, món mặn và rau.",
+  "category": "kien-thuc-co-ban",
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-08-10",
+  "updatedAt": "2026-10-15",
+  "keyTakeaways": [
+    "Rau và trái cây nên chiếm khoảng một nửa lượng thức ăn trong bữa.",
+    "Tinh bột (cơm, bún, khoai) khoảng một phần tư, ưu tiên loại ít tinh chế.",
+    "Chất đạm khoảng một phần tư: cá, thịt nạc, trứng, đậu phụ, các loại đậu.",
+    "Dùng dầu ăn vừa phải, nêm nhạt và uống nước lọc thay nước ngọt.",
+    "Với mâm cơm chung, dùng chén đĩa riêng giúp dễ ước lượng phần ăn hơn."
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Bữa cơm Việt vốn đã có nhiều điểm lành mạnh: có rau, có canh, có cá hoặc thịt, nấu tại nhà và ăn cùng gia đình. Tuy vậy, thói quen ăn nhiều cơm, ít rau, nêm đậm và dùng nhiều dầu mỡ có thể khiến bữa ăn mất cân bằng lúc nào không hay. **Mô hình đĩa ăn cân bằng** là một cách hình dung đơn giản giúp bạn chia phần hợp lý mà không cần cân đo hay đếm calo."
+    },
+    { "type": "h2", "text": "Đĩa ăn cân bằng là gì?" },
+    {
+      "type": "p",
+      "text": "Mô hình “Đĩa ăn lành mạnh” (Healthy Eating Plate) do Trường Y tế Công cộng Harvard xây dựng chia một đĩa ăn thành các phần dễ nhớ:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**Một nửa đĩa:** rau củ và trái cây, trong đó rau nhiều hơn trái cây.",
+        "**Một phần tư đĩa:** ngũ cốc, ưu tiên ngũ cốc nguyên hạt hoặc ít tinh chế.",
+        "**Một phần tư đĩa:** nguồn chất đạm lành mạnh như cá, thịt gia cầm, đậu, các loại hạt.",
+        "**Kèm theo:** dầu thực vật dùng vừa phải và nước lọc, trà hoặc cà phê ít đường."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Tổ chức Y tế Thế giới (WHO) cũng khuyến nghị mỗi người nên ăn **ít nhất 400 g rau và trái cây mỗi ngày** (không tính khoai tây, khoai lang, sắn và các loại củ nhiều tinh bột). Chia nửa đĩa cho rau ở các bữa chính là cách dễ nhất để đạt mức này."
+    },
+    { "type": "h2", "text": "Áp dụng vào mâm cơm Việt" },
+    {
+      "type": "p",
+      "text": "Người Việt thường ăn chung mâm, mỗi người một chén cơm và gắp thức ăn từ các đĩa chung. Vì vậy, thay vì một chiếc đĩa, hãy hình dung **tổng lượng thức ăn bạn gắp vào chén** trong cả bữa."
+    },
+    {
+      "type": "table",
+      "caption": "Gợi ý chia phần trong một bữa cơm gia đình",
+      "headers": ["Phần", "Tỉ lệ gợi ý", "Ví dụ trong bữa cơm Việt"],
+      "rows": [
+        ["Rau củ", "Khoảng 1/2", "Rau muống luộc, cải xào, su su, bí đỏ, rau trong canh, đĩa rau sống"],
+        ["Tinh bột", "Khoảng 1/4", "Cơm (có thể trộn gạo lứt), bún, khoai lang, bắp luộc"],
+        ["Chất đạm", "Khoảng 1/4", "Cá hấp, cá kho, thịt nạc, gà luộc bỏ da, trứng, đậu phụ, tôm"],
+        ["Canh", "Một chén", "Canh rau ngót, canh chua, canh bí – vừa có rau vừa có nước"],
+        ["Tráng miệng", "Một phần nhỏ", "Một miếng đu đủ, vài lát dưa hấu, một quả chuối nhỏ"]
+      ]
+    },
+    { "type": "h3", "text": "Ước lượng bằng bàn tay" },
+    {
+      "type": "ul",
+      "items": [
+        "**Món đạm:** khoảng bằng lòng bàn tay (không tính ngón) cho mỗi bữa.",
+        "**Cơm, bún:** khoảng một nắm tay, điều chỉnh theo mức vận động.",
+        "**Rau:** càng nhiều càng tốt, ít nhất bằng hai nắm tay.",
+        "**Dầu, mỡ:** dùng tiết kiệm, khoảng một đầu ngón tay cái cho mỗi phần món xào."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Chỉ là ước lượng",
+      "text": "Cách đo bằng bàn tay chỉ để ước chừng, không chính xác tuyệt đối. Người lao động nặng, thanh thiếu niên đang lớn có thể cần nhiều cơm hơn; người lớn tuổi ít vận động có thể cần ít hơn."
+    },
+    { "type": "h2", "text": "Chọn đúng từng phần" },
+    { "type": "h3", "text": "Phần rau" },
+    {
+      "type": "p",
+      "text": "Đổi màu rau mỗi ngày: rau xanh đậm (rau muống, cải ngọt, rau ngót), củ quả màu cam vàng (bí đỏ, cà rốt), màu đỏ (cà chua). Nên ưu tiên luộc, hấp, nấu canh hoặc xào nhanh với ít dầu."
+    },
+    { "type": "h3", "text": "Phần tinh bột" },
+    {
+      "type": "p",
+      "text": "Cơm trắng vẫn có thể là một phần của bữa ăn lành mạnh. Nếu muốn thêm chất xơ, thử **trộn một phần gạo lứt** vào gạo trắng, hoặc thỉnh thoảng thay cơm bằng khoai lang, bắp. Hạn chế ăn kèm thêm bánh mì, bánh ngọt sau khi đã ăn đủ cơm."
+    },
+    { "type": "h3", "text": "Phần chất đạm" },
+    {
+      "type": "p",
+      "text": "Xoay vòng giữa cá, thịt gia cầm, trứng, đậu phụ và các loại đậu. Hạn chế thịt chế biến sẵn như lạp xưởng, xúc xích, chả nhiều muối. Với thịt đỏ, nên chọn phần nạc và không ăn quá thường xuyên."
+    },
+    { "type": "h2", "text": "Đừng quên dầu ăn, nước chấm và đồ uống" },
+    {
+      "type": "ul",
+      "items": [
+        "**Dầu ăn:** ưu tiên dầu thực vật như dầu đậu nành, dầu lạc, dầu ô liu; dùng vừa phải.",
+        "**Nước chấm:** dùng chén nhỏ, pha loãng nước mắm với chanh, tỏi, ớt để giảm muối. WHO khuyến nghị người lớn ăn **dưới 5 g muối mỗi ngày**, tính cả muối trong nước mắm, hạt nêm, nước tương.",
+        "**Đồ uống:** nước lọc, trà không đường là lựa chọn tốt nhất. Nước ngọt, trà sữa nên để dành cho dịp đặc biệt."
+      ]
+    },
+    { "type": "h2", "text": "Một vài thực đơn mẫu" },
+    {
+      "type": "ol",
+      "items": [
+        "Cơm (trộn gạo lứt) + cá hấp gừng + rau muống xào tỏi + canh bí đỏ thịt bằm + vài miếng đu đủ.",
+        "Cơm + đậu phụ sốt cà chua + bông cải luộc + canh rau ngót thịt bằm + chuối.",
+        "Cơm + gà luộc lá chanh (bỏ da) + rau củ xào thập cẩm + canh chua cá + dưa hấu."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Mẹo cho cả nhà",
+      "text": "Dọn đĩa rau lên mâm đầu tiên và đặt ở giữa. Mời cả nhà gắp rau trước khi ăn món mặn – thói quen nhỏ giúp mọi người ăn nhiều rau hơn mà không thấy gò bó."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "text": "Người có bệnh lý như tiểu đường, bệnh thận, bệnh tim mạch hoặc phụ nữ mang thai nên hỏi ý kiến bác sĩ hoặc chuyên gia dinh dưỡng để điều chỉnh tỉ lệ và lượng ăn cho phù hợp."
+    }
+  ],
+  "references": [
+    {
+      "title": "Healthy Eating Plate",
+      "publisher": "Harvard T.H. Chan School of Public Health – The Nutrition Source",
+      "url": "https://nutritionsource.hsph.harvard.edu/healthy-eating-plate/"
+    },
+    {
+      "title": "Healthy diet – Fact sheet",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    },
+    {
+      "title": "Salt reduction – Fact sheet",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/salt-reduction"
+    }
+  ],
+  "relatedRecipes": ["ca-hap-gung", "dau-phu-sot-ca-chua", "canh-bi-do-thit-bam"],
+  "featured": true
+}

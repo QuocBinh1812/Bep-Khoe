@@ -1,0 +1,47 @@
+{
+  "slug": "chao-ga",
+  "title": "Cháo gà",
+  "description": "Cháo gà nấu từ xương gà và ức gà xé, hạt cháo nhừ mịn, nước ngọt thanh. Món ăn sáng ấm bụng, mềm và dễ nuốt cho trẻ nhỏ và người lớn tuổi.",
+  "intro": "Một tô cháo gà nóng là bữa sáng nhẹ nhàng mà vẫn đủ chất cho cả nhà. Cháo được ninh với xương gà cho ngọt, thịt ức gà xé nhỏ nên mềm, ít mỡ. Có thể nấu loãng hay đặc tùy người ăn, rất hợp với trẻ nhỏ và người lớn tuổi.",
+  "categories": ["mon-viet", "mon-an-sang", "mon-gia-dinh"],
+  "dishType": "chao",
+  "ingredientTags": ["ga", "gao-ngu-coc"],
+  "suitableFor": ["nguoi-lon-tuoi", "tre-em", "de-tieu", "it-dau-mo"],
+  "difficulty": "de",
+  "prepMinutes": 15,
+  "cookMinutes": 50,
+  "servings": 4,
+  "course": "Bữa sáng",
+  "ingredients": [
+    { "name": "Gạo tẻ", "amount": 150, "unit": "g", "note": "khoảng 1 chén nhỏ, vo sạch, để ráo", "group": "Nguyên liệu chính", "food": { "id": "gao-te", "grams": 150 } },
+    { "name": "Ức gà", "amount": 300, "unit": "g", "note": "bỏ da", "group": "Nguyên liệu chính", "food": { "id": "uc-ga", "grams": 300 } },
+    { "name": "Xương gà", "amount": 300, "unit": "g", "note": "khung gà hoặc cánh gà, để nấu nước dùng", "group": "Nguyên liệu chính" },
+    { "name": "Gừng", "amount": 1, "unit": "nhánh", "note": "khoảng 15 g, nửa đập dập, nửa thái sợi", "group": "Gia vị", "food": { "id": "gung", "grams": 15 } },
+    { "name": "Hành tím", "amount": 3, "unit": "củ", "note": "1 củ đập dập, 2 củ thái mỏng", "group": "Gia vị" },
+    { "name": "Dầu ăn", "amount": 1, "unit": "muỗng cà phê", "note": "để phi hành", "group": "Gia vị", "food": { "id": "dau-an", "grams": 4 } },
+    { "name": "Nước mắm", "amount": 1, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 15 } },
+    { "name": "Muối", "amount": null, "unit": "", "note": "vừa đủ", "group": "Gia vị" },
+    { "name": "Hành lá", "amount": 3, "unit": "cây", "note": "cắt nhỏ", "group": "Rau thơm", "food": { "id": "hanh-la", "grams": 30 } },
+    { "name": "Ngò rí, tiêu", "amount": null, "unit": "", "note": "rắc khi ăn, bỏ tiêu nếu nấu cho trẻ nhỏ", "group": "Rau thơm", "optional": true }
+  ],
+  "steps": [
+    { "title": "Nấu nước dùng gà", "text": "Chần xương gà và ức gà qua nước sôi 2 phút, rửa lại. Cho vào nồi cùng khoảng 2 lít nước, gừng đập dập và 1 củ hành tím. Đun sôi rồi hạ lửa nhỏ, hớt bọt thường xuyên cho nước trong.", "durationMinutes": 10 },
+    { "title": "Luộc chín ức gà", "text": "Ninh lửa nhỏ khoảng 15 phút thì vớt ức gà ra khi thịt đã trắng đều, ấn thấy chắc. Ngâm vào chén nước nguội cho thịt không bị khô, để nguội rồi xé sợi nhỏ.", "durationMinutes": 15 },
+    { "title": "Rang gạo", "text": "Trong lúc chờ, rang gạo trên chảo khô với lửa nhỏ khoảng 5 phút đến khi hạt gạo hơi ngả màu ngà và thơm. Bước này giúp cháo nhanh nhừ và thơm hơn.", "durationMinutes": 5 },
+    { "title": "Nấu cháo", "text": "Vớt xương gà ra, lọc lấy nước dùng. Cho gạo vào nồi nước dùng, đun sôi rồi hạ lửa nhỏ, nấu khoảng 30–35 phút. Thỉnh thoảng khuấy đáy nồi để cháo không bị khê. Cháo đạt khi hạt gạo nở bung, nước sánh mịn.", "durationMinutes": 35 },
+    { "title": "Nêm nếm", "text": "Cho một nửa phần thịt gà xé vào cháo, nêm nước mắm và chút muối cho vừa. Nếu muốn cháo loãng hơn, thêm nước sôi và khuấy đều.", "durationMinutes": 3 },
+    { "title": "Phi hành và dọn ăn", "text": "Phi hành tím thái mỏng với dầu ăn đến khi vàng giòn. Múc cháo ra tô, xếp phần thịt gà còn lại lên trên, rắc hành lá, gừng sợi, hành phi, ngò và tiêu.", "durationMinutes": 3 }
+  ],
+  "tips": [
+    "Nấu cho trẻ nhỏ hoặc người răng yếu, có thể xay nhuyễn cháo trước khi cho thịt gà xé thật nhỏ vào.",
+    "Bỏ da gà và hớt kỹ váng mỡ khi ninh xương để cháo thanh và nhẹ bụng hơn.",
+    "Nêm nhạt, để mỗi người tự thêm nước mắm khi ăn, nhất là khi nấu cho người lớn tuổi và trẻ nhỏ.",
+    "Có thể thêm cà rốt băm nhỏ hoặc vài lá rau ngót vào cuối để cháo thêm rau."
+  ],
+  "storage": "Để cháo nguội, chia hộp nhỏ, bảo quản ngăn mát tủ lạnh tối đa 2 ngày. Cháo để lạnh sẽ đặc lại, khi hâm thêm chút nước, đun lửa nhỏ và khuấy đều đến khi sôi lại.",
+  "keywords": ["cháo gà", "cháo gà cho người già", "cháo gà cho bé"],
+  "featured": true,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-10-04",
+  "updatedAt": "2026-10-28"
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "nang-luong-calo-la-gi",
+  "title": "Năng lượng và calo: hiểu đúng để ăn đủ",
+  "description": "Calo là gì, cơ thể dùng năng lượng vào việc gì và vì sao không nên chỉ chăm chăm đếm calo. Cách hiểu đơn giản để ăn đủ, ăn đúng với bữa cơm Việt.",
+  "category": "kien-thuc-co-ban",
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-08-04",
+  "updatedAt": "2026-09-12",
+  "keyTakeaways": [
+    "Calo (kcal) chỉ là đơn vị đo năng lượng mà thức ăn cung cấp cho cơ thể.",
+    "Chất béo cho năng lượng gần gấp đôi chất bột đường và chất đạm trên cùng một gam.",
+    "Nhu cầu năng lượng mỗi người khác nhau; mốc 2.000 kcal trên nhãn chỉ để tham chiếu.",
+    "Chất lượng bữa ăn quan trọng không kém con số calo: ưu tiên rau, đạm nạc, tinh bột ít tinh chế.",
+    "Để ý các nguồn calo “ẩn” như nước ngọt, trà sữa, đồ chiên và rượu bia."
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Nhắc tới “calo”, nhiều người nghĩ ngay tới chuyện giảm cân và những con số khô khan. Thật ra calo không phải là thứ xấu cần né tránh. Đó chỉ là cách đo **năng lượng** mà thức ăn mang lại – thứ năng lượng giúp tim đập, phổi thở, não suy nghĩ và chân tay hoạt động mỗi ngày. Hiểu đúng về calo giúp bạn ăn đủ, không thiếu cũng không thừa, mà vẫn giữ được bữa cơm gia đình quen thuộc."
+    },
+    { "type": "h2", "text": "Calo là gì?" },
+    {
+      "type": "p",
+      "text": "Calo là đơn vị đo năng lượng. Trong dinh dưỡng, con số in trên bao bì hay trong các bảng thành phần thực phẩm thường là **kilocalo (kcal)**, dù nhiều người vẫn quen gọi tắt là “calo”. Khi nói một chén cơm có khoảng bao nhiêu calo, ta đang nói chén cơm đó cung cấp bao nhiêu năng lượng cho cơ thể sau khi được tiêu hóa."
+    },
+    {
+      "type": "p",
+      "text": "Mọi thực phẩm có chất bột đường, chất đạm hoặc chất béo đều cho năng lượng. Nước lọc, trà không đường gần như không có calo. Vitamin và khoáng chất rất cần thiết nhưng bản thân chúng không cung cấp năng lượng."
+    },
+    { "type": "h2", "text": "Năng lượng đến từ đâu trong bữa ăn?" },
+    {
+      "type": "p",
+      "text": "Có ba nhóm chất chính cho năng lượng, cộng thêm cồn trong rượu bia. Mỗi nhóm cho một lượng năng lượng khác nhau trên mỗi gam:"
+    },
+    {
+      "type": "table",
+      "caption": "Năng lượng xấp xỉ trên mỗi gam (giá trị quy ước thường dùng trong dinh dưỡng)",
+      "headers": ["Nhóm chất", "Năng lượng mỗi gam", "Gặp nhiều trong"],
+      "rows": [
+        ["Chất bột đường (carbohydrate)", "khoảng 4 kcal", "Cơm, bún, phở, bánh mì, khoai, bắp, trái cây"],
+        ["Chất đạm (protein)", "khoảng 4 kcal", "Thịt, cá, tôm, trứng, sữa, đậu phụ, các loại đậu"],
+        ["Chất béo (lipid)", "khoảng 9 kcal", "Dầu ăn, mỡ, da gà, lạc, vừng, hạt điều"],
+        ["Cồn (trong rượu bia)", "khoảng 7 kcal", "Bia, rượu, các đồ uống có cồn"]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Vì chất béo cho năng lượng **gần gấp đôi** chất bột đường và chất đạm, chỉ một muỗng canh dầu ăn (khoảng 13 g) đã cho trên dưới 120 kcal. Điều này không có nghĩa là phải bỏ dầu mỡ – cơ thể vẫn cần chất béo – mà là nên dùng vừa phải, nhất là với món chiên, xào."
+    },
+    { "type": "h2", "text": "Cơ thể dùng năng lượng vào việc gì?" },
+    {
+      "type": "ul",
+      "items": [
+        "**Duy trì sự sống:** tim đập, hô hấp, giữ thân nhiệt, hoạt động của não và các cơ quan. Phần này tiêu tốn năng lượng ngay cả khi bạn nằm nghỉ.",
+        "**Vận động:** đi lại, làm việc nhà, đi chợ, tập thể dục. Người lao động chân tay hay chơi thể thao cần nhiều hơn người ngồi văn phòng.",
+        "**Tiêu hóa thức ăn:** cơ thể cũng tốn một phần năng lượng để tiêu hóa và hấp thu những gì ta ăn."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Nhu cầu năng lượng của mỗi người phụ thuộc vào tuổi, giới tính, chiều cao, cân nặng, mức độ vận động và tình trạng sức khỏe. Người trẻ, năng động thường cần nhiều hơn; người lớn tuổi, ít vận động thường cần ít hơn nhưng vẫn cần đủ chất đạm, vitamin và khoáng chất."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Về mốc 2.000 kcal trên nhãn",
+      "text": "Nhiều nhãn dinh dưỡng lấy mức 2.000 kcal mỗi ngày làm mốc để tính phần trăm giá trị dinh dưỡng. Đây chỉ là **con số tham chiếu chung**, không phải nhu cầu của riêng bạn. Có người cần ít hơn, có người cần nhiều hơn."
+    },
+    { "type": "h2", "text": "Vì sao không nên chỉ đếm calo?" },
+    {
+      "type": "p",
+      "text": "Hai món có cùng số calo có thể ảnh hưởng tới cơ thể rất khác nhau. Một ly nước ngọt và một đĩa rau luộc kèm miếng cá hấp có thể không chênh nhau quá nhiều về năng lượng, nhưng đĩa rau cá mang theo chất đạm, chất xơ, vitamin, khoáng chất và giúp no lâu hơn. Nước ngọt chủ yếu cho đường, uống xong vẫn dễ đói."
+    },
+    {
+      "type": "p",
+      "text": "Tổ chức Y tế Thế giới (WHO) khuyến nghị một chế độ ăn lành mạnh cần **cân bằng giữa năng lượng ăn vào và năng lượng tiêu hao**, đồng thời chú ý chất lượng: đường tự do nên dưới 10% tổng năng lượng (tốt hơn nữa là dưới 5%), tổng chất béo không quá khoảng 30% tổng năng lượng, và nên ăn ít nhất 400 g rau và trái cây mỗi ngày."
+    },
+    {
+      "type": "ul",
+      "items": [
+        "Chú ý **ăn gì**, không chỉ **ăn bao nhiêu**.",
+        "Ưu tiên thực phẩm ít qua chế biến: rau, trái cây, cá, thịt nạc, trứng, đậu phụ, gạo, khoai.",
+        "Hạn chế thực phẩm nhiều năng lượng nhưng ít dưỡng chất: bánh kẹo, nước ngọt, đồ chiên rán nhiều lần."
+      ]
+    },
+    { "type": "h2", "text": "Ăn đủ theo cách đơn giản với bữa cơm Việt" },
+    { "type": "h3", "text": "Nhìn vào chén đĩa thay vì máy tính" },
+    {
+      "type": "ol",
+      "items": [
+        "Gắp **rau** trước, để rau chiếm khoảng một nửa lượng thức ăn bạn ăn trong bữa.",
+        "Thêm một phần **món đạm** cỡ lòng bàn tay: cá, thịt nạc, trứng hoặc đậu phụ.",
+        "Ăn **cơm** vừa đủ no; nếu ít vận động, có thể bớt nửa chén so với thói quen.",
+        "Một chén **canh** giúp bữa ăn đủ nước và nhiều rau hơn.",
+        "Kết thúc bằng một ít **trái cây** thay vì bánh ngọt."
+      ]
+    },
+    { "type": "h3", "text": "Nhận ra những nguồn calo “ẩn”" },
+    {
+      "type": "ul",
+      "items": [
+        "Trà sữa, cà phê sữa đá nhiều đường, nước ngọt, nước tăng lực.",
+        "Món chiên giòn, đồ ăn vặt đóng gói.",
+        "Thói quen chan nhiều nước kho có mỡ vào cơm.",
+        "Bánh ngọt, bánh quy, kẹo ăn vặt giữa buổi.",
+        "Rượu bia trong các buổi liên hoan."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Mẹo nhỏ",
+      "text": "Không cần bỏ hẳn món mình thích. Thử đổi ly trà sữa thành loại ít đường, chuyển một bữa chiên sang hấp hoặc luộc, hoặc dùng chén cơm nhỏ hơn một chút. Những thay đổi nhỏ, đều đặn thường dễ duy trì hơn một chế độ ăn kiêng khắt khe."
+    },
+    { "type": "h2", "text": "Làm sao biết mình đang ăn đủ?" },
+    {
+      "type": "p",
+      "text": "Cách đơn giản nhất là theo dõi **cân nặng trong vài tuần**, không phải từng ngày. Cân nặng ổn định, cơ thể khỏe, đủ sức làm việc thường là dấu hiệu bạn đang ăn tương đối phù hợp. Cân tăng dần đều có thể là ăn dư năng lượng so với mức vận động; cân giảm không chủ ý, hay mệt mỏi, chóng mặt có thể là ăn chưa đủ hoặc có vấn đề sức khỏe cần kiểm tra."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "title": "Khi nào nên hỏi chuyên gia",
+      "text": "Nếu bạn đang mang thai, cho con bú, có bệnh lý như tiểu đường, bệnh thận, bệnh tim mạch, hoặc muốn giảm cân nhiều, hãy hỏi ý kiến **bác sĩ hoặc chuyên gia dinh dưỡng** để được tư vấn nhu cầu năng lượng phù hợp. Bài viết này chỉ mang tính tham khảo."
+    }
+  ],
+  "references": [
+    {
+      "title": "Healthy diet – Fact sheet",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    },
+    {
+      "title": "How to Understand and Use the Nutrition Facts Label",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+    },
+    {
+      "title": "Bảng thành phần thực phẩm Việt Nam",
+      "publisher": "Viện Dinh dưỡng – Bộ Y tế",
+      "year": 2007
+    },
+    {
+      "title": "FoodData Central",
+      "publisher": "U.S. Department of Agriculture",
+      "url": "https://fdc.nal.usda.gov"
+    }
+  ],
+  "relatedRecipes": ["ca-hap-gung", "rau-muong-xao-toi", "canh-rau-ngot-thit-bam"],
+  "featured": false
+}

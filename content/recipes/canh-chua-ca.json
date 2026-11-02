@@ -1,0 +1,51 @@
+{
+  "slug": "canh-chua-ca",
+  "title": "Canh chua cá lóc",
+  "description": "Canh chua cá lóc kiểu miền Nam với dứa, cà chua, đậu bắp, giá và me chua. Nước canh trong, chua ngọt hài hòa, nấu ít dầu, hợp bữa cơm gia đình.",
+  "intro": "Canh chua cá lóc là món canh quen thuộc của bữa cơm miền Nam, nhất là những ngày nắng nóng. Vị chua của me, ngọt của dứa và cà chua quyện với thịt cá chắc, thơm mùi rau om, ngò gai. Món này dùng nhiều rau, ít dầu mỡ, lại dễ nấu cho cả nhà.",
+  "categories": ["mon-viet", "mon-gia-dinh"],
+  "dishType": "canh",
+  "ingredientTags": ["ca", "ca-chua", "cu-qua"],
+  "suitableFor": ["it-dau-mo", "nhieu-rau", "giau-dam"],
+  "difficulty": "de",
+  "prepMinutes": 20,
+  "cookMinutes": 20,
+  "servings": 4,
+  "course": "Món canh",
+  "ingredients": [
+    { "name": "Cá lóc", "amount": 500, "unit": "g", "note": "1 con, làm sạch, cắt khúc dày khoảng 2 cm", "group": "Nguyên liệu chính", "food": { "id": "ca-loc", "grams": 350 } },
+    { "name": "Dứa (thơm)", "amount": 150, "unit": "g", "note": "khoảng 1/4 quả, đã gọt, cắt lát mỏng", "group": "Nguyên liệu chính", "food": { "id": "dua", "grams": 150 } },
+    { "name": "Cà chua", "amount": 2, "unit": "quả", "note": "cắt múi cau", "group": "Nguyên liệu chính", "food": { "id": "ca-chua", "grams": 200 } },
+    { "name": "Đậu bắp", "amount": 100, "unit": "g", "note": "cắt xéo", "group": "Nguyên liệu chính", "food": { "id": "dau-bap", "grams": 100 } },
+    { "name": "Giá đỗ", "amount": 100, "unit": "g", "note": "nhặt rễ, rửa sạch", "group": "Nguyên liệu chính", "food": { "id": "gia-do", "grams": 100 } },
+    { "name": "Bạc hà (dọc mùng)", "amount": 1, "unit": "cây", "note": "tước vỏ, cắt xéo, bóp sơ với chút muối", "group": "Nguyên liệu chính", "optional": true },
+    { "name": "Me chua", "amount": 30, "unit": "g", "note": "ngâm với 1 chén nước ấm, dầm lấy nước", "group": "Gia vị" },
+    { "name": "Tỏi", "amount": 3, "unit": "tép", "note": "băm nhỏ", "group": "Gia vị", "food": { "id": "toi", "grams": 10 } },
+    { "name": "Dầu ăn", "amount": 1, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "dau-an", "grams": 13 } },
+    { "name": "Nước mắm", "amount": 2, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 30 } },
+    { "name": "Đường", "amount": 1, "unit": "muỗng canh", "note": "tăng giảm tùy độ ngọt của dứa", "group": "Gia vị", "food": { "id": "duong", "grams": 12 } },
+    { "name": "Muối", "amount": null, "unit": "", "note": "vừa đủ", "group": "Gia vị" },
+    { "name": "Ngò gai, rau om", "amount": null, "unit": "", "note": "rửa sạch, cắt nhỏ", "group": "Rau thơm" },
+    { "name": "Ớt tươi", "amount": 1, "unit": "quả", "note": "cắt lát", "group": "Rau thơm", "optional": true }
+  ],
+  "steps": [
+    { "title": "Sơ chế cá", "text": "Chà cá với muối hạt rồi rửa lại nhiều lần cho hết nhớt. Cắt khúc, ướp với 1 muỗng canh nước mắm và chút tiêu trong 10 phút.", "durationMinutes": 10 },
+    { "title": "Chuẩn bị rau và nước me", "text": "Dầm me với nước ấm, lọc bỏ hạt, giữ lại phần nước chua. Cắt dứa, cà chua, đậu bắp và bạc hà. Để riêng giá và rau thơm.", "durationMinutes": 10 },
+    { "title": "Phi tỏi, xào cà chua", "text": "Cho dầu vào nồi, lửa vừa. Phi một nửa phần tỏi đến khi vàng nhạt và thơm thì cho cà chua vào đảo khoảng 2 phút cho cà mềm.", "durationMinutes": 3 },
+    { "title": "Nấu nước dùng", "text": "Đổ khoảng 1,5 lít nước vào nồi, thêm dứa và nước me. Đun sôi, nêm 1 muỗng canh nước mắm còn lại và đường. Nếm thấy chua ngọt vừa miệng là được.", "durationMinutes": 7 },
+    { "title": "Cho cá vào", "text": "Khi nước sôi lăn tăn, thả cá vào, giữ lửa vừa và không khuấy mạnh để cá không nát. Hớt bọt cho nước trong. Nấu khoảng 7–8 phút đến khi thịt cá trắng đục, chạm đũa thấy chắc.", "durationMinutes": 8 },
+    { "title": "Thêm rau và hoàn thành", "text": "Cho đậu bắp và bạc hà vào, đun thêm 1–2 phút. Tắt bếp rồi mới cho giá, ngò gai, rau om và phần tỏi phi còn lại. Giá chỉ cần tái để giữ độ giòn.", "durationMinutes": 2 }
+  ],
+  "tips": [
+    "Thay vì phi tỏi với nhiều dầu, chỉ cần 1 muỗng canh dầu cho cả nồi canh 4 người là đủ thơm.",
+    "Nêm nước mắm từng chút một và nếm sau khi cá chín, vì cá đã ướp sẵn nên dễ bị mặn.",
+    "Nếu dứa đã chín ngọt, giảm bớt đường hoặc bỏ hẳn.",
+    "Có thể thay cá lóc bằng cá diêu hồng hoặc cá basa, thời gian nấu gần như không đổi."
+  ],
+  "storage": "Canh ngon nhất khi ăn trong ngày. Nếu còn, để nguội rồi cho vào hộp kín, cất ngăn mát và dùng trong 1 ngày. Khi hâm, đun sôi lại với lửa vừa, không đun quá lâu để cá không bị bở.",
+  "keywords": ["canh chua cá lóc", "canh chua miền Nam", "cách nấu canh chua cá"],
+  "featured": true,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-15",
+  "updatedAt": "2026-10-20"
+}

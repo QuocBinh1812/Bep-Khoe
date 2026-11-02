@@ -1,0 +1,49 @@
+{
+  "slug": "bun-ga",
+  "title": "Bún gà",
+  "description": "Bún gà nước dùng trong, ngọt tự nhiên từ gà luộc và gừng nướng, ăn kèm giá và rau thơm. Món sáng ấm bụng, dễ nấu cho cả nhà vào cuối tuần.",
+  "intro": "Bún gà là món nước nhẹ nhàng, hợp với bữa sáng hay bữa tối mát trời. Nước dùng được ninh từ chính con gà nên ngọt thanh, không cần nhiều bột ngọt. Bí quyết là luộc gà lửa nhỏ và vớt bọt kỹ để nước luôn trong.",
+  "categories": ["mon-viet", "mon-an-sang", "mon-gia-dinh"],
+  "dishType": "bun-pho",
+  "ingredientTags": ["ga", "gao-ngu-coc"],
+  "suitableFor": ["giau-dam"],
+  "difficulty": "trung-binh",
+  "prepMinutes": 25,
+  "cookMinutes": 75,
+  "servings": 4,
+  "course": "Món chính",
+  "ingredients": [
+    { "name": "Gà ta", "amount": 1, "unit": "con", "note": "khoảng 1,2 kg, làm sạch", "group": "Nước dùng", "food": { "id": "thit-ga-ca-da", "grams": 550 } },
+    { "name": "Khung xương gà", "amount": 300, "unit": "g", "note": "cho nước dùng đậm hơn", "group": "Nước dùng", "optional": true },
+    { "name": "Hành tây", "amount": 1, "unit": "củ", "note": "bóc vỏ, nướng sơ", "group": "Nước dùng" },
+    { "name": "Gừng", "amount": 1, "unit": "nhánh", "note": "khoảng 3 cm, nướng rồi đập dập", "group": "Nước dùng" },
+    { "name": "Hành tím", "amount": 3, "unit": "củ", "note": "nướng thơm", "group": "Nước dùng" },
+    { "name": "Bún tươi", "amount": 800, "unit": "g", "group": "Nguyên liệu chính", "food": { "id": "bun-tuoi", "grams": 800 } },
+    { "name": "Nước mắm", "amount": 2, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 30 } },
+    { "name": "Muối", "amount": null, "unit": "", "note": "vừa đủ", "group": "Gia vị" },
+    { "name": "Hành lá", "amount": 4, "unit": "cây", "note": "thái nhỏ", "group": "Rau ăn kèm", "food": { "id": "hanh-la", "grams": 30 } },
+    { "name": "Giá đỗ", "amount": 200, "unit": "g", "note": "rửa sạch, để ráo", "group": "Rau ăn kèm", "food": { "id": "gia-do", "grams": 200 } },
+    { "name": "Rau răm, ngò rí", "amount": null, "unit": "", "note": "vừa đủ", "group": "Rau ăn kèm" },
+    { "name": "Chanh, ớt", "amount": null, "unit": "", "note": "ăn kèm tùy thích", "group": "Rau ăn kèm", "optional": true }
+  ],
+  "steps": [
+    { "title": "Sơ chế gà", "text": "Xát gà với muối hạt và vài lát gừng, rửa lại thật sạch. Nếu dùng khung xương, chần qua nước sôi 2–3 phút rồi rửa lại để nước dùng không bị đục.", "durationMinutes": 10 },
+    { "title": "Nướng hành, gừng", "text": "Nướng hành tây, hành tím và gừng trên bếp hoặc chảo khô đến khi vỏ hơi cháy sém và dậy mùi thơm. Cạo bớt phần cháy đen, đập dập gừng.", "durationMinutes": 10 },
+    { "title": "Luộc gà", "text": "Cho gà, khung xương, hành, gừng vào nồi cùng khoảng 2,5 lít nước lạnh. Đun sôi rồi hạ lửa nhỏ, nước chỉ lăn tăn. Vớt bọt thường xuyên. Luộc 25–30 phút, xiên vào đùi gà thấy nước chảy ra trong là gà đã chín.", "durationMinutes": 30 },
+    { "title": "Ninh nước dùng", "text": "Vớt gà ra, ngâm vào thau nước nguội khoảng 5 phút cho da săn rồi để ráo. Tiếp tục ninh nồi nước dùng lửa nhỏ thêm 30 phút. Vớt bỏ hành, gừng, xương và hớt bớt lớp mỡ vàng trên mặt.", "durationMinutes": 35 },
+    { "title": "Nêm nếm", "text": "Nêm nước mắm và một chút muối, nếm thấy vừa ngọt dịu là được. Giữ nồi nước dùng sôi lăn tăn trên bếp nhỏ.", "durationMinutes": 5 },
+    { "title": "Xé gà, trình bày", "text": "Gỡ thịt gà, xé sợi vừa ăn, có thể bỏ bớt da. Trụng bún qua nước sôi, chia vào tô, xếp gà, rắc hành lá, chan nước dùng thật nóng. Ăn kèm giá, rau răm, ngò, chanh, ớt." }
+  ],
+  "tips": [
+    "Bỏ bớt da gà và hớt kỹ lớp mỡ trên mặt nồi để món nhẹ bụng hơn mà nước dùng vẫn ngọt.",
+    "Luộc gà lửa nhỏ, không để sôi bùng. Nước sôi mạnh làm nước dùng đục và thịt gà bị khô.",
+    "Có thể dùng ức gà thay gà nguyên con để ít béo hơn, nhưng nên giữ khung xương để nước dùng đủ vị.",
+    "Thêm nhiều giá và rau thơm khi ăn để bữa sáng có thêm rau xanh."
+  ],
+  "storage": "Để riêng nước dùng, thịt gà và bún. Nước dùng và thịt gà để ngăn mát được 2 ngày, ngăn đá khoảng 1 tháng. Khi ăn, đun sôi lại nước dùng rồi mới chan. Bún tươi nên dùng trong ngày.",
+  "keywords": ["bún gà", "cách nấu bún gà", "bún gà nước trong"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-16",
+  "updatedAt": "2026-10-02"
+}

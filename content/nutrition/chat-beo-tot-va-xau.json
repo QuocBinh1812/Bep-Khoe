@@ -1,0 +1,122 @@
+{
+  "slug": "chat-beo-tot-va-xau",
+  "title": "Chất béo tốt và chất béo cần hạn chế trong bếp Việt",
+  "description": "Không phải chất béo nào cũng xấu. Phân biệt chất béo không bão hòa, bão hòa và chất béo chuyển hóa, cùng cách chọn dầu và nấu nướng ít dầu mỡ cho bữa cơm gia đình.",
+  "category": "nhom-chat-dinh-duong",
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-02",
+  "updatedAt": "2026-10-08",
+  "keyTakeaways": [
+    "Cơ thể cần chất béo, quan trọng là chọn đúng loại và dùng vừa phải.",
+    "Ưu tiên chất béo không bão hòa từ dầu thực vật, cá, lạc, vừng, các loại hạt.",
+    "Hạn chế chất béo bão hòa (mỡ động vật, da gà, dầu dừa, dầu cọ) và tránh chất béo chuyển hóa.",
+    "WHO khuyến nghị tổng chất béo không quá khoảng 30% tổng năng lượng, chất béo bão hòa dưới 10%, chất béo chuyển hóa dưới 1%.",
+    "Hấp, luộc, nấu canh, kho ít dầu và xào nhanh giúp giảm dầu mỡ mà vẫn ngon."
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Trong nhiều năm, chất béo bị xem là “kẻ thù” của sức khỏe. Thực tế, cơ thể vẫn cần chất béo để hấp thu các vitamin A, D, E, K, tạo màng tế bào và cung cấp năng lượng. Điều quan trọng không phải là loại bỏ hoàn toàn chất béo, mà là **chọn đúng loại** và **dùng vừa phải**. Với bếp Việt, nơi có cả món xào, món chiên, món kho lẫn món hấp, luộc, điều này hoàn toàn làm được."
+    },
+    { "type": "h2", "text": "Vì sao cơ thể cần chất béo?" },
+    {
+      "type": "ul",
+      "items": [
+        "**Hấp thu vitamin tan trong dầu:** vitamin A, D, E, K cần có chất béo đi kèm để được hấp thu tốt. Rau xào với một chút dầu, hay ăn rau luộc kèm món có chất béo, giúp tận dụng các vitamin này.",
+        "**Cấu tạo tế bào:** chất béo là thành phần của màng tế bào, mô thần kinh.",
+        "**Cung cấp năng lượng:** mỗi gam chất béo cho khoảng 9 kcal, gần gấp đôi chất bột đường và chất đạm.",
+        "**Tạo hương vị:** một chút dầu, mỡ hành giúp món ăn thơm ngon, dễ ăn hơn."
+      ]
+    },
+    { "type": "h2", "text": "Các loại chất béo: phân biệt cho dễ nhớ" },
+    {
+      "type": "table",
+      "caption": "Các nhóm chất béo chính và nguồn thường gặp",
+      "headers": ["Loại chất béo", "Nguồn thường gặp", "Lời khuyên"],
+      "rows": [
+        ["Không bão hòa đơn", "Dầu ô liu, dầu lạc, dầu mè, quả bơ, lạc, hạt điều", "Nên ưu tiên, dùng vừa phải"],
+        ["Không bão hòa đa (gồm omega-3, omega-6)", "Dầu đậu nành, dầu hướng dương, cá thu, cá nục, cá hồi, hạt óc chó, vừng", "Nên ưu tiên; ăn cá vài lần mỗi tuần"],
+        ["Bão hòa", "Mỡ heo, mỡ bò, da gà, thịt ba chỉ, bơ, nước cốt dừa, dầu dừa, dầu cọ", "Hạn chế, dùng ít và không thường xuyên"],
+        ["Chuyển hóa (trans)", "Dầu thực vật hydro hóa một phần; có thể có trong một số bánh quy, bánh ngọt công nghiệp, margarine cứng, đồ chiên rán sẵn", "Nên tránh càng nhiều càng tốt"]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Theo Trường Y tế Công cộng Harvard, việc **thay chất béo bão hòa và chất béo chuyển hóa bằng chất béo không bão hòa** có lợi cho sức khỏe tim mạch hơn là chỉ đơn thuần ăn ít chất béo rồi thay bằng tinh bột tinh chế và đường."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Khuyến nghị của WHO",
+      "text": "Tổ chức Y tế Thế giới khuyến nghị tổng chất béo nên **không quá khoảng 30%** tổng năng lượng ăn vào, chất béo bão hòa **dưới 10%** và chất béo chuyển hóa **dưới 1%**. Hướng chung là chuyển từ chất béo bão hòa sang chất béo không bão hòa và loại bỏ chất béo chuyển hóa công nghiệp."
+    },
+    { "type": "h2", "text": "Chọn dầu ăn cho gia đình" },
+    {
+      "type": "ul",
+      "items": [
+        "**Dùng dầu thực vật** như dầu đậu nành, dầu lạc, dầu hướng dương, dầu ô liu cho nấu nướng hằng ngày thay vì mỡ heo.",
+        "**Có thể đổi loại dầu** theo thời gian để đa dạng nguồn chất béo.",
+        "**Không dùng lại dầu đã chiên nhiều lần.** Dầu đun nóng nhiều lần bị biến chất, có mùi khét và không tốt cho sức khỏe.",
+        "**Đậy kín, để nơi thoáng mát,** tránh ánh nắng để dầu không bị ôi.",
+        "**Đọc nhãn:** tránh sản phẩm có ghi “dầu thực vật hydro hóa một phần” trong thành phần."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Dùng muỗng đong dầu",
+      "text": "Thay vì rót thẳng từ chai, hãy đong dầu bằng muỗng. Một muỗng canh dầu (khoảng 13 g) đã cho trên dưới 120 kcal. Đong dầu giúp bạn ý thức hơn về lượng dầu cho vào món ăn."
+    },
+    { "type": "h2", "text": "Nấu ăn ít dầu mỡ mà vẫn ngon" },
+    { "type": "h3", "text": "Ưu tiên cách nấu nhẹ dầu" },
+    {
+      "type": "ol",
+      "items": [
+        "**Hấp, luộc:** cá hấp gừng, gà luộc lá chanh, rau luộc chấm kho quẹt nhạt.",
+        "**Nấu canh:** canh chua, canh rau ngót, canh bí đỏ vừa ít dầu vừa nhiều rau.",
+        "**Kho nhạt, ít dầu:** kho cá, kho đậu phụ với nấm; hớt bớt lớp mỡ nổi trên nồi kho.",
+        "**Xào nhanh lửa lớn:** dùng chảo nóng, ít dầu, thêm chút nước nếu cần để rau chín mà không bị khô.",
+        "**Nướng, áp chảo:** thay cho chiên ngập dầu."
+      ]
+    },
+    { "type": "h3", "text": "Mẹo nhỏ khi sơ chế" },
+    {
+      "type": "ul",
+      "items": [
+        "Bỏ da gà, da vịt, lọc bớt mỡ dày ở thịt heo trước khi nấu.",
+        "Khi hầm xương, để nguội rồi vớt lớp mỡ đông trên mặt.",
+        "Chọn thịt nạc vai, thăn thay cho ba chỉ trong món kho hằng ngày.",
+        "Đồ chiên nên để ráo trên giấy thấm dầu và chỉ ăn thỉnh thoảng."
+      ]
+    },
+    { "type": "h2", "text": "Còn cholesterol trong thức ăn thì sao?" },
+    {
+      "type": "p",
+      "text": "Trứng, tôm, nội tạng có chứa cholesterol. Theo Trường Y tế Công cộng Harvard, với phần lớn người khỏe mạnh, loại chất béo trong khẩu phần (đặc biệt là chất béo bão hòa và chuyển hóa) ảnh hưởng tới cholesterol máu nhiều hơn so với cholesterol có sẵn trong thức ăn. Tuy vậy, mỗi người có cơ địa khác nhau."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "text": "Nếu bạn có rối loạn mỡ máu, bệnh tim mạch, tiểu đường hoặc đang dùng thuốc, hãy hỏi bác sĩ hoặc chuyên gia dinh dưỡng về lượng chất béo, trứng và nội tạng phù hợp. Bài viết chỉ mang tính tham khảo."
+    }
+  ],
+  "references": [
+    {
+      "title": "Fats and Cholesterol – The Nutrition Source",
+      "publisher": "Harvard T.H. Chan School of Public Health",
+      "url": "https://nutritionsource.hsph.harvard.edu/what-should-you-eat/fats-and-cholesterol/"
+    },
+    {
+      "title": "Healthy diet – Fact sheet",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+    },
+    {
+      "title": "How to Understand and Use the Nutrition Facts Label",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+    }
+  ],
+  "relatedRecipes": ["ca-hap-gung", "ga-luoc-la-chanh", "dau-phu-kho-nam"],
+  "featured": false
+}

@@ -1,0 +1,46 @@
+{
+  "slug": "ca-kho-to",
+  "title": "Cá kho tộ",
+  "description": "Cá basa kho tộ màu cánh gián, thơm tiêu và hành tỏi, thịt cá chắc, đậm đà. Công thức không dùng mỡ heo, nêm vừa phải cho bữa cơm gia đình.",
+  "intro": "Cá kho tộ là món mặn đậm đà của miền Nam, ăn với cơm nóng và canh chua là tròn vị. Dùng cá basa hoặc cá tra dễ mua, thịt béo nhẹ, ít xương. Công thức này bỏ phần mỡ heo truyền thống, kho lửa nhỏ để cá thấm mà không cần nêm quá mặn.",
+  "categories": ["mon-viet", "mon-gia-dinh"],
+  "dishType": "kho-rim",
+  "ingredientTags": ["ca"],
+  "suitableFor": ["giau-dam"],
+  "difficulty": "de",
+  "prepMinutes": 20,
+  "cookMinutes": 40,
+  "servings": 4,
+  "course": "Món mặn",
+  "ingredients": [
+    { "name": "Cá basa hoặc cá tra", "amount": 500, "unit": "g", "note": "cắt khúc dày khoảng 2–3 cm", "group": "Nguyên liệu chính", "food": { "id": "ca-basa", "grams": 400 } },
+    { "name": "Nước dừa tươi", "amount": 200, "unit": "ml", "note": "có thể thay bằng nước lọc", "group": "Nguyên liệu chính", "optional": true },
+    { "name": "Hành tím", "amount": 3, "unit": "củ", "note": "băm nhỏ", "group": "Gia vị" },
+    { "name": "Tỏi", "amount": 4, "unit": "tép", "note": "băm nhỏ", "group": "Gia vị", "food": { "id": "toi", "grams": 12 } },
+    { "name": "Nước mắm", "amount": 3, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 45 } },
+    { "name": "Đường", "amount": 1.5, "unit": "muỗng canh", "note": "1 muỗng để thắng nước màu, phần còn lại để ướp", "group": "Gia vị", "food": { "id": "duong", "grams": 18 } },
+    { "name": "Dầu ăn", "amount": 1, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "dau-an", "grams": 13 } },
+    { "name": "Tiêu xay", "amount": 1, "unit": "muỗng cà phê", "group": "Gia vị" },
+    { "name": "Ớt", "amount": 2, "unit": "quả", "group": "Gia vị", "optional": true },
+    { "name": "Hành lá", "amount": 2, "unit": "cây", "note": "cắt khúc", "group": "Gia vị", "food": { "id": "hanh-la", "grams": 20 } }
+  ],
+  "steps": [
+    { "title": "Làm sạch cá", "text": "Chà cá với muối hạt và chút giấm hoặc chanh, cạo sạch lớp nhớt và màng đen trong bụng. Rửa lại, để thật ráo.", "durationMinutes": 10 },
+    { "title": "Ướp cá", "text": "Ướp cá với nước mắm, nửa muỗng canh đường, hành tím, tỏi, một nửa phần tiêu. Để khoảng 15–20 phút, trở mặt một lần cho thấm đều.", "durationMinutes": 20 },
+    { "title": "Thắng nước màu", "text": "Cho dầu và 1 muỗng canh đường vào tộ hoặc nồi đất, đun lửa nhỏ. Khi đường tan, chuyển màu nâu cánh gián và có mùi thơm thì cho 2 muỗng canh nước vào khuấy đều. Không để đường cháy đen.", "durationMinutes": 5 },
+    { "title": "Kho cá", "text": "Xếp cá vào tộ, đổ cả phần nước ướp và nước dừa hoặc nước lọc xâm xấp mặt cá. Đun sôi rồi hạ lửa nhỏ, kho khoảng 25–30 phút. Thỉnh thoảng nghiêng tộ, múc nước rưới lên mặt cá, không đảo để cá không nát.", "durationMinutes": 30 },
+    { "title": "Hoàn thành", "text": "Khi nước kho sệt lại, cá chuyển màu nâu đậm và thấm vị thì nếm lại. Rắc phần tiêu còn lại, ớt và hành lá, đun thêm 1 phút rồi tắt bếp. Dùng nóng với cơm.", "durationMinutes": 2 }
+  ],
+  "tips": [
+    "Kho trong tộ đất giữ nhiệt đều, cá thấm hơn và giữ nóng lâu trên mâm cơm.",
+    "Bỏ mỡ heo và chỉ dùng 1 muỗng canh dầu để thắng nước màu là món vẫn bóng đẹp, bớt béo.",
+    "Nước kho đã đậm, nên ăn kèm nhiều rau luộc hoặc canh rau để bữa ăn cân bằng và bớt mặn.",
+    "Nếu dùng nước dừa, giảm bớt đường ướp vì nước dừa đã ngọt sẵn."
+  ],
+  "storage": "Để nguội, đậy kín, bảo quản ngăn mát tủ lạnh 2–3 ngày. Khi hâm, đun lửa nhỏ, thêm 1–2 muỗng canh nước nếu nước kho đã quá sệt.",
+  "keywords": ["cá kho tộ", "cá basa kho tộ", "cách kho cá ngon"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-10-18",
+  "updatedAt": "2026-10-29"
+}

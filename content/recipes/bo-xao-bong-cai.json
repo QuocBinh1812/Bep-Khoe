@@ -1,0 +1,47 @@
+{
+  "slug": "bo-xao-bong-cai",
+  "title": "Bò xào bông cải xanh",
+  "description": "Bò xào bông cải xanh với thịt bò mềm, bông cải giòn xanh và sốt dầu hào nhẹ. Món nhiều rau, giàu đạm, hoàn thành trong khoảng 30 phút.",
+  "intro": "Bò xào bông cải là món vừa có thịt vừa có rau, nấu nhanh cho bữa tối. Thịt bò được thái mỏng ngang thớ và xào lửa lớn thật nhanh nên mềm, không dai. Bông cải chần sơ trước giúp rau chín đều mà vẫn giữ màu xanh đẹp.",
+  "categories": ["mon-viet", "mon-nhanh", "mon-gia-dinh"],
+  "dishType": "xao",
+  "ingredientTags": ["thit-bo", "cu-qua"],
+  "suitableFor": ["giau-dam", "nhieu-rau"],
+  "difficulty": "de",
+  "prepMinutes": 20,
+  "cookMinutes": 10,
+  "servings": 3,
+  "course": "Món mặn",
+  "ingredients": [
+    { "name": "Thịt bò thăn", "amount": 250, "unit": "g", "note": "thái mỏng ngang thớ", "group": "Nguyên liệu chính", "food": { "id": "thit-bo-nac", "grams": 250 } },
+    { "name": "Bông cải xanh", "amount": 1, "unit": "cây", "note": "khoảng 400 g, cắt nhánh nhỏ", "group": "Nguyên liệu chính", "food": { "id": "bong-cai-xanh", "grams": 320 } },
+    { "name": "Cà rốt", "amount": 0.5, "unit": "củ", "note": "thái lát mỏng", "group": "Nguyên liệu chính", "food": { "id": "ca-rot", "grams": 60 } },
+    { "name": "Tỏi", "amount": 4, "unit": "tép", "note": "băm nhỏ", "group": "Gia vị", "food": { "id": "toi", "grams": 12 } },
+    { "name": "Dầu ăn", "amount": 1.5, "unit": "muỗng canh", "note": "chia làm ba phần", "group": "Gia vị", "food": { "id": "dau-an", "grams": 20 } },
+    { "name": "Nước mắm", "amount": 1, "unit": "muỗng canh", "group": "Gia vị", "food": { "id": "nuoc-mam", "grams": 15 } },
+    { "name": "Dầu hào", "amount": 1, "unit": "muỗng canh", "group": "Gia vị" },
+    { "name": "Đường", "amount": 0.5, "unit": "muỗng cà phê", "group": "Gia vị", "food": { "id": "duong", "grams": 2 } },
+    { "name": "Bột năng", "amount": 1, "unit": "muỗng cà phê", "note": "một nửa ướp thịt, một nửa pha nước làm sốt", "group": "Gia vị" },
+    { "name": "Tiêu xay", "amount": null, "unit": "", "note": "vừa đủ", "group": "Gia vị" },
+    { "name": "Hành lá", "amount": 2, "unit": "cây", "note": "thái khúc", "food": { "id": "hanh-la", "grams": 15 } }
+  ],
+  "steps": [
+    { "title": "Ướp thịt bò", "text": "Thái bò thật mỏng, cắt ngang thớ thịt. Ướp với nước mắm, tiêu, một nửa phần tỏi, nửa phần bột năng và 1 muỗng cà phê dầu ăn. Trộn đều, để 15 phút.", "durationMinutes": 15 },
+    { "title": "Chần bông cải", "text": "Bông cải ngâm nước muối loãng, rửa sạch. Đun sôi nước có chút muối, chần bông cải và cà rốt khoảng 1 phút đến khi xanh tươi. Vớt ra thả vào nước nguội, để ráo.", "durationMinutes": 5 },
+    { "title": "Xào bò", "text": "Đun chảo thật nóng với một phần dầu ở lửa lớn. Trải đều thịt bò, để yên 30 giây rồi đảo nhanh thêm khoảng 1 phút, đến khi thịt vừa chuyển màu nâu, còn hơi hồng. Trút ra đĩa ngay.", "durationMinutes": 2 },
+    { "title": "Xào rau", "text": "Cho phần dầu còn lại vào chảo, phi tỏi đến khi thơm. Thêm bông cải và cà rốt, đảo ở lửa lớn khoảng 2 phút.", "durationMinutes": 2 },
+    { "title": "Trộn sốt, tắt bếp", "text": "Cho thịt bò trở lại chảo, thêm dầu hào, đường và bát nước bột năng (phần bột năng còn lại pha với 3 muỗng canh nước). Đảo đều khoảng 30 giây đến khi sốt sánh, bóng. Rắc hành lá, tắt bếp ngay để thịt không bị dai." }
+  ],
+  "tips": [
+    "Để thịt bò vào ngăn đá 15–20 phút trước khi thái, thịt cứng lại sẽ dễ thái mỏng hơn.",
+    "Xào bò từng mẻ nhỏ nếu chảo không đủ lớn. Cho quá nhiều thịt một lúc sẽ ra nước và thịt bị dai.",
+    "Dầu hào đã có muối, nên nêm nước mắm vừa phải và nếm trước khi thêm.",
+    "Muốn ít dầu hơn, dùng chảo chống dính và giảm còn 1 muỗng canh dầu."
+  ],
+  "storage": "Ngon nhất khi ăn ngay. Phần còn lại để nguội, đựng hộp kín, cất ngăn mát và dùng trong 1 ngày. Hâm nhanh trên chảo nóng khoảng 1 phút; hâm lâu thịt bò sẽ dai và bông cải ngả vàng.",
+  "keywords": ["bò xào bông cải xanh", "bò xào súp lơ", "cách xào bò mềm"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-10-16",
+  "updatedAt": "2026-10-27"
+}

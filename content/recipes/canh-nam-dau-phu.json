@@ -1,0 +1,48 @@
+{
+  "slug": "canh-nam-dau-phu",
+  "title": "Canh nấm đậu phụ",
+  "description": "Canh nấm đậu phụ chay với nước dùng ngọt từ cà rốt, củ cải và bắp, thêm nấm kim châm, nấm hương và cải thìa. Thanh nhẹ, mềm, dễ ăn.",
+  "intro": "Không cần xương, nồi canh chay vẫn ngọt nhờ rau củ được hầm liu riu khoảng 25 phút. Đậu phụ mềm, nấm dai nhẹ và cải thìa xanh giòn làm bát canh đủ vị mà rất nhẹ bụng. Món hợp cho ngày ăn chay hoặc bữa tối muốn ăn thanh đạm.",
+  "categories": ["mon-chay", "mon-viet", "mon-gia-dinh", "nguyen-lieu-co-san"],
+  "dishType": "canh",
+  "ingredientTags": ["dau-phu", "nam", "rau-la"],
+  "suitableFor": ["it-dau-mo", "nhieu-rau", "nguoi-lon-tuoi", "de-tieu"],
+  "difficulty": "de",
+  "prepMinutes": 15,
+  "cookMinutes": 35,
+  "servings": 4,
+  "course": "Món canh",
+  "ingredients": [
+    { "name": "Cà rốt", "amount": 1, "unit": "củ", "note": "khoảng 150 g, cắt khúc hoặc tỉa hoa", "group": "Nước dùng chay", "food": { "id": "ca-rot", "grams": 130 } },
+    { "name": "Củ cải trắng", "amount": 200, "unit": "g", "note": "gọt vỏ, cắt khúc", "group": "Nước dùng chay" },
+    { "name": "Bắp ngọt", "amount": 1, "unit": "quả", "note": "cắt khúc", "group": "Nước dùng chay" },
+    { "name": "Đậu phụ", "amount": 300, "unit": "g", "note": "khoảng 2 bìa, cắt miếng vừa ăn", "group": "Nguyên liệu chính", "food": { "id": "dau-phu", "grams": 300 } },
+    { "name": "Nấm kim châm", "amount": 150, "unit": "g", "note": "cắt bỏ gốc, tách sợi", "group": "Nguyên liệu chính", "food": { "id": "nam-kim-cham", "grams": 150 } },
+    { "name": "Nấm hương tươi", "amount": 100, "unit": "g", "note": "cắt bỏ chân", "group": "Nguyên liệu chính", "food": { "id": "nam-huong-tuoi", "grams": 100 } },
+    { "name": "Cải thìa", "amount": 200, "unit": "g", "note": "chẻ đôi hoặc tách bẹ", "group": "Nguyên liệu chính", "food": { "id": "cai-thia", "grams": 200 } },
+    { "name": "Dầu ăn", "amount": 1, "unit": "muỗng cà phê", "group": "Gia vị", "food": { "id": "dau-an", "grams": 4 } },
+    { "name": "Nước tương", "amount": 1, "unit": "muỗng canh", "group": "Gia vị" },
+    { "name": "Muối", "amount": null, "unit": "", "note": "vừa đủ", "group": "Gia vị" },
+    { "name": "Tiêu xay", "amount": null, "unit": "", "note": "một chút", "group": "Gia vị" },
+    { "name": "Ngò rí", "amount": null, "unit": "", "note": "vài nhánh", "optional": true }
+  ],
+  "steps": [
+    { "title": "Nấu nước dùng chay", "text": "Cho cà rốt, củ cải và bắp vào nồi cùng 1,5 lít nước. Đun sôi rồi hạ lửa nhỏ, đậy hé nắp, hầm khoảng 25 phút đến khi củ cải trong và nước có vị ngọt.", "durationMinutes": 25 },
+    { "title": "Sơ chế", "text": "Trong lúc chờ nước dùng, cắt đậu phụ thành miếng vuông khoảng 2 cm. Nấm kim châm cắt gốc, tách sợi. Nấm hương bỏ chân. Cải thìa rửa sạch từng bẹ.", "durationMinutes": 10 },
+    { "title": "Xào sơ nấm hương", "text": "Đun nóng dầu trong chảo nhỏ ở lửa vừa, cho nấm hương vào đảo 1–2 phút đến khi dậy mùi thơm. Bước này giúp canh thơm hơn.", "durationMinutes": 2 },
+    { "title": "Nấu canh", "text": "Vớt bỏ khúc bắp và củ cải nếu muốn nước canh gọn, giữ lại cà rốt. Cho nấm hương và đậu phụ vào nồi, đun sôi nhẹ 3 phút. Thêm nấm kim châm và cải thìa, nấu tiếp 2 phút đến khi cải chuyển xanh đậm, cọng vẫn còn giòn.", "durationMinutes": 5 },
+    { "title": "Nêm nếm", "text": "Nêm nước tương và một chút muối, nếm vừa ăn. Tắt bếp, rắc tiêu và ngò rí. Múc ra tô dùng nóng." }
+  ],
+  "tips": [
+    "Không cho đậu vào quá sớm và khuấy nhẹ tay để miếng đậu không bị vỡ.",
+    "Có thể thêm vài lát su su hoặc bí đỏ vào nồi nước dùng cho ngọt hơn.",
+    "Nêm nhạt, ưu tiên vị ngọt tự nhiên của rau củ. Người cần ăn mặn hơn có thể chấm thêm nước tương.",
+    "Bắp và củ cải sau khi hầm vẫn ăn được, có thể giữ lại trong canh thay vì bỏ đi."
+  ],
+  "storage": "Nước dùng chay để riêng được 3 ngày trong ngăn mát. Canh đã nấu xong nên dùng trong ngày; nếu còn, để ngăn mát và ăn trong 1 ngày, đun sôi lại trước khi dùng. Rau sẽ mềm hơn sau khi hâm.",
+  "keywords": ["canh nấm đậu phụ", "canh chay", "canh nấm chay"],
+  "featured": false,
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-09-30",
+  "updatedAt": "2026-10-14"
+}

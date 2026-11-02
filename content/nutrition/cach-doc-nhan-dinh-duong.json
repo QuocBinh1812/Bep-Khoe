@@ -1,0 +1,135 @@
+{
+  "slug": "cach-doc-nhan-dinh-duong",
+  "title": "Cách đọc nhãn dinh dưỡng trên bao bì thực phẩm",
+  "description": "Khẩu phần, năng lượng, natri, đường, chất béo, % giá trị dinh dưỡng và danh sách thành phần – hướng dẫn từng bước đọc nhãn để chọn thực phẩm đóng gói tốt hơn.",
+  "category": "doc-nhan-thuc-pham",
+  "author": "ban-bien-tap",
+  "publishedAt": "2026-10-12",
+  "updatedAt": "2026-10-31",
+  "keyTakeaways": [
+    "Luôn xem khẩu phần và số khẩu phần trong bao bì trước khi đọc các con số khác.",
+    "Để ý natri, đường và chất béo bão hòa; tìm sản phẩm có nhiều chất xơ hơn.",
+    "Theo FDA, %DV từ 5% trở xuống là thấp, từ 20% trở lên là cao.",
+    "Danh sách thành phần xếp theo khối lượng giảm dần: thành phần đứng đầu là nhiều nhất.",
+    "Đừng chỉ tin lời quảng cáo trên mặt trước bao bì; hãy lật ra mặt sau để đọc."
+  ],
+  "body": [
+    {
+      "type": "p",
+      "text": "Mì gói, sữa hộp, bánh quy, ngũ cốc ăn sáng, xúc xích, nước tương… các thực phẩm đóng gói ngày càng có mặt nhiều trong bếp mỗi nhà. Bảng thông tin dinh dưỡng trên bao bì là công cụ miễn phí giúp bạn so sánh và chọn sản phẩm phù hợp hơn – chỉ cần biết đọc đúng chỗ. Bài viết dựa trên hướng dẫn đọc nhãn của Cục Quản lý Thực phẩm và Dược phẩm Hoa Kỳ (FDA), được điều chỉnh để dễ áp dụng với các sản phẩm bán tại Việt Nam."
+    },
+    {
+      "type": "callout",
+      "variant": "info",
+      "title": "Nhãn có thể khác nhau",
+      "text": "Cách trình bày nhãn dinh dưỡng khác nhau giữa các nước và các sản phẩm. Có nhãn ghi giá trị trên **100 g (hoặc 100 ml)**, có nhãn ghi theo **một khẩu phần**, có nhãn ghi cả hai. Hàng nhập khẩu có thể có nhãn gốc tiếng nước ngoài kèm nhãn phụ tiếng Việt. Nguyên tắc đọc dưới đây vẫn áp dụng được cho hầu hết các trường hợp."
+    },
+    { "type": "h2", "text": "Bước 1: Xem khẩu phần và số khẩu phần" },
+    {
+      "type": "p",
+      "text": "Đây là bước nhiều người bỏ qua nhất. Mọi con số trên bảng dinh dưỡng đều tính cho **một khẩu phần** (hoặc 100 g) – không phải cho cả gói. Một gói bánh có thể ghi “khẩu phần 30 g” trong khi cả gói nặng 90 g, tức là có 3 khẩu phần. Nếu bạn ăn hết cả gói, bạn cần nhân tất cả các con số lên 3 lần."
+    },
+    { "type": "h2", "text": "Bước 2: Xem năng lượng (calo)" },
+    {
+      "type": "p",
+      "text": "Năng lượng thường ghi bằng **kcal** (có khi kèm kJ). Con số này cho biết một khẩu phần cung cấp bao nhiêu năng lượng. Hãy so sánh với lượng bạn thực sự ăn, nhất là với đồ ăn vặt và đồ uống có đường – những thứ dễ ăn nhiều mà không thấy no."
+    },
+    { "type": "h2", "text": "Bước 3: Các chất nên hạn chế và nên chọn nhiều hơn" },
+    {
+      "type": "table",
+      "caption": "Đọc nhanh các dòng quan trọng trên bảng dinh dưỡng",
+      "headers": ["Thông tin trên nhãn", "Ý nghĩa", "Nên chọn"],
+      "rows": [
+        ["Natri (Sodium)", "Lượng muối có trong sản phẩm; natri nhân 2,5 ra lượng muối xấp xỉ", "Loại có natri thấp hơn khi so sánh sản phẩm cùng loại"],
+        ["Chất béo bão hòa (Saturated fat)", "Loại chất béo nên hạn chế", "Loại thấp hơn"],
+        ["Chất béo chuyển hóa (Trans fat)", "Loại chất béo nên tránh", "Loại ghi 0 g và không có “dầu hydro hóa một phần” trong thành phần"],
+        ["Đường / Đường bổ sung (Added sugars)", "Đường tự nhiên và đường được thêm vào khi chế biến", "Loại ít đường, nhất là ít đường bổ sung"],
+        ["Chất xơ (Dietary fiber)", "Tốt cho tiêu hóa, giúp no lâu", "Loại có nhiều chất xơ hơn"],
+        ["Chất đạm (Protein)", "Lượng đạm trong khẩu phần", "Tùy nhu cầu; hữu ích khi so sánh sữa chua, sữa, ngũ cốc"],
+        ["Canxi, sắt, vitamin D, kali", "Vi chất nhiều người ăn chưa đủ", "Loại có hàm lượng cao hơn"]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Tổ chức Y tế Thế giới khuyến nghị người lớn ăn **dưới 5 g muối mỗi ngày** và lượng **đường tự do dưới 10% tổng năng lượng** (tốt hơn nữa là dưới 5%). Khi xem natri và đường trên nhãn, hãy nhớ rằng đây chỉ là một phần trong tổng lượng bạn ăn cả ngày, chưa tính nước mắm, đường nêm khi nấu ở nhà."
+    },
+    { "type": "h2", "text": "Bước 4: Hiểu % giá trị dinh dưỡng (%DV)" },
+    {
+      "type": "p",
+      "text": "Một số nhãn có cột **% giá trị dinh dưỡng hằng ngày** (%DV, hoặc %NRV, %RDA tùy cách ghi). Con số này cho biết một khẩu phần đáp ứng bao nhiêu phần trăm nhu cầu tham chiếu trong ngày, thường dựa trên mức 2.000 kcal. Theo FDA, có một quy tắc dễ nhớ:"
+    },
+    {
+      "type": "ul",
+      "items": [
+        "**5% DV trở xuống:** được xem là thấp.",
+        "**20% DV trở lên:** được xem là cao.",
+        "Muốn ăn **ít** natri, đường bổ sung, chất béo bão hòa: chọn sản phẩm có %DV thấp.",
+        "Muốn ăn **nhiều** chất xơ, canxi, sắt, vitamin D: chọn sản phẩm có %DV cao."
+      ]
+    },
+    { "type": "h2", "text": "Bước 5: Đọc danh sách thành phần" },
+    {
+      "type": "p",
+      "text": "Danh sách thành phần được sắp xếp theo **khối lượng giảm dần**: thành phần đứng đầu chiếm nhiều nhất. Nếu đường đứng ở vị trí đầu tiên hoặc thứ hai trong một hộp ngũ cốc, nghĩa là sản phẩm có khá nhiều đường."
+    },
+    { "type": "h3", "text": "Những “tên khác” của đường" },
+    {
+      "type": "ul",
+      "items": [
+        "Đường kính, đường mía, đường thốt nốt, đường phèn.",
+        "Mạch nha, mật ong, mật mía, siro.",
+        "Glucose, fructose, sucrose, maltose, dextrose.",
+        "Siro ngô, siro glucose, siro fructose."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Nếu một sản phẩm có nhiều loại đường khác nhau rải rác trong danh sách, tổng lượng đường có thể khá cao dù không loại nào đứng đầu."
+    },
+    { "type": "h2", "text": "Cẩn thận với lời quảng cáo mặt trước" },
+    {
+      "type": "ul",
+      "items": [
+        "**“Không cholesterol”** trên chai dầu thực vật: dầu thực vật vốn không có cholesterol, điều quan trọng hơn là loại chất béo và lượng dùng.",
+        "**“Ít béo”** không có nghĩa là ít đường hay ít calo; một số sản phẩm giảm béo lại thêm đường.",
+        "**“Nguyên cám”, “ngũ cốc”** cần kiểm tra trong danh sách thành phần xem ngũ cốc nguyên hạt đứng ở vị trí nào.",
+        "**“Tự nhiên”, “thuần chay”** không đồng nghĩa với ít muối, ít đường."
+      ]
+    },
+    {
+      "type": "callout",
+      "variant": "tip",
+      "title": "Mẹo so sánh nhanh ở siêu thị",
+      "text": "Khi đứng trước hai sản phẩm cùng loại, hãy so sánh theo cùng một đơn vị (cùng 100 g hoặc cùng khẩu phần) và chỉ nhìn ba dòng: **natri, đường, chất béo bão hòa**. Chọn loại thấp hơn – đơn giản mà hiệu quả."
+    },
+    {
+      "type": "p",
+      "text": "Ngoài bảng dinh dưỡng, đừng quên kiểm tra **ngày sản xuất, hạn sử dụng** và hướng dẫn bảo quản. Người bị dị ứng thực phẩm cần đọc kỹ phần cảnh báo chất gây dị ứng như đậu phộng, sữa, trứng, hải sản, gluten."
+    },
+    {
+      "type": "callout",
+      "variant": "warning",
+      "text": "Người có bệnh lý như tăng huyết áp, tiểu đường, bệnh thận hoặc dị ứng thực phẩm nên hỏi bác sĩ hoặc chuyên gia dinh dưỡng về những chỉ số cần đặc biệt chú ý trên nhãn."
+    }
+  ],
+  "references": [
+    {
+      "title": "How to Understand and Use the Nutrition Facts Label",
+      "publisher": "U.S. Food and Drug Administration",
+      "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label"
+    },
+    {
+      "title": "Salt reduction – Fact sheet",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/salt-reduction"
+    },
+    {
+      "title": "Guideline: Sugars intake for adults and children",
+      "publisher": "World Health Organization",
+      "url": "https://www.who.int/publications/i/item/9789241549028",
+      "year": 2015
+    }
+  ],
+  "relatedRecipes": [],
+  "featured": false
+}
