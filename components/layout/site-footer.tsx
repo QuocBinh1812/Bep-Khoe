@@ -22,8 +22,9 @@ export function SiteFooter() {
     <footer className="no-print mt-auto border-t border-line bg-cream-50">
       <div className="container-page grid gap-10 py-12 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
         <div>
-          <Link href="/" className="inline-block rounded-xl" aria-label="Bếp Khỏe – Trang chủ">
+          <Link href="/" className="inline-block rounded-xl">
             <Logo />
+            <span className="sr-only"> – Trang chủ</span>
           </Link>
           <p className="mt-4 max-w-sm text-ink-soft">{site.slogan}</p>
           <p className="mt-3 max-w-sm text-sm text-muted">
@@ -35,6 +36,7 @@ export function SiteFooter() {
         <FooterCol
           title="Về Bếp Khỏe"
           links={[
+            { href: "/bo-suu-tap/", label: "Bộ sưu tập món" },
             { href: "/thuc-don/", label: "Thực đơn mẫu" },
             { href: "/dinh-duong/", label: "Dinh dưỡng" },
             { href: "/suc-khoe/", label: "Sức khỏe" },

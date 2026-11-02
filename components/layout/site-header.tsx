@@ -9,8 +9,9 @@ export function SiteHeader() {
   return (
     <header className="no-print sticky top-0 z-40 border-b border-line/80 bg-white/95">
       <div className="container-page flex h-16 items-center gap-3 lg:h-[4.5rem]">
-        <Link href="/" className="mr-auto rounded-xl lg:mr-4" aria-label="Bếp Khỏe – Trang chủ">
+        <Link href="/" className="mr-auto rounded-xl lg:mr-4">
           <Logo />
+          <span className="sr-only"> – Trang chủ</span>
         </Link>
 
         <nav aria-label="Điều hướng chính" className="hidden lg:block">

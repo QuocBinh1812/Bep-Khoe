@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { useRecipeServings } from "@/lib/recipe-session";
 import { Check, RotateCcw } from "lucide-react";
 import { AddToListButton } from "@/components/shopping-list/add-to-list-button";
 import { ServingsStepper } from "@/components/common/servings-stepper";
@@ -9,14 +10,16 @@ import { cn } from "@/lib/text";
 import type { RecipeIngredient } from "@/types/content";
 
 type Props = {
+  slug: string;
   recipeTitle: string;
   baseServings: number;
   ingredients: RecipeIngredient[];
 };
 
 /** Danh sách nguyên liệu: đổi khẩu phần, đánh dấu đã chuẩn bị, thêm vào danh sách đi chợ. */
-export function IngredientPanel({ recipeTitle, baseServings, ingredients }: Props) {
-  const [servings, setServings] = useState(baseServings);
+export function IngredientPanel({ slug, recipeTitle, baseServings, ingredients }: Props) {
+  // Dùng chung với Chế độ nấu để định lượng luôn khớp.
+  const [servings, setServings] = useRecipeServings(slug, baseServings);
   const [checked, setChecked] = useState<Set<number>>(() => new Set());
 
   const groups = useMemo(() => {
@@ -101,7 +104,7 @@ export function IngredientPanel({ recipeTitle, baseServings, ingredients }: Prop
                           isChecked ? "border-brand-600 bg-brand-600 text-white" : "border-brand-300 bg-white",
                         )}
                       >
-                        {isChecked && <Check className="size-4" strokeWidth={3} />}
+                        {isChecked && <Check className="animate-pop size-4" strokeWidth={3} />}
                       </span>
                       <span className={cn("flex-1", isChecked && "text-muted line-through")}>
                         {ing.amount !== null && (

@@ -181,6 +181,235 @@
   }
 }
 
+/* ------------------------------------------------------------------
+   Animation – nhẹ nhàng, có mục đích, chỉ dùng CSS (không thêm JS).
+   Người dùng bật "Giảm chuyển động" trong hệ điều hành sẽ không thấy hiệu ứng.
+------------------------------------------------------------------- */
+@keyframes bk-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes bk-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes bk-scale-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.97);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes bk-pop {
+  0% {
+    transform: scale(0.6);
+  }
+  55% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes bk-bump {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  45% {
+    transform: scale(1.35);
+  }
+}
+@keyframes bk-slide-from-right {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes bk-slide-from-left {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes bk-slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes bk-float-in {
+  from {
+    transform: translateY(28px) rotate(-1.5deg);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes bk-draw {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes bk-spin-once {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes bk-wiggle {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(-12deg);
+  }
+  40% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(-6deg);
+  }
+  80% {
+    transform: rotate(4deg);
+  }
+}
+/* Chỉ trượt, KHÔNG làm mờ: chữ luôn đủ tương phản kể cả khi đang chuyển động. */
+@keyframes bk-reveal {
+  from {
+    transform: translateY(36px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes bk-grow-x {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .animate-fade-up {
+    animation: bk-fade-up 0.45s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+  .animate-fade-in {
+    animation: bk-fade-in 0.35s ease-out both;
+  }
+  .animate-scale-in {
+    animation: bk-scale-in 0.28s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+  .animate-pop {
+    animation: bk-pop 0.38s cubic-bezier(0.3, 1.4, 0.5, 1) both;
+  }
+  .animate-bump {
+    animation: bk-bump 0.4s ease-out;
+  }
+  .animate-slide-next {
+    animation: bk-slide-from-right 0.32s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+  .animate-slide-prev {
+    animation: bk-slide-from-left 0.32s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+  .animate-float-in {
+    animation: bk-float-in 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+  .animate-spin-once {
+    animation: bk-spin-once 0.5s ease-in-out;
+  }
+  .animate-wiggle {
+    animation: bk-wiggle 0.7s ease-in-out 2;
+  }
+  .animate-draw {
+    stroke-dasharray: 1;
+    animation: bk-draw 0.9s 0.35s ease-out both;
+  }
+
+  /* Hộp thoại & menu mobile */
+  .dialog-anim[open] {
+    animation: bk-scale-in 0.25s cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  .dialog-anim[open]::backdrop {
+    animation: bk-fade-in 0.25s ease-out;
+  }
+  .dialog-fade[open] {
+    animation: bk-fade-in 0.22s ease-out;
+  }
+  #mobile-menu:not([hidden]) {
+    animation: bk-fade-in 0.2s ease-out;
+  }
+  #mobile-menu:not([hidden]) li {
+    animation: bk-slide-down 0.3s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  }
+  #mobile-menu:not([hidden]) li:nth-child(2) {
+    animation-delay: 40ms;
+  }
+  #mobile-menu:not([hidden]) li:nth-child(3) {
+    animation-delay: 80ms;
+  }
+  #mobile-menu:not([hidden]) li:nth-child(4) {
+    animation-delay: 120ms;
+  }
+  #mobile-menu:not([hidden]) li:nth-child(5) {
+    animation-delay: 160ms;
+  }
+  #mobile-menu:not([hidden]) li:nth-child(6) {
+    animation-delay: 200ms;
+  }
+
+  /* Hiện dần khi cuộn tới – dùng scroll-driven animation của CSS.
+     Trình duyệt chưa hỗ trợ: nội dung hiển thị bình thường, không bị ẩn. */
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: bk-reveal ease-out both;
+      animation-timeline: view();
+      animation-range: entry 0% entry 60%;
+    }
+    .grow-x {
+      transform-origin: left;
+      animation: bk-grow-x linear both;
+      animation-timeline: view();
+      animation-range: entry 10% cover 35%;
+    }
+  }
+}
+
 @media print {
   @page {
     margin: 14mm;
@@ -196,6 +425,12 @@
   }
   .card {
     box-shadow: none !important;
+  }
+  .reveal,
+  .grow-x {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
   }
   a {
     text-decoration: none !important;

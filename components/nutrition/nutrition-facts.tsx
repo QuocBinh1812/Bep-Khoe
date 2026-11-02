@@ -23,7 +23,7 @@ export function NutritionFacts({ nutrition, servings }: { nutrition: RecipeNutri
         <span className="font-semibold text-ink-soft">kcal / khẩu phần</span>
       </div>
 
-      <div className="mt-4 flex h-3 overflow-hidden rounded-full bg-surface" aria-hidden>
+      <div className="grow-x mt-4 flex h-3 overflow-hidden rounded-full bg-surface" aria-hidden>
         {rows.map((r) => (
           <span key={r.label} className={r.color} style={{ width: `${r.pct}%` }} />
         ))}

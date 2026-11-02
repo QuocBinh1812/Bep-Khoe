@@ -1,18 +1,20 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { Clock, CookingPot, Gauge, Lightbulb, Refrigerator, Timer, Users } from "lucide-react";
+import { Clock, CookingPot, Gauge, Library, Lightbulb, Refrigerator, Timer, Users } from "lucide-react";
 import { Breadcrumbs } from "@/components/common/breadcrumbs";
 import { JsonLd } from "@/components/common/json-ld";
 import { SectionHeading } from "@/components/common/section-heading";
 import { SharePrint } from "@/components/common/share-print";
 import { NutritionFacts } from "@/components/nutrition/nutrition-facts";
+import { CookingMode } from "@/components/recipe/cooking-mode";
 import { FavoriteButton } from "@/components/recipe/favorite-button";
 import { IngredientPanel } from "@/components/recipe/ingredient-panel";
 import { RecipeCard } from "@/components/recipe/recipe-card";
 import { RecipeImage } from "@/components/recipe/recipe-image";
 import { DIFFICULTIES, RECIPE_CATEGORIES, SUITABLE_FOR, labelOf } from "@/data/taxonomy";
 import { getAllRecipes, getAuthor, getRecipe, getRecipeNutrition, getRelatedRecipes, toSummary } from "@/lib/recipes";
+import { getCollectionsForRecipe } from "@/lib/collections";
 import { recipeJsonLd } from "@/lib/schema";
 import { buildMetadata } from "@/lib/seo";
 import { site } from "@/lib/site";
@@ -48,6 +50,7 @@ export default async function RecipePage({ params }: PageProps<"/cong-thuc/[slug
   const nutrition = getRecipeNutrition(recipe);
   const author = getAuthor(recipe.author);
   const related = getRelatedRecipes(recipe, 4).map(toSummary);
+  const collections = getCollectionsForRecipe(recipe.slug);
   const mainCategory = RECIPE_CATEGORIES.find((c) => c.slug === recipe.categories[0])!;
   const total = recipe.prepMinutes + recipe.cookMinutes;
 
@@ -99,6 +102,14 @@ export default async function RecipePage({ params }: PageProps<"/cong-thuc/[slug
                 <time dateTime={recipe.updatedAt}>{formatDate(recipe.updatedAt)}</time>
               </p>
               <div className="mt-6 flex flex-wrap items-center gap-2">
+                <CookingMode
+                  slug={recipe.slug}
+                  title={recipe.title}
+                  baseServings={recipe.servings}
+                  steps={recipe.steps}
+                  ingredients={recipe.ingredients}
+                  className="no-print"
+                />
                 <FavoriteButton slug={recipe.slug} title={recipe.title} variant="full" />
                 <SharePrint title={recipe.title} text={recipe.description} />
               </div>
@@ -169,20 +180,39 @@ export default async function RecipePage({ params }: PageProps<"/cong-thuc/[slug
             ))}
           </ul>
         )}
+        {collections.length > 0 && (
+          <p className="mt-4 flex flex-wrap items-center gap-x-2 gap-y-1 text-[0.95rem] text-ink-soft">
+            <Library aria-hidden className="size-4 text-brand-600" />
+            Có trong bộ sưu tập:
+            {collections.map((c, i) => (
+              <span key={c.slug}>
+                <Link href={`/bo-suu-tap/${c.slug}/`} className="font-semibold text-brand-700 underline-offset-2 hover:underline">
+                  {c.title}
+                </Link>
+                {i < collections.length - 1 ? "," : ""}
+              </span>
+            ))}
+          </p>
+        )}
 
         <div className="mt-10 grid gap-8 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.3fr)] lg:items-start">
           <div className="lg:sticky lg:top-24">
-            <IngredientPanel recipeTitle={recipe.title} baseServings={recipe.servings} ingredients={recipe.ingredients} />
+            <IngredientPanel slug={recipe.slug} recipeTitle={recipe.title} baseServings={recipe.servings} ingredients={recipe.ingredients} />
           </div>
 
           <div className="space-y-8">
             <section aria-labelledby="cach-lam">
-              <h2 id="cach-lam" className="text-2xl sm:text-3xl">
-                Cách làm
-              </h2>
+              <div className="flex flex-wrap items-center justify-between gap-3">
+                <h2 id="cach-lam" className="text-2xl sm:text-3xl">
+                  Cách làm
+                </h2>
+                <p className="no-print text-sm text-muted">
+                  Mẹo: bấm <strong className="text-ink-soft">Bắt đầu nấu</strong> để xem từng bước, chữ to, màn hình luôn sáng.
+                </p>
+              </div>
               <ol className="mt-5 space-y-5">
                 {recipe.steps.map((step, i) => (
-                  <li key={i} id={`buoc-${i + 1}`} className="flex gap-4">
+                  <li key={i} id={`buoc-${i + 1}`} className="reveal flex gap-4">
                     <span
                       aria-hidden
                       className="grid size-10 shrink-0 place-items-center rounded-full bg-brand-600 font-display text-lg font-bold text-white"

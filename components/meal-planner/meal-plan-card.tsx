@@ -19,7 +19,7 @@ export function MealPlanCard({
   return (
     <article
       className={cn(
-        "card group relative flex flex-col overflow-hidden transition-shadow hover:shadow-[var(--shadow-card-hover)]",
+        "card group relative flex flex-col overflow-hidden reveal transition-[translate,box-shadow] duration-200 hover:-translate-y-1 hover:shadow-[var(--shadow-card-hover)]",
         className,
       )}
     >

@@ -4,6 +4,7 @@ import { PageHeader } from "@/components/common/page-header";
 import { RecipeCard } from "@/components/recipe/recipe-card";
 import { RecipeExplorer } from "@/components/recipe/recipe-explorer";
 import { RECIPE_CATEGORIES } from "@/data/taxonomy";
+import { getCollections } from "@/lib/collections";
 import { getRecipeSummaries } from "@/lib/recipes";
 import { buildMetadata } from "@/lib/seo";
 
@@ -37,6 +38,23 @@ export default function RecipesPage() {
             ))}
           </ul>
         </nav>
+        <p className="mt-4 text-[0.95rem] text-ink-soft">
+          Hoặc chọn theo nhu cầu:{" "}
+          {getCollections()
+            .slice(0, 4)
+            .map((c, i) => (
+              <span key={c.slug}>
+                <Link href={`/bo-suu-tap/${c.slug}/`} className="font-semibold text-brand-700 underline-offset-2 hover:underline">
+                  {c.title}
+                </Link>
+                {i < 3 ? " · " : ""}
+              </span>
+            ))}{" "}
+          ·{" "}
+          <Link href="/bo-suu-tap/" className="font-semibold text-brand-700 underline-offset-2 hover:underline">
+            Tất cả bộ sưu tập
+          </Link>
+        </p>
       </PageHeader>
       <div className="container-page py-8 sm:py-10">
         {/* Fallback là danh sách đầy đủ dựng sẵn (HTML tĩnh cho SEO & khi JS chưa tải) */}

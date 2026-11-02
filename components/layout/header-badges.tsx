@@ -7,7 +7,7 @@ import { useFavorites, useHydrated, useShoppingList } from "@/lib/storage";
 function Count({ n }: { n: number }) {
   if (!n) return null;
   return (
-    <span className="absolute -right-0.5 -top-0.5 grid min-w-5 place-items-center rounded-full bg-accent-400 px-1 text-[0.7rem] font-bold leading-5 text-ink">
+    <span key={n} className="animate-bump absolute -right-0.5 -top-0.5 grid min-w-5 place-items-center rounded-full bg-accent-400 px-1 text-[0.7rem] font-bold leading-5 text-ink">
       {n > 99 ? "99+" : n}
     </span>
   );

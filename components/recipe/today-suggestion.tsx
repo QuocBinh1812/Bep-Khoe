@@ -26,12 +26,12 @@ export function TodaySuggestion({ slots }: { slots: Slot[] }) {
 
   return (
     <div>
-      <div className="grid gap-5 md:grid-cols-3">
+      <div key={offset} className="grid gap-5 md:grid-cols-3">
         {slots.map((slot, i) => {
           if (!slot.recipes.length) return null;
           const r = slot.recipes[(base + offset + i * 7) % slot.recipes.length];
           return (
-            <div key={slot.label}>
+            <div key={slot.label} className={offset ? "animate-fade-up" : undefined} style={{ animationDelay: `${i * 80}ms` }}>
               <p className="mb-2 text-sm font-bold uppercase tracking-wider text-brand-800">{slot.label}</p>
               <RecipeCard recipe={r} />
             </div>
@@ -40,7 +40,7 @@ export function TodaySuggestion({ slots }: { slots: Slot[] }) {
       </div>
       <div className="mt-6 flex justify-center">
         <button type="button" onClick={() => setOffset((o) => o + 1)} className={buttonClass("outline")}>
-          <RefreshCw aria-hidden className="size-5" /> Gợi ý món khác
+          <RefreshCw key={offset} aria-hidden className={offset ? "animate-spin-once size-5" : "size-5"} /> Gợi ý món khác
         </button>
       </div>
     </div>

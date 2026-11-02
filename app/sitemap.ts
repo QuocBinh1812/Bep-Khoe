@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { RECIPE_CATEGORIES } from "@/data/taxonomy";
 import { articlePath, getAllArticles } from "@/lib/articles";
+import { getCollections } from "@/lib/collections";
 import { getMealPlans } from "@/lib/meal-plans";
 import { getAllRecipes } from "@/lib/recipes";
 import { absoluteUrl } from "@/lib/site";
@@ -31,6 +32,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     ...staticPages,
+    { url: absoluteUrl("/bo-suu-tap/"), changeFrequency: "weekly" as const, priority: 0.7 },
+    ...getCollections().map((c) => ({
+      url: absoluteUrl(`/bo-suu-tap/${c.slug}/`),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    })),
     ...RECIPE_CATEGORIES.map((c) => ({
       url: absoluteUrl(`/cong-thuc/danh-muc/${c.slug}/`),
       changeFrequency: "weekly" as const,

@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { Heart } from "lucide-react";
 import { useFavorites, useHydrated } from "@/lib/storage";
 import { cn } from "@/lib/text";
@@ -16,6 +17,7 @@ export function FavoriteButton({
   className?: string;
 }) {
   const { favorites, toggle } = useFavorites();
+  const [pulse, setPulse] = useState(0);
   const hydrated = useHydrated();
   const active = hydrated && favorites.includes(slug);
   const label = active ? `Bỏ lưu "${title}" khỏi yêu thích` : `Lưu "${title}" vào yêu thích`;
@@ -24,7 +26,10 @@ export function FavoriteButton({
     return (
       <button
         type="button"
-        onClick={() => toggle(slug)}
+        onClick={() => {
+          toggle(slug);
+          setPulse((n) => n + 1);
+        }}
         aria-pressed={active}
         className={cn(
           "inline-flex min-h-11 items-center gap-2 rounded-full border px-4 text-[0.95rem] font-semibold transition-colors",
@@ -34,7 +39,7 @@ export function FavoriteButton({
           className,
         )}
       >
-        <Heart aria-hidden className={cn("size-5", active && "fill-current")} />
+        <Heart key={pulse} aria-hidden className={cn("size-5", active && "fill-current", pulse > 0 && "animate-pop")} />
         {active ? "Đã lưu yêu thích" : "Lưu yêu thích"}
       </button>
     );
@@ -47,6 +52,7 @@ export function FavoriteButton({
         e.preventDefault();
         e.stopPropagation();
         toggle(slug);
+        setPulse((n) => n + 1);
       }}
       aria-pressed={active}
       aria-label={label}
@@ -57,7 +63,7 @@ export function FavoriteButton({
         className,
       )}
     >
-      <Heart aria-hidden className={cn("size-5", active && "fill-current")} />
+      <Heart key={pulse} aria-hidden className={cn("size-5", active && "fill-current", pulse > 0 && "animate-pop")} />
     </button>
   );
 }

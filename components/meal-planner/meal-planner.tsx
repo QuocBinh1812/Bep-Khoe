@@ -194,7 +194,7 @@ export function MealPlanner({ recipes, samples }: { recipes: PlannerRecipe[]; sa
                         {slugs.map((slug, idx) => {
                           const r = recipeMap.get(slug);
                           return (
-                            <li key={`${slug}-${idx}`} className="flex items-center gap-1 rounded-lg bg-surface pl-2.5">
+                            <li key={`${slug}-${idx}`} className="animate-scale-in flex items-center gap-1 rounded-lg bg-surface pl-2.5">
                               {r ? (
                                 <Link href={`/cong-thuc/${slug}/`} className="flex-1 py-1.5 text-[0.95rem] leading-snug hover:text-brand-700 hover:underline">
                                   {r.title}
@@ -244,7 +244,7 @@ export function MealPlanner({ recipes, samples }: { recipes: PlannerRecipe[]; sa
         ref={dialogRef}
         aria-labelledby="picker-title"
         onClose={() => setTarget(null)}
-        className="m-auto w-[min(40rem,calc(100vw-2rem))] rounded-[var(--radius-card)] p-0 shadow-2xl backdrop:bg-ink/50"
+        className="dialog-anim m-auto w-[min(40rem,calc(100vw-2rem))] rounded-[var(--radius-card)] p-0 shadow-2xl backdrop:bg-ink/50"
       >
         <div className="flex max-h-[85vh] flex-col">
           <div className="flex items-center justify-between gap-3 border-b border-line p-4">

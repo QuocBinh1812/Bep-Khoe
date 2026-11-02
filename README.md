@@ -21,7 +21,7 @@ npm run dev                     # http://localhost:3000
 | Lệnh                | Tác dụng                                                                 |
 | ------------------- | ------------------------------------------------------------------------ |
 | `npm run dev`       | Chạy chế độ phát triển                                                   |
-| `npm run build`     | Build production (dựng sẵn toàn bộ 69 trang tĩnh)                        |
+| `npm run build`     | Build production (dựng sẵn toàn bộ 77 trang tĩnh)                        |
 | `npm start`         | Chạy bản đã build (`PORT=3000` mặc định)                                 |
 | `npm run typecheck` | Sinh kiểu route + kiểm tra TypeScript                                    |
 | `npm run lint`      | ESLint (cấu hình Next.js core-web-vitals + TypeScript)                   |
@@ -59,6 +59,7 @@ app/                      Route (App Router) – mỗi thư mục là một URL
   dinh-duong/ suc-khoe/   Danh sách + chi tiết bài viết
   thuc-don/               Thực đơn mẫu
   cong-cu/                4 công cụ
+  bo-suu-tap/             /bo-suu-tap/, /bo-suu-tap/[slug]/ – bộ sưu tập lọc tự động (lib/collections.ts)
   yeu-thich/              Công thức đã lưu (noindex)
   gioi-thieu/ chinh-sach-*/ mien-tru-trach-nhiem/
   sitemap.ts robots.ts manifest.ts not-found.tsx error.tsx loading.tsx
@@ -140,8 +141,8 @@ Khi chuyển: chỉ cần viết lại `lib/content/loader.ts` (hoặc các hàm
 Đã chạy thực tế:
 
 - `tsc --noEmit`: không lỗi. `eslint`: không lỗi, không cảnh báo.
-- `vitest`: **22/22** test pass (validate nội dung & liên kết chéo, quy đổi/làm tròn, gộp danh sách đi chợ, tính dinh dưỡng, JSON-LD Recipe, validator LocalStorage).
-- `next build`: thành công, **69 trang tĩnh**.
+- `vitest`: **27/27** test pass (validate nội dung & liên kết chéo, quy đổi/làm tròn, gộp danh sách đi chợ, tính dinh dưỡng, JSON-LD Recipe, validator LocalStorage, gợi ý theo tủ lạnh, bộ sưu tập).
+- `next build`: thành công, **77 trang tĩnh**.
 - Kiểm tra URL: 61/61 URL trong sitemap trả 200; slug sai trả **404**; `/cong-thuc` → 308 sang `/cong-thuc/`.
 - Kiểm thử trình duyệt tự động (Playwright, màn hình điện thoại 390px): **26/26** kịch bản pass, 0 lỗi console – menu mobile, tìm kiếm không dấu, lọc nguyên liệu, đổi khẩu phần, đánh dấu nguyên liệu, yêu thích, thêm/gộp danh sách đi chợ, validate biểu mẫu, sao chép, lập thực đơn + lưu sau khi tải lại, tạo danh sách đi chợ từ thực đơn, tính dinh dưỡng (ức gà 200 g + cơm 150 g = 435 kcal), quy đổi khẩu phần.
 - **Lighthouse** (Lighthouse 13, Chromium headless, trên máy chủ dev đang tải nặng – `benchmarkIndex` 600–1300, thấp hơn mức máy chuẩn):
@@ -158,6 +159,25 @@ Khi chuyển: chỉ cần viết lại `lib/content/loader.ts` (hoặc các hàm
 Accessibility 100 có được sau khi sửa 2 lỗi Lighthouse phát hiện (cấu trúc `<dl>` ở trang công thức, thứ tự tiêu đề ở trang lập thực đơn).
 
 **Chưa đạt mục tiêu Performance 90+ trên mobile** ở phần lớn trang khi đo trên máy này (mô phỏng 4G chậm + CPU chậm 4 lần trên máy vốn đã yếu; điểm dao động ±10 giữa các lần đo). CLS = 0, LCP thực tế không throttle ~0,4–0,8 s. Nên đo lại bằng [PageSpeed Insights](https://pagespeed.web.dev/) sau khi triển khai để có số liệu chuẩn.
+
+### Bổ sung tăng sức hút (đợt 2)
+
+- **Chế độ nấu** (nút “Bắt đầu nấu” ở trang công thức): toàn màn hình, chữ lớn, từng bước; giữ màn hình luôn sáng (Wake Lock API – nếu trình duyệt hỗ trợ); vuốt/phím mũi tên để chuyển bước; hẹn giờ theo `durationMinutes` của bước, báo bằng âm thanh + rung; xem nguyên liệu đúng số khẩu phần đang chọn.
+- **“Tủ lạnh nhà bạn có gì?”** trên trang chủ: chọn nguyên liệu → gợi ý món ngay (món dùng đủ nguyên liệu xếp trước). Logic: `lib/fridge.ts`.
+- **Bộ sưu tập** `/bo-suu-tap/`: 7 chủ đề lọc tự động theo dữ liệu (≤ 30 phút, món mềm cho ông bà, ít dầu mỡ, giàu đạm, canh, bữa sáng, món chay); bộ dưới 3 món tự ẩn. Trang công thức hiện “Có trong bộ sưu tập”.
+- **Nhãn trên thẻ món**: “Mới” (đăng trong 21 ngày tính đến lúc build – cần build lại định kỳ để nhãn tự cập nhật) và “≤ 30 phút”. Cấu hình: `lib/recipe-constants.ts`.
+- Kiểm thử trình duyệt cho đợt này: 17/17 kịch bản pass (nhãn, tủ lạnh, bộ sưu tập, mở/chuyển bước/hẹn giờ/tạm dừng/nguyên liệu khớp khẩu phần/hoàn thành/Esc trong chế độ nấu), bộ hồi quy cũ 26/26 pass, 0 lỗi console.
+
+### Animation (đợt 3)
+
+Chỉ dùng CSS (`app/globals.css`, khối “Animation”), không thêm thư viện JavaScript:
+
+- **Hiện dần khi cuộn** (`.reveal`) cho tiêu đề mục, thẻ món/bài viết/thực đơn/bộ sưu tập, các bước nấu – dùng CSS scroll-driven animation. Hiệu ứng **chỉ trượt, không làm mờ chữ** để chữ luôn đủ tương phản. Trình duyệt chưa hỗ trợ (Firefox) vẫn hiển thị nội dung bình thường.
+- Thẻ nhấc nhẹ và ảnh phóng to khi rê chuột; nút lún nhẹ khi bấm; gạch chân tiêu đề hero tự vẽ; ảnh hero trượt vào (không dùng opacity để không làm chậm LCP).
+- Phản hồi tương tác: tim yêu thích nảy, số trên header nhảy khi thay đổi, dấu tích bật ra, kết quả “Tủ lạnh” và “Gợi ý món khác” hiện lần lượt, menu mobile trượt xuống, hộp thoại phóng nhẹ.
+- Chế độ nấu: bước mới trượt theo hướng bấm (tới/lùi), đồng hồ rung lắc khi hết giờ, màn hình hoàn thành có hiệu ứng.
+- **Tôn trọng cài đặt “Giảm chuyển động”** của hệ điều hành: tắt toàn bộ hiệu ứng và cuộn mượt. Khi in, mọi hiệu ứng bị tắt.
+- Đã kiểm tra trên trình duyệt: 11/11 kịch bản animation + chế độ giảm chuyển động pass; Lighthouse sau khi thêm: Accessibility/Best Practices/SEO 100, CLS ≈ 0, desktop Performance 100.
 
 ## 9. Việc còn lại / hạn chế đã biết
 

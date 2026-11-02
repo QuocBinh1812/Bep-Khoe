@@ -25,7 +25,7 @@ export function ArticleCard({
   return (
     <article
       className={cn(
-        "card group relative flex flex-col p-5 transition-shadow duration-200 hover:shadow-[var(--shadow-card-hover)] sm:p-6",
+        "card group relative flex flex-col p-5 sm:p-6 reveal transition-[translate,box-shadow] duration-200 hover:-translate-y-1 hover:shadow-[var(--shadow-card-hover)]",
         className,
       )}
     >

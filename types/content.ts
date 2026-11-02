@@ -56,6 +56,8 @@ export type RecipeSummary = {
   servings: number;
   image?: ContentImage;
   kcalPerServing: number | null;
+  /** Đăng trong vòng NEW_RECIPE_DAYS ngày tính đến lúc build */
+  isNew: boolean;
   searchText: string;
   publishedAt: string;
 };

@@ -1,9 +1,10 @@
 import Link from "next/link";
-import { Clock, Flame, Gauge } from "lucide-react";
+import { Clock, Flame, Gauge, Zap } from "lucide-react";
 import { RecipeImage } from "@/components/recipe/recipe-image";
 import { FavoriteButton } from "@/components/recipe/favorite-button";
 import { DIFFICULTIES, DISH_TYPES, labelOf } from "@/data/taxonomy";
 import { cn, formatMinutes } from "@/lib/text";
+import { QUICK_MINUTES } from "@/lib/recipe-constants";
 import type { RecipeSummary } from "@/types/content";
 
 export function RecipeCard({
@@ -21,7 +22,7 @@ export function RecipeCard({
   return (
     <article
       className={cn(
-        "card group relative flex flex-col overflow-hidden transition-shadow duration-200 hover:shadow-[var(--shadow-card-hover)]",
+        "card group relative flex flex-col overflow-hidden reveal transition-[translate,box-shadow] duration-200 hover:-translate-y-1 hover:shadow-[var(--shadow-card-hover)]",
         className,
       )}
     >
@@ -33,11 +34,21 @@ export function RecipeCard({
           ingredientTags={recipe.ingredientTags}
           priority={priority}
           sizes="(min-width: 1280px) 300px, (min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-          className="transition-transform duration-300 group-hover:scale-[1.02]"
+          className="transition-transform duration-500 ease-out group-hover:scale-[1.05]"
         />
-        <span className="absolute left-3 top-3 rounded-full bg-white/90 px-2.5 py-1 text-xs font-semibold text-brand-800 shadow-sm">
-          {labelOf(DISH_TYPES, recipe.dishType)}
-        </span>
+        <ul className="absolute left-3 right-16 top-3 flex flex-wrap gap-1.5" aria-label="Nhãn">
+          <li className="rounded-full bg-white/90 px-2.5 py-1 text-xs font-semibold text-brand-800 shadow-sm">
+            {labelOf(DISH_TYPES, recipe.dishType)}
+          </li>
+          {recipe.isNew && (
+            <li className="rounded-full bg-accent-400 px-2.5 py-1 text-xs font-bold text-ink shadow-sm">Mới</li>
+          )}
+          {recipe.totalMinutes <= QUICK_MINUTES && (
+            <li className="inline-flex items-center gap-1 rounded-full bg-brand-600 px-2.5 py-1 text-xs font-semibold text-white shadow-sm">
+              <Zap aria-hidden className="size-3" />≤ {QUICK_MINUTES} phút
+            </li>
+          )}
+        </ul>
         <FavoriteButton slug={recipe.slug} title={recipe.title} className="absolute right-3 top-3 z-10" />
       </div>
       <div className="flex flex-1 flex-col p-4 sm:p-5">

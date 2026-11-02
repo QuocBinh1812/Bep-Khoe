@@ -219,7 +219,7 @@ function ItemList({
       {items.map((item) => {
         const q = formatQuantity(item.amount, item.unit);
         return (
-          <li key={item.id} className="flex items-center gap-3 px-4 py-3">
+          <li key={item.id} className="animate-fade-in flex items-center gap-3 px-4 py-3">
             <label className="flex flex-1 cursor-pointer items-start gap-3">
               <input
                 type="checkbox"
@@ -234,7 +234,7 @@ function ItemList({
                   item.checked ? "border-brand-600 bg-brand-600 text-white" : "border-brand-300 bg-white",
                 )}
               >
-                {item.checked && <Check className="size-4" strokeWidth={3} />}
+                {item.checked && <Check className="animate-pop size-4" strokeWidth={3} />}
               </span>
               <span className="min-w-0">
                 <span className={cn("block font-semibold", item.checked && "text-muted line-through")}>{item.name}</span>

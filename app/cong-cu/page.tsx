@@ -23,9 +23,9 @@ export default function ToolsPage() {
         <ul className="grid gap-5 md:grid-cols-2">
           {TOOLS.map((t) => (
             <li key={t.href}>
-              <article className="card group relative flex h-full gap-4 p-6 transition-shadow hover:shadow-[var(--shadow-card-hover)]">
-                <span className="grid size-14 shrink-0 place-items-center rounded-2xl bg-brand-50 text-brand-600">
-                  <t.icon aria-hidden className="size-7" />
+              <article className="card group relative flex h-full gap-4 p-6 reveal transition-[translate,box-shadow] duration-200 hover:-translate-y-1 hover:shadow-[var(--shadow-card-hover)]">
+                <span className="grid size-14 shrink-0 place-items-center rounded-2xl bg-brand-50 text-brand-600 transition-colors group-hover:bg-brand-600 group-hover:text-white">
+                  <t.icon aria-hidden className="size-7 transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110" />
                 </span>
                 <div>
                   <h2 className="text-xl">

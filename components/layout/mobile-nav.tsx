@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
-import { Heart, Menu, Search, ShoppingBasket, X } from "lucide-react";
+import { Heart, Library, Menu, Search, ShoppingBasket, X } from "lucide-react";
 import { mainNav } from "@/lib/site";
 import { cn } from "@/lib/text";
 
@@ -108,7 +108,13 @@ export function MobileNav() {
               })}
             </ul>
           </nav>
-          <div className="mt-6 grid grid-cols-2 gap-3">
+          <Link
+            href="/bo-suu-tap/"
+            className="mt-2 flex min-h-12 items-center gap-2 rounded-2xl bg-surface px-4 font-semibold text-ink hover:bg-brand-50"
+          >
+            <Library aria-hidden className="size-5 text-brand-600" /> Bộ sưu tập món theo nhu cầu
+          </Link>
+          <div className="mt-3 grid grid-cols-2 gap-3">
             <Link
               href="/yeu-thich/"
               className="flex min-h-12 items-center justify-center gap-2 rounded-2xl bg-cream-100 font-semibold text-ink hover:bg-cream-200"

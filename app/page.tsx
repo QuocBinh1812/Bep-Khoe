@@ -1,15 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Coffee, Moon, Search, Sun } from "lucide-react";
+import { ArrowDown, ArrowRight, Coffee, Moon, Refrigerator, Search, Sun } from "lucide-react";
 import { ArticleCard } from "@/components/article/article-card";
 import { toCardData } from "@/components/article/article-views";
 import { buttonClass } from "@/components/common/button";
+import { CollectionCard } from "@/components/collection/collection-card";
 import { SectionHeading } from "@/components/common/section-heading";
 import { RecipeCard } from "@/components/recipe/recipe-card";
 import { RecipeImage } from "@/components/recipe/recipe-image";
+import { FridgeFinder } from "@/components/recipe/fridge-finder";
 import { TodaySuggestion } from "@/components/recipe/today-suggestion";
-import { INGREDIENT_TAGS, MEALS, RECIPE_CATEGORIES, WEEKDAYS } from "@/data/taxonomy";
+import { MEALS, RECIPE_CATEGORIES, WEEKDAYS } from "@/data/taxonomy";
 import { getArticles } from "@/lib/articles";
+import { getCollections, toCollectionCard } from "@/lib/collections";
 import { getMealPlans, mealPlanRecipeCounts, resolveMealItem } from "@/lib/meal-plans";
 import { getAllRecipes, getFeaturedRecipes, getRecipesByCategory, toSummary } from "@/lib/recipes";
 import { buildMetadata } from "@/lib/seo";
@@ -24,7 +27,6 @@ export const metadata = buildMetadata({
   path: "/",
 });
 
-const QUICK_INGREDIENTS = ["trung", "ga", "ca", "dau-phu", "thit-heo", "rau-la"] as const;
 const MEAL_ICONS = { sang: Coffee, trua: Sun, toi: Moon } as const;
 
 export default function HomePage() {
@@ -45,6 +47,7 @@ export default function HomePage() {
   const nutritionFeatured = [...nutrition.filter((a) => a.featured), ...nutrition.filter((a) => !a.featured)].slice(0, 3);
   const health = getArticles("suc-khoe").slice(0, 3);
   const heroCollage = getFeaturedRecipes(4);
+  const collections = getCollections();
 
   return (
     <>
@@ -60,7 +63,7 @@ export default function HomePage() {
               <span className="relative whitespace-nowrap">
                 khỏe mạnh
                 <svg aria-hidden viewBox="0 0 200 12" className="absolute -bottom-1 left-0 h-3 w-full text-accent-400" preserveAspectRatio="none">
-                  <path d="M2 9c40-6 120-8 196-3" stroke="currentColor" strokeWidth="5" fill="none" strokeLinecap="round" />
+                  <path d="M2 9c40-6 120-8 196-3" pathLength={1} className="animate-draw" stroke="currentColor" strokeWidth="5" fill="none" strokeLinecap="round" />
                 </svg>
               </span>
             </h1>
@@ -88,25 +91,18 @@ export default function HomePage() {
               </button>
             </form>
 
-            <div className="mt-5">
-              <p className="text-sm font-semibold text-ink-soft">Tủ lạnh nhà bạn đang có:</p>
-              <ul className="mt-2 flex flex-wrap gap-2">
-                {QUICK_INGREDIENTS.map((slug) => (
-                  <li key={slug}>
-                    <Link
-                      href={`/cong-thuc/?nguyen-lieu=${slug}`}
-                      className="inline-flex min-h-10 items-center rounded-full border border-brand-200 bg-white px-4 text-[0.95rem] font-medium text-brand-800 hover:border-brand-400 hover:bg-brand-50"
-                    >
-                      {INGREDIENT_TAGS.find((t) => t.slug === slug)?.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <a
+              href="#tu-lanh"
+              className="mt-5 inline-flex min-h-11 items-center gap-2 rounded-full font-semibold text-brand-800 hover:text-brand-700"
+            >
+              <Refrigerator aria-hidden className="size-5 text-brand-600" />
+              Chưa biết nấu gì? Chọn nguyên liệu trong tủ lạnh
+              <ArrowDown aria-hidden className="size-4" />
+            </a>
           </div>
 
           {siteImages.hero ? (
-            <figure className="relative">
+            <figure className="animate-float-in relative">
               <div className="relative aspect-[16/11] overflow-hidden rounded-[2rem] shadow-[var(--shadow-card-hover)] ring-8 ring-white">
                 <Image
                   src={siteImages.hero.src}
@@ -128,7 +124,7 @@ export default function HomePage() {
               )}
             </figure>
           ) : (
-            <div className="grid grid-cols-2 gap-3 sm:gap-4" aria-hidden>
+            <div className="animate-float-in grid grid-cols-2 gap-3 sm:gap-4" aria-hidden>
               {heroCollage.map((r, i) => (
                 <RecipeImage
                   key={r.slug}
@@ -143,6 +139,19 @@ export default function HomePage() {
               ))}
             </div>
           )}
+        </div>
+      </section>
+
+      {/* TỦ LẠNH CÓ GÌ */}
+      <section id="tu-lanh" aria-labelledby="tu-lanh-title" className="scroll-mt-20 border-y border-brand-100 bg-brand-50/70">
+        <div className="container-page py-12 sm:py-16">
+          <SectionHeading
+            id="tu-lanh-title"
+            eyebrow="Nấu từ đồ sẵn có"
+            title="Tủ lạnh nhà bạn có gì?"
+            description="Chọn những nguyên liệu đang có – Bếp Khỏe gợi ý ngay món nấu được, không cần đi chợ thêm."
+          />
+          <FridgeFinder recipes={summaries} />
         </div>
       </section>
 
@@ -186,7 +195,7 @@ export default function HomePage() {
                 <li key={c.slug}>
                   <Link
                     href={`/cong-thuc/danh-muc/${c.slug}/`}
-                    className={`group flex h-full flex-col rounded-[var(--radius-card)] p-4 transition-colors sm:p-6 ${
+                    className={`reveal group flex h-full flex-col rounded-[var(--radius-card)] p-4 transition-[background-color,translate] duration-200 hover:-translate-y-1 sm:p-6 ${
                       ["bg-brand-50 hover:bg-brand-100", "bg-cream-100 hover:bg-cream-200", "bg-accent-100/70 hover:bg-accent-100"][i % 3]
                     }`}
                   >
@@ -254,6 +263,24 @@ export default function HomePage() {
           </section>
         )}
 
+        {/* BỘ SƯU TẬP */}
+        <section aria-labelledby="bo-suu-tap" className="container-page">
+          <SectionHeading
+            id="bo-suu-tap"
+            eyebrow="Theo nhu cầu"
+            title="Bộ sưu tập cho gia đình bạn"
+            description="Nấu nhanh sau giờ làm, nấu cho ông bà hay muốn ăn nhẹ bụng – chọn một bộ sưu tập là có ngay danh sách món."
+            href="/bo-suu-tap/"
+          />
+          <ul className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            {collections.slice(0, 3).map((c) => (
+              <li key={c.slug} className="flex">
+                <CollectionCard collection={toCollectionCard(c)} className="w-full" />
+              </li>
+            ))}
+          </ul>
+        </section>
+
         {/* DINH DƯỠNG */}
         <section aria-labelledby="dinh-duong" className="container-page">
           <SectionHeading
@@ -284,10 +311,10 @@ export default function HomePage() {
                 <li key={t.href}>
                   <Link
                     href={t.href}
-                    className="group flex h-full flex-col rounded-[var(--radius-card)] bg-white p-5 ring-1 ring-line transition-shadow hover:shadow-[var(--shadow-card-hover)]"
+                    className="reveal group flex h-full flex-col rounded-[var(--radius-card)] bg-white p-5 ring-1 ring-line transition-[translate,box-shadow] duration-200 hover:-translate-y-1 hover:shadow-[var(--shadow-card-hover)]"
                   >
-                    <span className="grid size-12 place-items-center rounded-2xl bg-brand-50 text-brand-600">
-                      <t.icon aria-hidden className="size-6" />
+                    <span className="grid size-12 place-items-center rounded-2xl bg-brand-50 text-brand-600 transition-colors group-hover:bg-brand-600 group-hover:text-white">
+                      <t.icon aria-hidden className="size-6 transition-transform duration-300 group-hover:-rotate-6 group-hover:scale-110" />
                     </span>
                     <span className="mt-4 font-display text-lg font-bold group-hover:text-brand-700">{t.title}</span>
                     <span className="mt-1 text-[0.95rem] text-muted">{t.description}</span>

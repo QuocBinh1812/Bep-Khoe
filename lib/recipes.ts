@@ -4,6 +4,7 @@ import { computeRecipeNutrition } from "@/lib/nutrition";
 import type { ShoppingItemInput } from "@/lib/quantity";
 import { scaleAmount } from "@/lib/quantity";
 import { normalizeVi } from "@/lib/text";
+import { NEW_RECIPE_DAYS } from "@/lib/recipe-constants";
 import type { RecipeCategorySlug } from "@/data/taxonomy";
 import type { Food, Recipe, RecipeSummary } from "@/types/content";
 
@@ -26,6 +27,11 @@ export function getFeaturedRecipes(limit = 6): Recipe[] {
   const all = getAllRecipes();
   const featured = all.filter((r) => r.featured);
   return [...featured, ...all.filter((r) => !r.featured)].slice(0, limit);
+}
+
+export function isNewRecipe(r: Pick<Recipe, "publishedAt">, now = Date.now()): boolean {
+  const published = Date.parse(`${r.publishedAt}T00:00:00Z`);
+  return now - published <= NEW_RECIPE_DAYS * 86_400_000 && published <= now;
 }
 
 export function totalMinutes(r: Recipe): number {
@@ -64,6 +70,7 @@ export function toSummary(r: Recipe): RecipeSummary {
     servings: r.servings,
     image: r.image,
     kcalPerServing: nutrition ? nutrition.perServing.kcal : null,
+    isNew: isNewRecipe(r),
     publishedAt: r.publishedAt,
     searchText: normalizeVi(
       [r.title, r.description, ...r.keywords, ...r.ingredients.map((i) => i.name)].join(" "),

@@ -31,17 +31,17 @@ export function AddToListButton({
   return (
     <div className="flex flex-col gap-2">
       <button type="button" onClick={handleClick} className={buttonClass(variant, "md", className)}>
-        {added !== null ? <Check aria-hidden className="size-5" /> : <ShoppingBasket aria-hidden className="size-5" />}
+        {added !== null ? <Check key={added} aria-hidden className="animate-pop size-5" /> : <ShoppingBasket aria-hidden className="size-5" />}
         {added !== null ? "Đã thêm – thêm lần nữa?" : label}
       </button>
       <p role="status" aria-live="polite" className="text-sm text-muted">
         {added !== null && (
-          <>
+          <span className="animate-fade-up inline-block">
             Đã thêm {added} nguyên liệu.{" "}
             <Link href="/cong-cu/danh-sach-di-cho/" className="font-semibold text-brand-700 underline">
               Xem danh sách đi chợ
             </Link>
-          </>
+          </span>
         )}
       </p>
     </div>
